@@ -1,0 +1,12 @@
+N: android=http://schemas.android.com/apk/res/android (line=2)
+  E: selector (line=2)
+      E: item (line=3)
+          E: shape (line=4)
+            A: http://schemas.android.com/apk/res/android:shape(0x0101019a)=0
+              E: solid (line=5)
+                A: http://schemas.android.com/apk/res/android:color(0x010101a5)=?0x7f040bff
+              E: stroke (line=7)
+                A: http://schemas.android.com/apk/res/android:width(0x01010159)=1.000000dp
+                A: http://schemas.android.com/apk/res/android:color(0x010101a5)=?0x7f040c64
+              E: corners (line=9)
+                A: http://schemas.android.com/apk/res/android:radius(0x010101a8)=@dimen/item_gap_8 [8.000000dp]

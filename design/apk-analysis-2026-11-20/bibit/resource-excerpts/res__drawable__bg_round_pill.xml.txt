@@ -1,0 +1,26 @@
+N: android=http://schemas.android.com/apk/res/android (line=2)
+  E: selector (line=2)
+      E: item (line=3)
+        A: http://schemas.android.com/apk/res/android:state_activated(0x010102fe)=true
+          E: shape (line=4)
+            A: http://schemas.android.com/apk/res/android:shape(0x0101019a)=3
+            A: http://schemas.android.com/apk/res/android:thicknessRatio(0x0101019c)=2
+            A: http://schemas.android.com/apk/res/android:useLevel(0x0101019f)=false
+            A: http://schemas.android.com/apk/res/android:innerRadius(0x0101025f)=0.000000dp
+              E: stroke (line=5)
+                A: http://schemas.android.com/apk/res/android:width(0x01010159)=1.000000dp
+                A: http://schemas.android.com/apk/res/android:color(0x010101a5)=#ff00880d
+              E: solid (line=6)
+                A: http://schemas.android.com/apk/res/android:color(0x010101a5)=?0x7f0401ff
+      E: item (line=9)
+        A: http://schemas.android.com/apk/res/android:state_activated(0x010102fe)=false
+          E: shape (line=10)
+            A: http://schemas.android.com/apk/res/android:shape(0x0101019a)=3
+            A: http://schemas.android.com/apk/res/android:thicknessRatio(0x0101019c)=2
+            A: http://schemas.android.com/apk/res/android:useLevel(0x0101019f)=false
+            A: http://schemas.android.com/apk/res/android:innerRadius(0x0101025f)=0.000000dp
+              E: stroke (line=11)
+                A: http://schemas.android.com/apk/res/android:width(0x01010159)=1.000000dp
+                A: http://schemas.android.com/apk/res/android:color(0x010101a5)=@color/kyc_plus_black_10 [#ffe8e8e8]
+              E: solid (line=12)
+                A: http://schemas.android.com/apk/res/android:color(0x010101a5)=?0x7f0401ff

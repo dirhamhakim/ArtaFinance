@@ -1,0 +1,8 @@
+N: android=http://schemas.android.com/apk/res/android (line=10)
+  E: com.stockbit.uikit.button.PrimaryButton (line=10)
+    A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/bottom_sheet_footer_single_btn_primary
+    A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+    A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-2
+    A: http://schemas.android.com/apk/res/android:layout_marginTop(0x010100f8)=@dimen/spacing_16 [16.000000dp]
+    A: http://schemas.android.com/apk/res/android:layout_marginBottom(0x010100fa)=@dimen/spacing_20 [20.000000dp]
+    A: http://schemas.android.com/apk/res/android:layout_marginHorizontal(0x0101053b)=@dimen/spacing_20 [20.000000dp]

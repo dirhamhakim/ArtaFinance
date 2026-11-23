@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-20",
+  "method": "static APK resource inspection with Android SDK aapt2, zipfile and fontTools",
+  "phone_apps_opened": false,
+  "phone_screenshots_taken": false,
+  "arta_code_modified": false,
+  "apps": {
+    "bibit": {
+      "package": "com.bibit.bibitid",
+      "version": "3.112.4",
+      "fonts": [
+        {
+          "path": "res/font/bit_sans_bold.otf",
+          "bytes": 9168,
+          "sha256": "4343749a408a88debe24693e6164a2ba24920209f954683da84ac1a0804eb7f0",
+          "names": {
+            "1": [
+              "Bit Sans Bold"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "4": [
+              "Bit Sans Bold"
+            ],
+            "6": [
+              "BitSans-Bold"
+            ]
+          },
+          "weight_class": 700
+        },
+        {
+          "path": "res/font/bit_sans_regular.otf",
+          "bytes": 9172,
+          "sha256": "c647261eb3228fa8036f6c593b3c22f330ac074fec67929d636a8b0b031dbdcd",
+          "names": {
+            "1": [
+              "Bit Sans"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "4": [
+              "Bit Sans Regular"
+            ],
+            "6": [
+              "BitSans-Regular"
+            ]
+          },
+          "weight_class": 400
+        }
+      ],
+      "apk_checksums_verified": true,
+      "facts_file": "bibit/resource-facts.json",
+      "excerpt_count": 10
+    },
+    "stockbit": {
+      "package": "com.stockbit.android",
+      "version": "3.23.0",
+      "fonts": [
+        {
+          "path": "assets/NotoColorEmojiCompat.ttf",
+          "bytes": 10773992,
+          "sha256": "c18d4022c22883f60ae74ad1d962f8b2b69440c6b0a0b55f0d4600165a1ca69a",
+          "names": {
+            "1": [
+              "Noto Color Emoji"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "4": [
+              "Noto Color Emoji"
+            ],
+            "6": [
+              "NotoColorEmoji"
+            ]
+          },
+          "weight_class": 400
+        },
+        {
+          "path": "assets/credit_card_font.ttf",
+          "bytes": 55400,
+          "sha256": "2b058a75ff9336c703e48b618ef759906dc9e37712e27698f74aa3ec0b949346",
+          "names": {
+            "1": [
+              "OCR A Extended"
+            ],
+            "2": [
+              "Arrunta",
+              "Navadno",
+              "Normaali",
+              "Normal",
+              "Normale",
+              "Normalny",
+              "Normál",
+              "Normálne",
+              "Regular",
+              "Standaard",
+              "Standard",
+              "normal",
+              "obyčejné",
+              "Κανονικά",
+              "Обычный"
+            ],
+            "4": [
+              "OCR A Extended"
+            ],
+            "6": [
+              "OCRAExtended"
+            ]
+          },
+          "weight_class": 400
+        },
+        {
+          "path": "assets/fonts/bit_sans_bold.otf",
+          "bytes": 9168,
+          "sha256": "4343749a408a88debe24693e6164a2ba24920209f954683da84ac1a0804eb7f0",
+          "names": {
+            "1": [
+              "Bit Sans Bold"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "4": [
+              "Bit Sans Bold"
+            ],
+            "6": [
+              "BitSans-Bold"
+            ]
+          },
+          "weight_class": 700
+        },
+        {
+          "path": "assets/fonts/bit_sans_regular.otf",
+          "bytes": 9172,
+          "sha256": "c647261eb3228fa8036f6c593b3c22f330ac074fec67929d636a8b0b031dbdcd",
+          "names": {
+            "1": [
+              "Bit Sans"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "4": [
+              "Bit Sans Regular"
+            ],
+            "6": [
+              "BitSans-Regular"
+            ]
+          },
+          "weight_class": 400
+        },
+        {
+          "path": "res/font/bitsans_bold.otf",
+          "bytes": 9168,
+          "sha256": "4343749a408a88debe24693e6164a2ba24920209f954683da84ac1a0804eb7f0",
+          "names": {
+            "1": [
+              "Bit Sans Bold"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "4": [
+              "Bit Sans Bold"
+            ],
+            "6": [
+              "BitSans-Bold"
+            ]
+          },
+          "weight_class": 700
+        },
+        {
+          "path": "res/font/bitsans_regular.otf",
+          "bytes": 9172,
+          "sha256": "c647261eb3228fa8036f6c593b3c22f330ac074fec67929d636a8b0b031dbdcd",
+          "names": {
+            "1": [
+              "Bit Sans"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "4": [
+              "Bit Sans Regular"
+            ],
+            "6": [
+              "BitSans-Regular"
+            ]
+          },
+          "weight_class": 400
+        }
+      ],
+      "apk_checksums_verified": true,
+      "facts_file": "stockbit/resource-facts.json",
+      "excerpt_count": 22
+    }
+  },
+  "arta_unchanged_source_files": 137
+}

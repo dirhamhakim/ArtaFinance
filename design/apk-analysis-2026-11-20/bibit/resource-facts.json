@@ -1,0 +1,219 @@
+{
+  "fonts": [
+    {
+      "path": "res/font/bit_sans_bold.otf",
+      "bytes": 9168,
+      "sha256": "4343749a408a88debe24693e6164a2ba24920209f954683da84ac1a0804eb7f0",
+      "names": {
+        "1": [
+          "Bit Sans Bold"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "4": [
+          "Bit Sans Bold"
+        ],
+        "6": [
+          "BitSans-Bold"
+        ]
+      },
+      "weight_class": 700
+    },
+    {
+      "path": "res/font/bit_sans_regular.otf",
+      "bytes": 9172,
+      "sha256": "c647261eb3228fa8036f6c593b3c22f330ac074fec67929d636a8b0b031dbdcd",
+      "names": {
+        "1": [
+          "Bit Sans"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "4": [
+          "Bit Sans Regular"
+        ],
+        "6": [
+          "BitSans-Regular"
+        ]
+      },
+      "weight_class": 400
+    }
+  ],
+  "selected_resources": {
+    "color/artBoardGreenDefault": {
+      "id": "0x7f060020",
+      "value": "() #ff00ab6b"
+    },
+    "color/artBoardGreenLow": {
+      "id": "0x7f060022",
+      "value": "() #ffebf8f3\n      (night) #ff152e24"
+    },
+    "color/artBoardGreenHigh": {
+      "id": "0x7f060021",
+      "value": "() #ffcceee1\n      (night) #ff1e4336"
+    },
+    "color/colorPrimary": {
+      "id": "0x7f060047",
+      "value": "() #ff414141"
+    },
+    "color/colorAccent": {
+      "id": "0x7f060046",
+      "value": "() @color/artBoardGreenDefault"
+    },
+    "color/lightBackground": {
+      "id": "0x7f0600d0",
+      "value": "() @0x0106000b"
+    },
+    "color/darkBackground": {
+      "id": "0x7f060057",
+      "value": "() @color/grey7"
+    },
+    "color/textPrimary": {
+      "id": "0x7f06045f",
+      "value": "() @color/greyDark\n      (night) @color/greyLight"
+    },
+    "color/textSecondary": {
+      "id": "0x7f060461",
+      "value": "() #ff858585"
+    },
+    "color/artBoardBorder": {
+      "id": "0x7f06001f",
+      "value": "() @color/grey20\n      (night) @color/grey16"
+    },
+    "color/greenSolid": {
+      "id": "0x7f060090",
+      "value": "() #ff007d43"
+    },
+    "color/grey7": {
+      "id": "0x7f06009d",
+      "value": "() #ff121212"
+    },
+    "color/greyDark": {
+      "id": "0x7f0600a0",
+      "value": "() #ff333333"
+    },
+    "color/greyLight": {
+      "id": "0x7f0600a4",
+      "value": "() #ffcbcbcb"
+    },
+    "color/grey20": {
+      "id": "0x7f060095",
+      "value": "() #ffededed"
+    },
+    "color/grey16": {
+      "id": "0x7f060093",
+      "value": "() #ff292929"
+    },
+    "style/BaseText": {
+      "id": "0x7f140137",
+      "value": "() (style) size=2 parent=0x0103003e\n        0x01010098=@color/textPrimary\n        0x0101009b=@color/colorAccent"
+    },
+    "style/Body1": {
+      "id": "0x7f14013a",
+      "value": "() (style) size=1 parent=style/BaseText (0x7f140137)\n        0x01010095=@dimen/_14ssp"
+    },
+    "style/Body1.Bold": {
+      "id": "0x7f14013b",
+      "value": "() (style) size=1 parent=style/Body1 (0x7f14013a)\n        0x010103ac=@font/bit_sans_bold"
+    },
+    "style/Body2": {
+      "id": "0x7f14013d",
+      "value": "() (style) size=1 parent=style/BaseText (0x7f140137)\n        0x01010095=@dimen/_11ssp"
+    },
+    "style/BaseButton": {
+      "id": "0x7f140135",
+      "value": "() (style) size=10 parent=style/Widget.MaterialComponents.Button (0x7f140661)\n        0x01010000=@style/Theme.MaterialComponents\n        0x0101000e=true\n        0x010100e5=true\n        0x010101b9=0.000000dp\n        0x010101ba=0.000000dp\n        0x0101038c=false\n        0x01010448=@null\n        0x010104b6=0.000000e+00\n        cornerRadius(0x7f04017f)=@dimen/_4sdp\n        rippleColor(0x7f040566)=@color/rippleButton"
+    },
+    "style/BaseOutlinedButton": {
+      "id": "0x7f140136",
+      "value": "() (style) size=10 parent=style/Widget.MaterialComponents.Button.OutlinedButton (0x7f140663)\n        0x01010000=@style/Theme.MaterialComponents\n        0x0101000e=true\n        0x010100e5=true\n        0x010101b9=0.000000dp\n        0x010101ba=0.000000dp\n        0x0101038c=false\n        0x01010448=@null\n        0x010104b6=0.000000e+00\n        cornerRadius(0x7f04017f)=4.000000dp\n        rippleColor(0x7f040566)=@color/grey20"
+    },
+    "style/BibitAppTheme": {
+      "id": "0x7f140138",
+      "value": "() (style) size=15 parent=style/Theme.AppCompat.DayNight.NoActionBar (0x7f140376)\n        0x01010031=@color/lightBackground\n        0x01010054=@color/lightBackground\n        0x01010058=true\n        0x010100d4=@null\n        0x01010222=false\n        0x010103ac=@font/bit_sans_font_family\n        0x01010452=@color/lightBackground\n        0x010104e0=true\n        0x0101056c=true\n        0x0101058c=false\n        alertDialogTheme(0x7f040030)=@style/AlertDialogTheme\n        colorAccent(0x7f040108)=@color/colorAccent\n        colorPrimary(0x7f04012b)=@color/colorPrimary\n        colorPrimaryDark(0x7f04012d)=@color/lightBackground\n        isLightTheme(0x7f0403ac)=true\n      (night) (style) size=15 parent=style/Theme.AppCompat.DayNight.NoActionBar (0x7f140376)\n        0x01010031=@color/darkBackground\n        0x01010054=@color/darkBackground\n        0x01010058=true\n        0x010100d4=@null\n        0x01010222=false\n        0x010103ac=@font/bit_sans_font_family\n        0x01010452=@color/darkBackground\n        0x010104e0=false\n        0x0101056c=false\n        0x0101058c=false\n        alertDialogTheme(0x7f040030)=@style/AlertDialogTheme\n        colorAccent(0x7f040108)=@color/colorAccent\n        colorPrimary(0x7f04012b)=@color/colorPrimary\n        colorPrimaryDark(0x7f04012d)=@color/darkBackground\n        isLightTheme(0x7f0403ac)=false\n      (v33) (style) size=15 parent=style/Theme.AppCompat.DayNight.NoActionBar (0x7f140376)\n        0x01010031=@color/lightBackground\n        0x01010054=@color/lightBackground\n        0x01010058=true\n        0x010100d4=@null\n        0x01010222=false\n        0x010103ac=@font/bit_sans_font_family\n        0x01010452=@color/lightBackground\n        0x010104e0=true\n        0x0101056c=true\n        0x0101058c=false\n        alertDialogTheme(0x7f040030)=@style/AlertDialogTheme\n        colorAccent(0x7f040108)=@color/colorAccent\n        colorPrimary(0x7f04012b)=@color/colorPrimary\n        colorPrimaryDark(0x7f04012d)=@color/lightBackground\n        isLightTheme(0x7f0403ac)=true"
+    },
+    "style/BottomSheet": {
+      "id": "0x7f140140",
+      "value": "() (style) size=2 parent=style/Widget.MaterialComponents.BottomSheet (0x7f14065f)\n        shapeAppearance(0x7f040583)=?attr/shapeAppearanceSmallComponent\n        shapeAppearanceOverlay(0x7f04058e)=@style/ShapeAppearanceBottomSheetDialog"
+    },
+    "style/ShapeAppearanceBottomSheetDialog": {
+      "id": "0x7f140297",
+      "value": "() (style) size=5\n        cornerFamily(0x7f04017a)=0\n        cornerSizeBottomLeft(0x7f040181)=0.000000dp\n        cornerSizeBottomRight(0x7f040182)=0.000000dp\n        cornerSizeTopLeft(0x7f040183)=16.000000dp\n        cornerSizeTopRight(0x7f040184)=16.000000dp"
+    },
+    "dimen/_14ssp": {
+      "id": "0x7f07003c",
+      "value": "() 14.000000sp\n      (sw330dp) 15.399994sp\n      (sw360dp) 16.799988sp\n      (sw390dp) 18.199982sp\n      (sw420dp) 19.599976sp\n      (sw450dp) 21.000000sp\n      (sw480dp) 22.399994sp\n      (sw510dp) 23.799988sp\n      (sw540dp) 25.199982sp\n      (sw570dp) 26.599976sp\n      (sw600dp) 28.000000sp\n      (sw630dp) 29.399994sp\n      (sw660dp) 30.799988sp\n      (sw690dp) 32.199982sp\n      (sw720dp) 33.599976sp\n      (sw750dp) 35.000000sp\n      (sw780dp) 36.399994sp\n      (sw810dp) 37.799988sp\n      (sw840dp) 39.199982sp\n      (sw870dp) 40.599976sp\n      (sw900dp) 42.000000sp\n      (sw930dp) 43.399994sp\n      (sw960dp) 44.799988sp\n      (sw990dp) 46.199982sp\n      (sw1020dp) 47.599976sp\n      (sw1050dp) 49.000000sp\n      (sw1080dp) 50.399994sp"
+    },
+    "font/bit_sans_bold": {
+      "id": "0x7f090000",
+      "value": "() (file) res/font/bit_sans_bold.otf"
+    },
+    "dimen/_11ssp": {
+      "id": "0x7f070018",
+      "value": "() 11.000000sp\n      (sw330dp) 12.099976sp\n      (sw360dp) 13.199982sp\n      (sw390dp) 14.299988sp\n      (sw420dp) 15.399994sp\n      (sw450dp) 16.500000sp\n      (sw480dp) 17.599976sp\n      (sw510dp) 18.699982sp\n      (sw540dp) 19.799988sp\n      (sw570dp) 20.899994sp\n      (sw600dp) 22.000000sp\n      (sw630dp) 23.099976sp\n      (sw660dp) 24.199982sp\n      (sw690dp) 25.299988sp\n      (sw720dp) 26.399994sp\n      (sw750dp) 27.500000sp\n      (sw780dp) 28.599976sp\n      (sw810dp) 29.699982sp\n      (sw840dp) 30.799988sp\n      (sw870dp) 31.899994sp\n      (sw900dp) 33.000000sp\n      (sw930dp) 34.099976sp\n      (sw960dp) 35.199982sp\n      (sw990dp) 36.299988sp\n      (sw1020dp) 37.399994sp\n      (sw1050dp) 38.500000sp\n      (sw1080dp) 39.599976sp"
+    },
+    "dimen/_4sdp": {
+      "id": "0x7f0701e7",
+      "value": "() 4.000000dp\n      (sw330dp) 4.399994dp\n      (sw360dp) 4.799988dp\n      (sw390dp) 5.199982dp\n      (sw420dp) 5.599976dp\n      (sw450dp) 6.000000dp\n      (sw480dp) 6.399994dp\n      (sw510dp) 6.799988dp\n      (sw540dp) 7.199982dp\n      (sw570dp) 7.599976dp\n      (sw600dp) 8.000000dp\n      (sw630dp) 8.399994dp\n      (sw660dp) 8.799988dp\n      (sw690dp) 9.199982dp\n      (sw720dp) 9.599976dp\n      (sw750dp) 10.000000dp\n      (sw780dp) 10.399994dp\n      (sw810dp) 10.799988dp\n      (sw840dp) 11.199982dp\n      (sw870dp) 11.599976dp\n      (sw900dp) 12.000000dp\n      (sw930dp) 12.399994dp\n      (sw960dp) 12.799988dp\n      (sw990dp) 13.199982dp\n      (sw1020dp) 13.599976dp\n      (sw1050dp) 14.000000dp\n      (sw1080dp) 14.399994dp"
+    },
+    "font/bit_sans_font_family": {
+      "id": "0x7f090001",
+      "value": "() (file) res/font/bit_sans_font_family.xml type=XML\n      (v26) (file) res/font-v26/bit_sans_font_family.xml type=XML"
+    }
+  },
+  "inventory": {
+    "resource_type_counts": {
+      "anim": 40,
+      "anim-v21": 1,
+      "animator": 22,
+      "color": 85,
+      "color-night-v8": 3,
+      "color-v23": 7,
+      "color-v26": 1,
+      "drawable": 420,
+      "drawable-anydpi-v23": 2,
+      "drawable-anydpi-v24": 13,
+      "drawable-anydpi-v31": 1,
+      "drawable-hdpi-v4": 1,
+      "drawable-night-v8": 20,
+      "drawable-sw600dp-v13": 1,
+      "drawable-v21": 6,
+      "drawable-v23": 3,
+      "drawable-v31": 1,
+      "drawable-watch-v20": 4,
+      "drawable-xxxhdpi-v4": 1,
+      "font": 4,
+      "font-v26": 1,
+      "interpolator": 11,
+      "layout": 242,
+      "layout-land": 16,
+      "layout-sw330dp-v13": 1,
+      "layout-sw330dp-v26": 1,
+      "layout-sw390dp-v13": 1,
+      "layout-sw390dp-v26": 1,
+      "layout-sw600dp-land-v13": 6,
+      "layout-sw600dp-v13": 32,
+      "layout-v21": 4,
+      "layout-v26": 3,
+      "layout-v31": 9,
+      "layout-watch-v20": 2,
+      "mipmap-anydpi-v26": 2,
+      "mipmap-hdpi-v4": 2,
+      "mipmap-mdpi-v4": 2,
+      "mipmap-xhdpi-v4": 2,
+      "mipmap-xxhdpi-v4": 2,
+      "mipmap-xxxhdpi-v4": 2,
+      "navigation": 17,
+      "raw": 16,
+      "raw-in": 5,
+      "xml": 7
+    },
+    "animations": {
+      "lottie_json_candidates": [],
+      "rive": []
+    },
+    "flutter_payload_present": false
+  }
+}

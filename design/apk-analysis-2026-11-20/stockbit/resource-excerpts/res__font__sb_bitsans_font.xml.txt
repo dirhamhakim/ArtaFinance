@@ -1,0 +1,18 @@
+N: android=http://schemas.android.com/apk/res/android (line=3)
+  N: app=http://schemas.android.com/apk/res-auto (line=3)
+    E: font-family (line=3)
+        E: font (line=9)
+          A: http://schemas.android.com/apk/res/android:font(0x01010532)=@font/bitsans_bold
+          A: http://schemas.android.com/apk/res/android:fontWeight(0x01010533)=700
+          A: http://schemas.android.com/apk/res-auto:font(0x7f040443)=@font/bitsans_bold
+          A: http://schemas.android.com/apk/res-auto:fontWeight(0x7f040450)=700
+        E: font (line=15)
+          A: http://schemas.android.com/apk/res/android:font(0x01010532)=@font/bitsans_bold
+          A: http://schemas.android.com/apk/res/android:fontWeight(0x01010533)=600
+          A: http://schemas.android.com/apk/res-auto:font(0x7f040443)=@font/bitsans_bold
+          A: http://schemas.android.com/apk/res-auto:fontWeight(0x7f040450)=600
+        E: font (line=21)
+          A: http://schemas.android.com/apk/res/android:font(0x01010532)=@font/bitsans_regular
+          A: http://schemas.android.com/apk/res/android:fontWeight(0x01010533)=400
+          A: http://schemas.android.com/apk/res-auto:font(0x7f040443)=@font/bitsans_regular
+          A: http://schemas.android.com/apk/res-auto:fontWeight(0x7f040450)=400

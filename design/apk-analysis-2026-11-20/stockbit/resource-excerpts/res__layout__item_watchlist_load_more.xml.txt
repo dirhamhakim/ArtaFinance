@@ -1,0 +1,10 @@
+N: android=http://schemas.android.com/apk/res/android (line=12)
+  E: ProgressBar (line=12)
+    A: http://schemas.android.com/apk/res/android:gravity(0x010100af)=0x00000011
+    A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/pb_load_more
+    A: http://schemas.android.com/apk/res/android:tag(0x010100d1)="layout/item_watchlist_load_more_0" (Raw: "layout/item_watchlist_load_more_0")
+    A: http://schemas.android.com/apk/res/android:padding(0x010100d5)=@dimen/item_gap_8 [8.000000dp]
+    A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+    A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=@dimen/clickable_size_48 [48.000000dp]
+    A: http://schemas.android.com/apk/res/android:indeterminate(0x01010139)=true
+    A: http://schemas.android.com/apk/res/android:indeterminateTint(0x01010469)=@color/green_text [#ff00ab6b]

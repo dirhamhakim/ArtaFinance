@@ -1,0 +1,15 @@
+N: android=http://schemas.android.com/apk/res/android (line=5)
+  E: vector (line=5)
+    A: http://schemas.android.com/apk/res/android:height(0x01010155)=18.000000dp
+    A: http://schemas.android.com/apk/res/android:width(0x01010159)=18.000000dp
+    A: http://schemas.android.com/apk/res/android:viewportWidth(0x01010402)=18
+    A: http://schemas.android.com/apk/res/android:viewportHeight(0x01010403)=18
+      E: path (line=8)
+        A: http://schemas.android.com/apk/res/android:fillColor(0x01010404)=@color/artBoardGreenDefault [#ff00ab6b]
+        A: http://schemas.android.com/apk/res/android:pathData(0x01010405)="M9,9m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" (Raw: "M9,9m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0")
+      E: path (line=14)
+        A: http://schemas.android.com/apk/res/android:fillColor(0x01010404)=@0x0106000d
+        A: http://schemas.android.com/apk/res/android:pathData(0x01010405)="M5.4004,8.9996L7.2694,11.0244C7.4595,11.2303 7.7817,11.2398 7.9836,11.0454L12.6004,6.5996" (Raw: "M5.4004,8.9996L7.2694,11.0244C7.4595,11.2303 7.7817,11.2398 7.9836,11.0454L12.6004,6.5996")
+        A: http://schemas.android.com/apk/res/android:strokeColor(0x01010406)=@0x0106000b
+        A: http://schemas.android.com/apk/res/android:strokeWidth(0x01010407)=1.5
+        A: http://schemas.android.com/apk/res/android:strokeLineCap(0x0101040b)=1

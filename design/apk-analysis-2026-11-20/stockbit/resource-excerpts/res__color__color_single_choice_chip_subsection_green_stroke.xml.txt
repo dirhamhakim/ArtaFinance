@@ -1,0 +1,10 @@
+N: android=http://schemas.android.com/apk/res/android (line=2)
+  E: selector (line=2)
+      E: item (line=4)
+        A: http://schemas.android.com/apk/res/android:state_selected(0x010100a1)=true
+        A: http://schemas.android.com/apk/res/android:color(0x010101a5)=@color/green_text [#ff00ab6b]
+      E: item (line=5)
+        A: http://schemas.android.com/apk/res/android:state_pressed(0x010100a7)=true
+        A: http://schemas.android.com/apk/res/android:color(0x010101a5)=@color/green_text [#ff00ab6b]
+      E: item (line=6)
+        A: http://schemas.android.com/apk/res/android:color(0x010101a5)=?0x7f040926

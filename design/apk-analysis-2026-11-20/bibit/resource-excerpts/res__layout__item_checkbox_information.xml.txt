@@ -1,0 +1,27 @@
+N: android=http://schemas.android.com/apk/res/android (line=7)
+  N: app=http://schemas.android.com/apk/res-auto (line=7)
+    E: androidx.constraintlayout.widget.ConstraintLayout (line=7)
+      A: http://schemas.android.com/apk/res/android:paddingBottom(0x010100d9)=@dimen/_16sdp [16.000000dp]
+      A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+      A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-2
+        E: androidx.appcompat.widget.AppCompatImageView (line=19)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/iv_checkbox
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-2
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-2
+          A: http://schemas.android.com/apk/res/android:layout_margin(0x010100f6)=@dimen/_4sdp [4.000000dp]
+          A: http://schemas.android.com/apk/res/android:adjustViewBounds(0x0101011e)=true
+          A: http://schemas.android.com/apk/res/android:contentDescription(0x01010273)=@string/icon
+          A: http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf(0x7f040409)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf(0x7f040423)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintTop_toTopOf(0x7f040427)=0
+          A: http://schemas.android.com/apk/res-auto:srcCompat(0x7f0405d7)=@drawable/ic_item_checklist
+        E: androidx.appcompat.widget.AppCompatTextView (line=31)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/tv_information
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=0.000000dp
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-2
+          A: http://schemas.android.com/apk/res/android:layout_marginStart(0x010103b5)=@dimen/_9sdp [9.000000dp]
+          A: http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf(0x7f040409)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf(0x7f04040f)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintStart_toEndOf(0x7f040422)=@id/iv_checkbox
+          A: http://schemas.android.com/apk/res-auto:layout_constraintTop_toTopOf(0x7f040427)=0
+          A: style=@style/Body2

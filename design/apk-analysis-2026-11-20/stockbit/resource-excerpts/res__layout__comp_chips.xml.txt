@@ -1,0 +1,24 @@
+N: android=http://schemas.android.com/apk/res/android (line=7)
+  N: app=http://schemas.android.com/apk/res-auto (line=7)
+    E: merge (line=7)
+      A: http://schemas.android.com/apk/res/android:gravity(0x010100af)=0x00000010
+      A: http://schemas.android.com/apk/res/android:orientation(0x010100c4)=0
+        E: com.google.android.material.imageview.ShapeableImageView (line=17)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/iv_chips_icon
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=@dimen/icon_placeholder_24 [24.000000dp]
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=@dimen/icon_placeholder_24 [24.000000dp]
+          A: http://schemas.android.com/apk/res/android:scaleType(0x0101011d)=6
+          A: http://schemas.android.com/apk/res/android:adjustViewBounds(0x0101011e)=true
+          A: http://schemas.android.com/apk/res/android:layout_marginStart(0x010103b5)=@dimen/spacing_2 [2.000000dp]
+          A: http://schemas.android.com/apk/res/android:layout_marginVertical(0x0101053c)=@dimen/spacing_2 [2.000000dp]
+          A: http://schemas.android.com/apk/res-auto:shapeAppearanceOverlay(0x7f040758)=@style/UikitCircleImageView
+        E: androidx.appcompat.widget.AppCompatTextView (line=22)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/tv_chips_text
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-2
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-2
+        E: androidx.appcompat.widget.AppCompatImageView (line=29)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/iv_chips_close
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=@dimen/icon_placeholder_16 [16.000000dp]
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=@dimen/icon_placeholder_16 [16.000000dp]
+          A: http://schemas.android.com/apk/res/android:layout_marginEnd(0x010103b6)=@dimen/spacing_6 [6.000000dp]
+          A: http://schemas.android.com/apk/res-auto:srcCompat(0x7f0407c0)=@drawable/uikit_ic_stockbit_search_bar_close_fill

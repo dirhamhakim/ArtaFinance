@@ -1,0 +1,5 @@
+N: android=http://schemas.android.com/apk/res/android (line=5)
+  E: androidx.compose.ui.platform.ComposeView (line=5)
+    A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/compose_view
+    A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+    A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-1

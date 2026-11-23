@@ -1,0 +1,35 @@
+N: android=http://schemas.android.com/apk/res/android (line=19)
+  N: app=http://schemas.android.com/apk/res-auto (line=19)
+    E: androidx.constraintlayout.widget.ConstraintLayout (line=19)
+      A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/cl_parent
+      A: http://schemas.android.com/apk/res/android:tag(0x010100d1)="layout/fragment_bibit_ui_0" (Raw: "layout/fragment_bibit_ui_0")
+      A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+      A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-1
+      A: http://schemas.android.com/apk/res/android:animateLayoutChanges(0x010102f2)=true
+        E: com.bibit.features.bibitui.presentation.bridge.BibitNativeWebView (line=31)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/wv_main
+          A: http://schemas.android.com/apk/res/android:focusable(0x010100da)=true
+          A: http://schemas.android.com/apk/res/android:focusableInTouchMode(0x010100db)=true
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=0.000000dp
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=0.000000dp
+          A: http://schemas.android.com/apk/res/android:importantForAutofill(0x01010558)=0x00000002
+          A: http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf(0x7f040409)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf(0x7f04040f)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf(0x7f040423)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintTop_toTopOf(0x7f040427)=0
+        E: androidx.appcompat.widget.AppCompatImageView (line=49)
+          A: http://schemas.android.com/apk/res/android:gravity(0x010100af)=0x00000011
+          A: http://schemas.android.com/apk/res/android:layout_gravity(0x010100b3)=0x00000011
+          A: http://schemas.android.com/apk/res/android:tag(0x010100d1)="binding_1" (Raw: "binding_1")
+          A: http://schemas.android.com/apk/res/android:background(0x010100d4)=@color/surface [@color/lightBackground]
+          A: http://schemas.android.com/apk/res/android:visibility(0x010100dc)=2
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=0.000000dp
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=0.000000dp
+          A: http://schemas.android.com/apk/res/android:scaleType(0x0101011d)=7
+          A: http://schemas.android.com/apk/res/android:adjustViewBounds(0x0101011e)=true
+          A: http://schemas.android.com/apk/res/android:contentDescription(0x01010273)=@null
+          A: http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf(0x7f040409)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf(0x7f04040f)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf(0x7f040423)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintTop_toTopOf(0x7f040427)=0
+          A: http://schemas.android.com/apk/res-auto:srcCompat(0x7f0405d7)=@drawable/ic_bibit_splash_screen

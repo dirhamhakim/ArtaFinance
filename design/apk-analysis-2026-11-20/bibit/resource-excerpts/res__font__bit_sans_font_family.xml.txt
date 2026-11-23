@@ -1,0 +1,8 @@
+N: app=http://schemas.android.com/apk/res-auto (line=2)
+  E: font-family (line=2)
+      E: font (line=6)
+        A: http://schemas.android.com/apk/res-auto:font(0x7f04034b)=@font/bit_sans_bold
+        A: http://schemas.android.com/apk/res-auto:fontWeight(0x7f040357)=700
+      E: font (line=10)
+        A: http://schemas.android.com/apk/res-auto:font(0x7f04034b)=@font/bit_sans_regular
+        A: http://schemas.android.com/apk/res-auto:fontWeight(0x7f040357)=400

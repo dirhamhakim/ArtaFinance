@@ -1,0 +1,26 @@
+N: android=http://schemas.android.com/apk/res/android (line=21)
+  N: app=http://schemas.android.com/apk/res-auto (line=21)
+    E: FrameLayout (line=21)
+      A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/framelayout
+      A: http://schemas.android.com/apk/res/android:tag(0x010100d1)="layout/activity_bibit_0" (Raw: "layout/activity_bibit_0")
+      A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+      A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-1
+      A: http://schemas.android.com/apk/res/android:animateLayoutChanges(0x010102f2)=true
+        E: androidx.fragment.app.FragmentContainerView (line=30)
+          A: http://schemas.android.com/apk/res/android:name(0x01010003)="androidx.navigation.fragment.NavHostFragment" (Raw: "androidx.navigation.fragment.NavHostFragment")
+          A: http://schemas.android.com/apk/res/android:layout_gravity(0x010100b3)=0x00000011
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/nav_host
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-1
+          A: http://schemas.android.com/apk/res-auto:defaultNavHost(0x7f0401a3)=true
+          A: http://schemas.android.com/apk/res-auto:navGraph(0x7f040500)=@navigation/nav_bibit
+        E: ViewStub (line=36)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/viewstub_no_connection
+          A: http://schemas.android.com/apk/res/android:layout(0x010100f2)=@layout/view_no_connection
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-1
+        E: ViewStub (line=42)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/viewstub_loading
+          A: http://schemas.android.com/apk/res/android:layout(0x010100f2)=@layout/view_loading
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-1

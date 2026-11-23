@@ -1,0 +1,37 @@
+N: android=http://schemas.android.com/apk/res/android (line=9)
+  N: app=http://schemas.android.com/apk/res-auto (line=9)
+    E: androidx.constraintlayout.widget.ConstraintLayout (line=9)
+      A: http://schemas.android.com/apk/res/android:tag(0x010100d1)="layout/comp_field_radio_0" (Raw: "layout/comp_field_radio_0")
+      A: http://schemas.android.com/apk/res/android:paddingBottom(0x010100d9)=@dimen/spacing_24 [24.000000dp]
+      A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+      A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-2
+        E: androidx.appcompat.widget.AppCompatTextView (line=19)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/actv_label
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=0.000000dp
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-2
+          A: http://schemas.android.com/apk/res-auto:layout_constraintEnd_toStartOf(0x7f04054c)=@id/actv_optional
+          A: http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf(0x7f04055f)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintTop_toTopOf(0x7f040563)=0
+          A: style=@style/TypeStyles.HeadingXSmall
+        E: androidx.appcompat.widget.AppCompatTextView (line=33)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/actv_optional
+          A: http://schemas.android.com/apk/res/android:visibility(0x010100dc)=2
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=0.000000dp
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-2
+          A: http://schemas.android.com/apk/res/android:text(0x0101014f)=@string/lbl_securities_oa_optional
+          A: http://schemas.android.com/apk/res/android:layout_marginStart(0x010103b5)=2.000000dp
+          A: http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf(0x7f040545)=@id/actv_label
+          A: http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf(0x7f04054b)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintStart_toEndOf(0x7f04055e)=@id/actv_label
+          A: http://schemas.android.com/apk/res-auto:layout_constraintTop_toTopOf(0x7f040563)=@id/actv_label
+          A: style=@style/SbTextView.FieldTitle
+        E: androidx.recyclerview.widget.RecyclerView (line=46)
+          A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@id/rv_field
+          A: http://schemas.android.com/apk/res/android:layout_width(0x010100f4)=-1
+          A: http://schemas.android.com/apk/res/android:layout_height(0x010100f5)=-2
+          A: http://schemas.android.com/apk/res/android:layout_marginTop(0x010100f8)=@dimen/item_gap_8 [8.000000dp]
+          A: http://schemas.android.com/apk/res-auto:layoutManager(0x7f040537)="androidx.recyclerview.widget.GridLayoutManager" (Raw: "androidx.recyclerview.widget.GridLayoutManager")
+          A: http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf(0x7f04054b)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf(0x7f04055f)=0
+          A: http://schemas.android.com/apk/res-auto:layout_constraintTop_toBottomOf(0x7f040562)=@id/actv_label
+          A: http://schemas.android.com/apk/res-auto:spanCount(0x7f0407a0)=2

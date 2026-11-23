@@ -1,0 +1,13 @@
+N: android=http://schemas.android.com/apk/res/android (line=2)
+  E: selector (line=2)
+      E: item (line=3)
+        A: http://schemas.android.com/apk/res/android:state_focused(0x0101009c)=true
+        A: http://schemas.android.com/apk/res/android:color(0x010101a5)=?0x7f040926
+      E: item (line=4)
+        A: http://schemas.android.com/apk/res/android:color(0x010101a5)=?0x7f040926
+        A: http://schemas.android.com/apk/res/android:state_hovered(0x01010367)=true
+      E: item (line=5)
+        A: http://schemas.android.com/apk/res/android:state_enabled(0x0101009e)=false
+        A: http://schemas.android.com/apk/res/android:color(0x010101a5)=?0x7f040926
+      E: item (line=6)
+        A: http://schemas.android.com/apk/res/android:color(0x010101a5)=?0x7f040926

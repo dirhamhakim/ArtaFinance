@@ -1,0 +1,16 @@
+N: android=http://schemas.android.com/apk/res/android (line=2)
+  E: selector (line=2)
+      E: item (line=3)
+        A: http://schemas.android.com/apk/res/android:state_checked(0x010100a0)=true
+        A: http://schemas.android.com/apk/res/android:drawable(0x01010199)=@drawable/ic_checkbox_selected
+      E: item (line=4)
+        A: http://schemas.android.com/apk/res/android:state_enabled(0x0101009e)=true
+        A: http://schemas.android.com/apk/res/android:state_selected(0x010100a1)=true
+        A: http://schemas.android.com/apk/res/android:drawable(0x01010199)=@drawable/ic_checkbox_selected
+      E: item (line=5)
+        A: http://schemas.android.com/apk/res/android:state_enabled(0x0101009e)=true
+        A: http://schemas.android.com/apk/res/android:state_selected(0x010100a1)=false
+        A: http://schemas.android.com/apk/res/android:drawable(0x01010199)=@drawable/ic_checkbox
+      E: item (line=6)
+        A: http://schemas.android.com/apk/res/android:state_enabled(0x0101009e)=false
+        A: http://schemas.android.com/apk/res/android:drawable(0x01010199)=@drawable/ic_checkbox

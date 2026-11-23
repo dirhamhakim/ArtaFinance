@@ -1,0 +1,11 @@
+N: android=http://schemas.android.com/apk/res/android (line=5)
+  E: vector (line=5)
+    A: http://schemas.android.com/apk/res/android:height(0x01010155)=18.000000dp
+    A: http://schemas.android.com/apk/res/android:width(0x01010159)=18.000000dp
+    A: http://schemas.android.com/apk/res/android:viewportWidth(0x01010402)=18
+    A: http://schemas.android.com/apk/res/android:viewportHeight(0x01010403)=18
+      E: path (line=10)
+        A: http://schemas.android.com/apk/res/android:fillColor(0x01010404)=@0x0106000d
+        A: http://schemas.android.com/apk/res/android:pathData(0x01010405)="M9,9m-8.25,0a8.25,8.25 0,1 1,16.5 0a8.25,8.25 0,1 1,-16.5 0" (Raw: "M9,9m-8.25,0a8.25,8.25 0,1 1,16.5 0a8.25,8.25 0,1 1,-16.5 0")
+        A: http://schemas.android.com/apk/res/android:strokeColor(0x01010406)=@color/inActiveGrey [@color/greyLight]
+        A: http://schemas.android.com/apk/res/android:strokeWidth(0x01010407)=1.5
