@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "inline",
+    "index": 0,
+    "matches": [
+      {
+        "file": "profile.8c007594.js",
+        "paths": 1
+      }
+    ]
+  },
+  {
+    "kind": "inline",
+    "index": 1,
+    "matches": [
+      {
+        "file": "profile.8c007594.js",
+        "paths": 1
+      }
+    ]
+  },
+  {
+    "kind": "img",
+    "index": 0,
+    "context": "Nilai Portofolio Rp 0 0 Keuntungan Rp0 Imbal Hasil 0.00% Pakai RDN Wallet. Grati",
+    "matches": [
+      "index.153fb81a.js"
+    ]
+  }
+]

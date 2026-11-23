@@ -1,0 +1,209 @@
+[
+  {
+    "name": "kontrol-bell",
+    "file": "reference-vectors/kontrol-bell.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 0,
+    "sha256": "e806114badd105253fa5cffe63650d214f89f24c9e97da52e1e679c6a5f3f171",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "kontrol-gembok-privasi",
+    "file": "reference-vectors/kontrol-gembok-privasi.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 1,
+    "sha256": "0ce6e9d988c044cd28c924c9b5f596bcf6a1844b29eac2caa6c753bdd37a9671",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "kontrol-close-banner",
+    "file": "reference-vectors/kontrol-close-banner.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 2,
+    "sha256": "70369f722141530ca2ad4302b78349ab3f88c6786358cb6fceb9c7e79b5e649f",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "kontrol-chevron-kanan",
+    "file": "reference-vectors/kontrol-chevron-kanan.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 3,
+    "sha256": "4ebfe393af606b0bcdf82399ec8355626e02c45f9443974651f918af5682e92b",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "menu-produk-investasi",
+    "file": "reference-vectors/menu-produk-investasi.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 6,
+    "sha256": "9798022c3cfe5f6bd6eaeba8eb75530a09bc9afab34768f33d040e2e07a3b3a8",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "menu-portofolio-pie",
+    "file": "reference-vectors/menu-portofolio-pie.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 10,
+    "sha256": "53b7939623f4f6bf7a4d41a7e26f32469dd07c8815165d2de6eecff3db4d6d34",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "kontrol-chevron-kiri",
+    "file": "reference-vectors/kontrol-chevron-kiri.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 11,
+    "sha256": "c359480c70478d586a4e7764735aa509088a2e7c545f9845237f374e9d0925c0",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "kontrol-chevron-bawah",
+    "file": "reference-vectors/kontrol-chevron-bawah.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 18,
+    "sha256": "40d7290d712f6b87a43c5556bd8c4624d534e258c75b0d44fb22665e72878143",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "menu-dokumen-artikel",
+    "file": "reference-vectors/menu-dokumen-artikel.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 20,
+    "sha256": "cf12d7b5d98fad0e47e98ae301b7e564b4df3a8d0af569ffda17f5e8f04154cc",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "nav-ringkasan-rumah",
+    "file": "reference-vectors/nav-ringkasan-rumah.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 33,
+    "sha256": "870b3718ea242bfb735afc03b37d83a07de845a9e6963e9444be172741d53fb4",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "nav-investasi-pie",
+    "file": "reference-vectors/nav-investasi-pie.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 34,
+    "sha256": "661e10b1618e6cd25d984956652331b5f3d68334280c193eddb28e104d712c7e",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "kontrol-search",
+    "file": "reference-vectors/kontrol-search.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 35,
+    "sha256": "0f81dd892f86677c05934a6f53dd7676aaa1f117f39234d8a2670092115cedc7",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "nav-transaksi-panah",
+    "file": "reference-vectors/nav-transaksi-panah.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 36,
+    "sha256": "cd529d022a543157a6cf346699ec430a9e714d6f0269a76bbdf78664380a461d",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "referensi-profil",
+    "file": "reference-vectors/referensi-profil.svg",
+    "source": "BIBIT.txt",
+    "kind": "inline_svg",
+    "source_index_zero_based": 37,
+    "sha256": "56206533624b06495e64b0a7167b4d151971b68153d2e365d3dfbcb0519698f9",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "pintasan-portofolio",
+    "file": "reference-vectors/pintasan-portofolio.svg",
+    "source": "BIBIT.txt",
+    "kind": "embedded_svg_img",
+    "source_index_zero_based": 2,
+    "sha256": "cd1822e55dfd0fc32a3a944ce727b1233c6b6ed5a96bf4db1822cea21e9340fb",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "pintasan-jadwal-sip",
+    "file": "reference-vectors/pintasan-jadwal-sip.svg",
+    "source": "BIBIT.txt",
+    "kind": "embedded_svg_img",
+    "source_index_zero_based": 3,
+    "sha256": "f048d45b31f677c53fd45f1414d4e02776aca497de08f1ca700e92444535d917",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "pintasan-lainnya-grid",
+    "file": "reference-vectors/pintasan-lainnya-grid.svg",
+    "source": "BIBIT.txt",
+    "kind": "embedded_svg_img",
+    "source_index_zero_based": 5,
+    "sha256": "582551cf2c6c9cfa4e2e9623c419e6310dfb75abf7cae59bbe6586b5b7622241",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "menu-reksa-dana",
+    "file": "reference-vectors/menu-reksa-dana.svg",
+    "source": "BIBIT.txt",
+    "kind": "embedded_svg_img",
+    "source_index_zero_based": 7,
+    "sha256": "0a347cfecfbbe5d328c19275cec6ba082c9333e40988241735667f1152af1844",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "referensi-sbn",
+    "file": "reference-vectors/referensi-sbn.svg",
+    "source": "BIBIT.txt",
+    "kind": "embedded_svg_img",
+    "source_index_zero_based": 8,
+    "sha256": "cfe94751fd062d139d8e709d791c206244d7a05f94d8e69554f828d6f71312bc",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "referensi-obligasi-fr",
+    "file": "reference-vectors/referensi-obligasi-fr.svg",
+    "source": "BIBIT.txt",
+    "kind": "embedded_svg_img",
+    "source_index_zero_based": 9,
+    "sha256": "a630a9b800770c2a5f7d0ee49fe7ffa7ac1f58d1e009fc693c70a2708d32b2b3",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "menu-saham-candle",
+    "file": "reference-vectors/menu-saham-candle.svg",
+    "source": "BIBIT.txt",
+    "kind": "embedded_svg_img",
+    "source_index_zero_based": 10,
+    "sha256": "ec4be875da4bb728174eb59c943ec32ccea3a41af2decdea2d248c2dbe1779ab",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "referensi-trofi",
+    "file": "reference-vectors/referensi-trofi.svg",
+    "source": "BIBIT.txt",
+    "kind": "embedded_svg_img",
+    "source_index_zero_based": 17,
+    "sha256": "bd4811e10ed15fd6b6410e9b8ac5292d08bfbf9ee5c36b7b673cc78035f0cc8e",
+    "status": "reference_only_not_production"
+  },
+  {
+    "name": "menu-jadwal-sip",
+    "file": "reference-vectors/menu-jadwal-sip.svg",
+    "source": "BIBIT.txt",
+    "kind": "embedded_svg_img",
+    "source_index_zero_based": 37,
+    "sha256": "d39914e409b52a713940567d03a58691afe4171d6d87d57cea61ac5943cc72c1",
+    "status": "reference_only_not_production"
+  }
+]

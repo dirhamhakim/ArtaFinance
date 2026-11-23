@@ -1,0 +1,23 @@
+{
+  "package": "com.stockbit.android",
+  "method": "adb pm path and pull only",
+  "app_launched": false,
+  "screenshots_taken": false,
+  "files": [
+    {
+      "file": "base.apk",
+      "bytes": 136457244,
+      "sha256": "d59cf2f5f7034bbcac2b947eeea396aa6f88ea293cfe78305f2dbc92bdb00f29"
+    },
+    {
+      "file": "split_config.arm64_v8a.apk",
+      "bytes": 28022691,
+      "sha256": "2824d21c4fcdc1be3f474fb140927aa1684914e8db0f5827ef33212157642c70"
+    },
+    {
+      "file": "split_config.xxhdpi.apk",
+      "bytes": 1432896,
+      "sha256": "e9e08302e1dcccfbe0da677c9e1f7a3f63bc5d61c71f2758b9d8acd25e9e4562"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "bell",
+    "bibit_inline_index": 0,
+    "geometry_equal": true,
+    "source": "https://raw.githubusercontent.com/feathericons/feather/main/icons/bell.svg"
+  },
+  {
+    "icon": "chevron-right",
+    "bibit_inline_index": 3,
+    "geometry_equal": true,
+    "source": "https://raw.githubusercontent.com/feathericons/feather/main/icons/chevron-right.svg"
+  },
+  {
+    "icon": "chevron-left",
+    "bibit_inline_index": 11,
+    "geometry_equal": true,
+    "source": "https://raw.githubusercontent.com/feathericons/feather/main/icons/chevron-left.svg"
+  },
+  {
+    "icon": "chevron-down",
+    "bibit_inline_index": 18,
+    "geometry_equal": true,
+    "source": "https://raw.githubusercontent.com/feathericons/feather/main/icons/chevron-down.svg"
+  }
+]

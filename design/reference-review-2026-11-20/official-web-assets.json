@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://app.bibit.id/",
+    "status": 200,
+    "bytes": 14631,
+    "assets": [
+      "https://app.bibit.id/lib/js/sentry-10.70.0.min.js",
+      "https://app.bibit.id/manifest.json",
+      "https://app.bibit.id/observability-init.js",
+      "https://app.bibit.id/static/css/index.5e7d096c.css",
+      "https://app.bibit.id/static/js/74193.f1c10fd7.js",
+      "https://app.bibit.id/static/js/index.153fb81a.js",
+      "https://app.bibit.id/static/js/lib-axios.51f059ea.js",
+      "https://app.bibit.id/static/js/lib-react.aeda0013.js",
+      "https://app.bibit.id/static/js/lib-router.994678d7.js",
+      "https://assets.bibit.id/fonts/BitSans/v1/font.css"
+    ]
+  },
+  {
+    "url": "https://bibit.id/saham",
+    "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+  },
+  {
+    "url": "https://stockbit.com/",
+    "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+  }
+]

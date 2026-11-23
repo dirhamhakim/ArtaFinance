@@ -1,0 +1,23 @@
+{
+  "package": "com.bibit.bibitid",
+  "method": "adb pm path and pull only",
+  "app_launched": false,
+  "screenshots_taken": false,
+  "files": [
+    {
+      "file": "base.apk",
+      "bytes": 27035961,
+      "sha256": "7f87d9a6ade9e6635e5241d1404482450f4a606a39971061b9fb64f2fae695cd"
+    },
+    {
+      "file": "split_config.arm64_v8a.apk",
+      "bytes": 21703068,
+      "sha256": "af2eac5dbd0b0dafc8b4b84e64d15ff3bc7e84db171b5cb38a875f53d57f757c"
+    },
+    {
+      "file": "split_config.xxhdpi.apk",
+      "bytes": 1133690,
+      "sha256": "1ea069fc25de99fb8699d092d0ea26927957e61c8aec0c78b6efe7c5493d279d"
+    }
+  ]
+}

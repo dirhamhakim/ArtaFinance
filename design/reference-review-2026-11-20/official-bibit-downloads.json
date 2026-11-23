@@ -1,0 +1,21 @@
+[
+  {
+    "url": "https://app.bibit.id/static/js/index.153fb81a.js",
+    "status": 200,
+    "bytes": 472327
+  },
+  {
+    "url": "https://app.bibit.id/static/js/74193.f1c10fd7.js",
+    "status": 200,
+    "bytes": 670062
+  },
+  {
+    "url": "https://app.bibit.id/static/css/index.5e7d096c.css",
+    "status": 200,
+    "bytes": 138704
+  },
+  {
+    "url": "https://assets.bibit.id/fonts/BitSans/v1/font.css",
+    "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+  }
+]

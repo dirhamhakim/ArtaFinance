@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://app.bibit.id/assets/images/portfolio/icon/green/1.svg",
+    "status": 200,
+    "bytes": 1436,
+    "content_type": "image/svg+xml"
+  },
+  {
+    "url": "https://app.bibit.id/assets/images/portfolio/icon/green/16.svg",
+    "status": 200,
+    "bytes": 784,
+    "content_type": "image/svg+xml"
+  },
+  {
+    "url": "https://app.bibit.id/static/svg/entry-point-tutorial.9fe6f55c.svg",
+    "status": 200,
+    "bytes": 13151,
+    "content_type": "image/svg+xml"
+  },
+  {
+    "url": "https://app.bibit.id/static/js/async/57636.4c552ec5.js",
+    "status": 200,
+    "bytes": 6855,
+    "content_type": "application/javascript"
+  },
+  {
+    "url": "https://app.bibit.id/static/js/async/explore.b06dd5e3.js",
+    "status": 200,
+    "bytes": 35964,
+    "content_type": "application/javascript"
+  },
+  {
+    "url": "https://app.bibit.id/static/js/async/profile.8c007594.js",
+    "status": 200,
+    "bytes": 104859,
+    "content_type": "application/javascript"
+  }
+]
