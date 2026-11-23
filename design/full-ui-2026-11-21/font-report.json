@@ -1,0 +1,40 @@
+{
+  "embeddedFontFiles": 0,
+  "externalPenpotFontRefs": [],
+  "fontLicenseNotices": 0,
+  "fonts": [
+    {
+      "available": true,
+      "family": "Bit Sans",
+      "layers": [
+        "Bibit 224150 section → card → information str",
+        "Bit Sans",
+        "Bit Sans 400/700 from reference; native TypeS",
+        "Body / 14",
+        "Body / 16",
+        "Caption / 12",
+        "Font referensi · Regular / Bold",
+        "Foundations/Permukaan",
+        "Foundations/Tipografi",
+        "Harga penutupan tersimpan",
+        "Headline / 20",
+        "Nilai investasi",
+        "Nominal / 34",
+        "Penutupan 19 Nov 2026",
+        "Portofolio",
+        "Portofolio investasi",
+        "Ringkasan aset",
+        "Rp12.450.000",
+        "Rp5.250.000",
+        "Saldo dan mutasi aset",
+        "Tanggal harga selalu ditampilkan.",
+        "Tetap tersedia saat offline",
+        "Tiga tingkat informasi",
+        "Title / 18",
+        "Transaksi terjadwal"
+      ]
+    }
+  ],
+  "missing": 0,
+  "total": 1
+}

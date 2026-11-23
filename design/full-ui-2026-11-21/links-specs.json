@@ -1,0 +1,5323 @@
+[
+  {
+    "route": "home",
+    "source": "hot0",
+    "dest": "home-private",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot1",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot2",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot3",
+    "dest": "assets",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot4",
+    "dest": "transactions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot5",
+    "dest": "settings",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot6",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot7",
+    "dest": "schedules",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot8",
+    "dest": "interest",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot9",
+    "dest": "staking",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot10",
+    "dest": "stocks",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot11",
+    "dest": "crypto",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot12",
+    "dest": "funds",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot13",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot14",
+    "dest": "home-slide2",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot15",
+    "dest": "home-slide2",
+    "kind": "navigate",
+    "trigger": {
+      "type": "onDrag"
+    }
+  },
+  {
+    "route": "home",
+    "source": "hot16",
+    "dest": "reports",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot17",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home",
+    "source": "hot18",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot19",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot20",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot21",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot22",
+    "dest": "assets",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot23",
+    "dest": "transactions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot24",
+    "dest": "settings",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot25",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot26",
+    "dest": "schedules",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot27",
+    "dest": "interest",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot28",
+    "dest": "staking",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot29",
+    "dest": "stocks",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot30",
+    "dest": "crypto",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot31",
+    "dest": "funds",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot32",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot33",
+    "dest": "home-slide2",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot34",
+    "dest": "home-slide2",
+    "kind": "navigate",
+    "trigger": {
+      "type": "onDrag"
+    }
+  },
+  {
+    "route": "home-private",
+    "source": "hot35",
+    "dest": "reports",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot36",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-private",
+    "source": "hot37",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot38",
+    "dest": "home-private",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot39",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot40",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot41",
+    "dest": "assets",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot42",
+    "dest": "transactions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot43",
+    "dest": "settings",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot44",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot45",
+    "dest": "schedules",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot46",
+    "dest": "interest",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot47",
+    "dest": "staking",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot48",
+    "dest": "stocks",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot49",
+    "dest": "crypto",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot50",
+    "dest": "funds",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot51",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot52",
+    "dest": "home-slide2",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot53",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": {
+      "type": "onDrag"
+    }
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot54",
+    "dest": "reports",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot55",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "home-slide2",
+    "source": "hot56",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "reports",
+    "source": "hot57",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "reports",
+    "source": "hot58",
+    "dest": "export",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "reports",
+    "source": "hot59",
+    "dest": "sheet-period",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "reports",
+    "source": "hot60",
+    "dest": "report-cashflow",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "reports",
+    "source": "hot61",
+    "dest": "report-cash",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "reports",
+    "source": "hot62",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "reports",
+    "source": "hot63",
+    "dest": "report-all",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "report-cash",
+    "source": "hot64",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "report-cash",
+    "source": "hot65",
+    "dest": "sheet-period",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "report-all",
+    "source": "hot66",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "report-all",
+    "source": "hot67",
+    "dest": "sheet-period",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "report-cashflow",
+    "source": "hot68",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "report-cashflow",
+    "source": "hot69",
+    "dest": "sheet-period",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot70",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot71",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot72",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot73",
+    "dest": "assets",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot74",
+    "dest": "transactions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot75",
+    "dest": "settings",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot76",
+    "dest": "transaction-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot77",
+    "dest": "sheet-period",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot78",
+    "dest": "sheet-filter",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot79",
+    "dest": "calendar",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot80",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot81",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions",
+    "source": "hot82",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot83",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot84",
+    "dest": "sheet-transaction-review",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot85",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot86",
+    "dest": "income",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot87",
+    "dest": "transfer",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot88",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot89",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot90",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot91",
+    "dest": "sheet-time",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot92",
+    "dest": "sheet-photo",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "expense",
+    "source": "hot93",
+    "dest": "schedule-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot94",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot95",
+    "dest": "sheet-income-review",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot96",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot97",
+    "dest": "income",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot98",
+    "dest": "transfer",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot99",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot100",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot101",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot102",
+    "dest": "sheet-time",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot103",
+    "dest": "sheet-photo",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "income",
+    "source": "hot104",
+    "dest": "schedule-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot105",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot106",
+    "dest": "sheet-transfer-review",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot107",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot108",
+    "dest": "income",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot109",
+    "dest": "transfer",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot110",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot111",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot112",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot113",
+    "dest": "sheet-time",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot114",
+    "dest": "transfer-both",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot115",
+    "dest": "transfer-both",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot116",
+    "dest": "sheet-photo",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer",
+    "source": "hot117",
+    "dest": "schedule-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot118",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot119",
+    "dest": "sheet-transfer-review",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot120",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot121",
+    "dest": "income",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot122",
+    "dest": "transfer",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot123",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot124",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot125",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot126",
+    "dest": "sheet-time",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot127",
+    "dest": "transfer",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot128",
+    "dest": "sheet-photo",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transfer-both",
+    "source": "hot129",
+    "dest": "schedule-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transaction-detail",
+    "source": "hot130",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "transaction-detail",
+    "source": "hot131",
+    "dest": "sheet-transaction-actions",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "transaction-detail",
+    "source": "hot132",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transaction-detail",
+    "source": "hot133",
+    "dest": "receipt",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "receipt",
+    "source": "hot134",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "receipt",
+    "source": "hot135",
+    "dest": "sheet-photo",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "receipt",
+    "source": "hot136",
+    "dest": "sheet-delete",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "calendar",
+    "source": "hot137",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "calendar",
+    "source": "hot138",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "calendar",
+    "source": "hot139",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transaction-search",
+    "source": "hot140",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "transaction-search",
+    "source": "hot141",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transaction-search",
+    "source": "hot142",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions-empty",
+    "source": "hot143",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions-empty",
+    "source": "hot144",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions-empty",
+    "source": "hot145",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions-empty",
+    "source": "hot146",
+    "dest": "assets",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions-empty",
+    "source": "hot147",
+    "dest": "transactions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions-empty",
+    "source": "hot148",
+    "dest": "settings",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "transactions-empty",
+    "source": "hot149",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "categories",
+    "source": "hot150",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "categories",
+    "source": "hot151",
+    "dest": "category-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "categories",
+    "source": "hot152",
+    "dest": "category-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "categories",
+    "source": "hot153",
+    "dest": "category-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "categories",
+    "source": "hot154",
+    "dest": "category-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "category-add",
+    "source": "hot155",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "category-add",
+    "source": "hot156",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "category-add",
+    "source": "hot157",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "category-add",
+    "source": "hot158",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot159",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot160",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot161",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot162",
+    "dest": "assets",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot163",
+    "dest": "transactions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot164",
+    "dest": "settings",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot165",
+    "dest": "assets",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot166",
+    "dest": "asset-debit",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot167",
+    "dest": "sheet-asset-class",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot168",
+    "dest": "asset-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot169",
+    "dest": "asset-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot170",
+    "dest": "asset-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot171",
+    "dest": "asset-debit",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot172",
+    "dest": "asset-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot173",
+    "dest": "debt-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot174",
+    "dest": "asset-archive",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets",
+    "source": "hot175",
+    "dest": "debts",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-add",
+    "source": "hot176",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "asset-add",
+    "source": "hot177",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-add",
+    "source": "hot178",
+    "dest": "sheet-asset-class",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-add",
+    "source": "hot179",
+    "dest": "sheet-bank",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-add",
+    "source": "hot180",
+    "dest": "sheet-currency",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-add",
+    "source": "hot181",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-edit",
+    "source": "hot182",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "asset-edit",
+    "source": "hot183",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-edit",
+    "source": "hot184",
+    "dest": "sheet-asset-class",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-edit",
+    "source": "hot185",
+    "dest": "sheet-bank",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-edit",
+    "source": "hot186",
+    "dest": "sheet-currency",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-edit",
+    "source": "hot187",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit-add",
+    "source": "hot188",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit-add",
+    "source": "hot189",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit-add",
+    "source": "hot190",
+    "dest": "sheet-asset-class",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit-add",
+    "source": "hot191",
+    "dest": "sheet-bank",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit-add",
+    "source": "hot192",
+    "dest": "sheet-currency",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit-add",
+    "source": "hot193",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-ewallet",
+    "source": "hot194",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "asset-ewallet",
+    "source": "hot195",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-ewallet",
+    "source": "hot196",
+    "dest": "sheet-asset-class",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-ewallet",
+    "source": "hot197",
+    "dest": "sheet-ewallet",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-ewallet",
+    "source": "hot198",
+    "dest": "sheet-currency",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-ewallet",
+    "source": "hot199",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-detail",
+    "source": "hot200",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "asset-detail",
+    "source": "hot201",
+    "dest": "sheet-asset-actions",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-detail",
+    "source": "hot202",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-detail",
+    "source": "hot203",
+    "dest": "asset-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-detail",
+    "source": "hot204",
+    "dest": "report-cash",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-detail",
+    "source": "hot205",
+    "dest": "asset-edit",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-detail",
+    "source": "hot206",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-detail",
+    "source": "hot207",
+    "dest": "schedules",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-detail",
+    "source": "hot208",
+    "dest": "interest-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit",
+    "source": "hot209",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit",
+    "source": "hot210",
+    "dest": "sheet-asset-actions",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit",
+    "source": "hot211",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit",
+    "source": "hot212",
+    "dest": "asset-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit",
+    "source": "hot213",
+    "dest": "report-cash",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit",
+    "source": "hot214",
+    "dest": "asset-edit",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit",
+    "source": "hot215",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit",
+    "source": "hot216",
+    "dest": "schedules",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-debit",
+    "source": "hot217",
+    "dest": "interest-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets-negative",
+    "source": "hot218",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "assets-negative",
+    "source": "hot219",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "asset-archive",
+    "source": "hot220",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "asset-archive",
+    "source": "hot221",
+    "dest": "asset-edit",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets-empty",
+    "source": "hot222",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets-empty",
+    "source": "hot223",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets-empty",
+    "source": "hot224",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets-empty",
+    "source": "hot225",
+    "dest": "assets",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets-empty",
+    "source": "hot226",
+    "dest": "transactions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets-empty",
+    "source": "hot227",
+    "dest": "settings",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "assets-empty",
+    "source": "hot228",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "debts",
+    "source": "hot229",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "debts",
+    "source": "hot230",
+    "dest": "debt-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "debts",
+    "source": "hot231",
+    "dest": "debts",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "debts",
+    "source": "hot232",
+    "dest": "receivables",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "debts",
+    "source": "hot233",
+    "dest": "debt-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "receivables",
+    "source": "hot234",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "receivables",
+    "source": "hot235",
+    "dest": "receivable-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "receivables",
+    "source": "hot236",
+    "dest": "fund-settlement",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "debt-add",
+    "source": "hot237",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "debt-add",
+    "source": "hot238",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "debt-add",
+    "source": "hot239",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "debt-add",
+    "source": "hot240",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "debt-add",
+    "source": "hot241",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "receivable-add",
+    "source": "hot242",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "receivable-add",
+    "source": "hot243",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "receivable-add",
+    "source": "hot244",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "receivable-add",
+    "source": "hot245",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "receivable-add",
+    "source": "hot246",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "debt-detail",
+    "source": "hot247",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "debt-detail",
+    "source": "hot248",
+    "dest": "debt-pay",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "debt-detail",
+    "source": "hot249",
+    "dest": "schedule-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "debt-pay",
+    "source": "hot250",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "debt-pay",
+    "source": "hot251",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "debt-pay",
+    "source": "hot252",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "debt-pay",
+    "source": "hot253",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot254",
+    "dest": "instrument-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot255",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot256",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot257",
+    "dest": "assets",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot258",
+    "dest": "transactions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot259",
+    "dest": "settings",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot260",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot261",
+    "dest": "stocks",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot262",
+    "dest": "crypto",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot263",
+    "dest": "funds",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot264",
+    "dest": "benchmark",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot265",
+    "dest": "stocks",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot266",
+    "dest": "crypto",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot267",
+    "dest": "funds",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "portfolio",
+    "source": "hot268",
+    "dest": "sheet-sort",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stocks",
+    "source": "hot269",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "stocks",
+    "source": "hot270",
+    "dest": "sheet-sort",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "stocks",
+    "source": "hot271",
+    "dest": "instrument-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stocks",
+    "source": "hot272",
+    "dest": "stock-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stocks",
+    "source": "hot273",
+    "dest": "stock-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stocks",
+    "source": "hot274",
+    "dest": "stock-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stocks",
+    "source": "hot275",
+    "dest": "ihsg",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stocks",
+    "source": "hot276",
+    "dest": "catalog",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto",
+    "source": "hot277",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "crypto",
+    "source": "hot278",
+    "dest": "sheet-sort",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "crypto",
+    "source": "hot279",
+    "dest": "instrument-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto",
+    "source": "hot280",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto",
+    "source": "hot281",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto",
+    "source": "hot282",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto",
+    "source": "hot283",
+    "dest": "staking",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto",
+    "source": "hot284",
+    "dest": "crypto-list",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "funds",
+    "source": "hot285",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "funds",
+    "source": "hot286",
+    "dest": "sheet-sort",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "funds",
+    "source": "hot287",
+    "dest": "instrument-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "funds",
+    "source": "hot288",
+    "dest": "fund-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "benchmark",
+    "source": "hot289",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "benchmark",
+    "source": "hot290",
+    "dest": "sheet-benchmark-info",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "benchmark",
+    "source": "hot291",
+    "dest": "sheet-period",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "benchmark",
+    "source": "hot292",
+    "dest": "sheet-benchmark-info",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stock-detail",
+    "source": "hot293",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "stock-detail",
+    "source": "hot294",
+    "dest": "quote-live",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stock-detail",
+    "source": "hot295",
+    "dest": "trade-buy",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stock-detail",
+    "source": "hot296",
+    "dest": "holding",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stock-detail",
+    "source": "hot297",
+    "dest": "investment-history",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stock-detail",
+    "source": "hot298",
+    "dest": "sheet-investment-actions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-detail",
+    "source": "hot299",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "crypto-detail",
+    "source": "hot300",
+    "dest": "quote-live",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-detail",
+    "source": "hot301",
+    "dest": "trade-buy",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-detail",
+    "source": "hot302",
+    "dest": "holding",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-detail",
+    "source": "hot303",
+    "dest": "investment-history",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-detail",
+    "source": "hot304",
+    "dest": "sheet-investment-actions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "ihsg",
+    "source": "hot305",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "ihsg",
+    "source": "hot306",
+    "dest": "quote-live",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "holding",
+    "source": "hot307",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "holding",
+    "source": "hot308",
+    "dest": "trade-buy",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "holding",
+    "source": "hot309",
+    "dest": "holding-opening",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "instrument-search",
+    "source": "hot310",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "instrument-search",
+    "source": "hot311",
+    "dest": "stock-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "instrument-search",
+    "source": "hot312",
+    "dest": "crypto-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "instrument-search",
+    "source": "hot313",
+    "dest": "fund-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "instrument-search",
+    "source": "hot314",
+    "dest": "stock-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "instrument-search",
+    "source": "hot315",
+    "dest": "stock-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "instrument-search",
+    "source": "hot316",
+    "dest": "stock-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "instrument-search",
+    "source": "hot317",
+    "dest": "catalog-import",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stock-search",
+    "source": "hot318",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "stock-search",
+    "source": "hot319",
+    "dest": "stock-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-search",
+    "source": "hot320",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "crypto-search",
+    "source": "hot321",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot322",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot323",
+    "dest": "crypto-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot324",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot325",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot326",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot327",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot328",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot329",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot330",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot331",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot332",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "crypto-list",
+    "source": "hot333",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "trade-buy",
+    "source": "hot334",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "trade-buy",
+    "source": "hot335",
+    "dest": "sheet-trade-review",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "trade-buy",
+    "source": "hot336",
+    "dest": "trade-buy",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "trade-buy",
+    "source": "hot337",
+    "dest": "trade-sell",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "trade-buy",
+    "source": "hot338",
+    "dest": "holding-opening",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "trade-buy",
+    "source": "hot339",
+    "dest": "instrument-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "trade-buy",
+    "source": "hot340",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "trade-buy",
+    "source": "hot341",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "trade-buy",
+    "source": "hot342",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "trade-buy",
+    "source": "hot343",
+    "dest": "sheet-time",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "trade-sell",
+    "source": "hot344",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "trade-sell",
+    "source": "hot345",
+    "dest": "sheet-trade-review",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "trade-sell",
+    "source": "hot346",
+    "dest": "trade-buy",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "trade-sell",
+    "source": "hot347",
+    "dest": "trade-sell",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "trade-sell",
+    "source": "hot348",
+    "dest": "holding-opening",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "trade-sell",
+    "source": "hot349",
+    "dest": "instrument-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "trade-sell",
+    "source": "hot350",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "trade-sell",
+    "source": "hot351",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "trade-sell",
+    "source": "hot352",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "trade-sell",
+    "source": "hot353",
+    "dest": "sheet-time",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "holding-opening",
+    "source": "hot354",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "holding-opening",
+    "source": "hot355",
+    "dest": "sheet-trade-review",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "holding-opening",
+    "source": "hot356",
+    "dest": "trade-buy",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "holding-opening",
+    "source": "hot357",
+    "dest": "trade-sell",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "holding-opening",
+    "source": "hot358",
+    "dest": "holding-opening",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "holding-opening",
+    "source": "hot359",
+    "dest": "instrument-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "holding-opening",
+    "source": "hot360",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "holding-opening",
+    "source": "hot361",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "holding-opening",
+    "source": "hot362",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "holding-opening",
+    "source": "hot363",
+    "dest": "sheet-time",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "unit-transfer",
+    "source": "hot364",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "unit-transfer",
+    "source": "hot365",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "unit-transfer",
+    "source": "hot366",
+    "dest": "crypto-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "unit-transfer",
+    "source": "hot367",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "unit-transfer",
+    "source": "hot368",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "unit-transfer",
+    "source": "hot369",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "dividend",
+    "source": "hot370",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "dividend",
+    "source": "hot371",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "dividend",
+    "source": "hot372",
+    "dest": "instrument-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "dividend",
+    "source": "hot373",
+    "dest": "sheet-investment-actions",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "dividend",
+    "source": "hot374",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "dividend",
+    "source": "hot375",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "split",
+    "source": "hot376",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "split",
+    "source": "hot377",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "split",
+    "source": "hot378",
+    "dest": "stock-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "split",
+    "source": "hot379",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "investment-history",
+    "source": "hot380",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "investment-history",
+    "source": "hot381",
+    "dest": "trade-buy",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "investment-history",
+    "source": "hot382",
+    "dest": "dividend",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-add",
+    "source": "hot383",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "fund-add",
+    "source": "hot384",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-add",
+    "source": "hot385",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "fund-add",
+    "source": "hot386",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "fund-add",
+    "source": "hot387",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "fund-detail",
+    "source": "hot388",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "fund-detail",
+    "source": "hot389",
+    "dest": "fund-buy",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-detail",
+    "source": "hot390",
+    "dest": "fund-nav",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-detail",
+    "source": "hot391",
+    "dest": "fund-settlement",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-nav",
+    "source": "hot392",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "fund-nav",
+    "source": "hot393",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-nav",
+    "source": "hot394",
+    "dest": "fund-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-nav",
+    "source": "hot395",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "fund-buy",
+    "source": "hot396",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "fund-buy",
+    "source": "hot397",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-buy",
+    "source": "hot398",
+    "dest": "fund-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-buy",
+    "source": "hot399",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "fund-buy",
+    "source": "hot400",
+    "dest": "fund-settlement",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-buy",
+    "source": "hot401",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "fund-settlement",
+    "source": "hot402",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "fund-settlement",
+    "source": "hot403",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fund-settlement",
+    "source": "hot404",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "fund-settlement",
+    "source": "hot405",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "fund-settlement",
+    "source": "hot406",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "staking",
+    "source": "hot407",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "staking",
+    "source": "hot408",
+    "dest": "stake-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "staking",
+    "source": "hot409",
+    "dest": "stake-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "staking",
+    "source": "hot410",
+    "dest": "investment-history",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stake-detail",
+    "source": "hot411",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "stake-detail",
+    "source": "hot412",
+    "dest": "sheet-staking-actions",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "stake-detail",
+    "source": "hot413",
+    "dest": "stake-reward",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stake-detail",
+    "source": "hot414",
+    "dest": "stake-unstake",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stake-detail",
+    "source": "hot415",
+    "dest": "stake-slashing",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stake-add",
+    "source": "hot416",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "stake-add",
+    "source": "hot417",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stake-add",
+    "source": "hot418",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "stake-unstake",
+    "source": "hot419",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "stake-unstake",
+    "source": "hot420",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stake-unstake",
+    "source": "hot421",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "stake-claim",
+    "source": "hot422",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "stake-claim",
+    "source": "hot423",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stake-claim",
+    "source": "hot424",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "stake-reward",
+    "source": "hot425",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "stake-reward",
+    "source": "hot426",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stake-reward",
+    "source": "hot427",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "stake-slashing",
+    "source": "hot428",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "stake-slashing",
+    "source": "hot429",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "stake-slashing",
+    "source": "hot430",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedules",
+    "source": "hot431",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "schedules",
+    "source": "hot432",
+    "dest": "schedule-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedules",
+    "source": "hot433",
+    "dest": "schedules",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedules",
+    "source": "hot434",
+    "dest": "schedule-paused",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedules",
+    "source": "hot435",
+    "dest": "installment",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedules",
+    "source": "hot436",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedules",
+    "source": "hot437",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedules",
+    "source": "hot438",
+    "dest": "installment",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-add",
+    "source": "hot439",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "schedule-add",
+    "source": "hot440",
+    "dest": "schedule-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-add",
+    "source": "hot441",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedule-add",
+    "source": "hot442",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedule-add",
+    "source": "hot443",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedule-add",
+    "source": "hot444",
+    "dest": "sheet-frequency",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedule-add",
+    "source": "hot445",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedule-add",
+    "source": "hot446",
+    "dest": "sheet-time",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedule-add",
+    "source": "hot447",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedule-add",
+    "source": "hot448",
+    "dest": "installment-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-preview",
+    "source": "hot449",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "schedule-preview",
+    "source": "hot450",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-detail",
+    "source": "hot451",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "schedule-detail",
+    "source": "hot452",
+    "dest": "sheet-schedule-actions",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedule-detail",
+    "source": "hot453",
+    "dest": "sheet-transaction-review",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedule-detail",
+    "source": "hot454",
+    "dest": "schedule-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-detail",
+    "source": "hot455",
+    "dest": "schedule-history",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-detail",
+    "source": "hot456",
+    "dest": "schedule-catchup",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-paused",
+    "source": "hot457",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "schedule-paused",
+    "source": "hot458",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-paused",
+    "source": "hot459",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-history",
+    "source": "hot460",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "schedule-history",
+    "source": "hot461",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-history",
+    "source": "hot462",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "schedule-catchup",
+    "source": "hot463",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "schedule-catchup",
+    "source": "hot464",
+    "dest": "sheet-transaction-review",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "schedule-catchup",
+    "source": "hot465",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "installment",
+    "source": "hot466",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "installment",
+    "source": "hot467",
+    "dest": "installment-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "installment",
+    "source": "hot468",
+    "dest": "installment-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "installment-add",
+    "source": "hot469",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "installment-add",
+    "source": "hot470",
+    "dest": "installment-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "installment-add",
+    "source": "hot471",
+    "dest": "sheet-frequency",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "installment-add",
+    "source": "hot472",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "installment-add",
+    "source": "hot473",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "installment-detail",
+    "source": "hot474",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "installment-detail",
+    "source": "hot475",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "installment-detail",
+    "source": "hot476",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "installment-detail",
+    "source": "hot477",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "interest",
+    "source": "hot478",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "interest",
+    "source": "hot479",
+    "dest": "interest-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "interest",
+    "source": "hot480",
+    "dest": "interest-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "interest",
+    "source": "hot481",
+    "dest": "interest-history",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "interest-add",
+    "source": "hot482",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "interest-add",
+    "source": "hot483",
+    "dest": "interest-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "interest-add",
+    "source": "hot484",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "interest-add",
+    "source": "hot485",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "interest-add",
+    "source": "hot486",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "interest-add",
+    "source": "hot487",
+    "dest": "sheet-frequency",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "interest-add",
+    "source": "hot488",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "interest-add",
+    "source": "hot489",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "interest-add",
+    "source": "hot490",
+    "dest": "interest-tiers",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "interest-tiers",
+    "source": "hot491",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "interest-tiers",
+    "source": "hot492",
+    "dest": "interest-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "interest-tiers",
+    "source": "hot493",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "interest-preview",
+    "source": "hot494",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "interest-preview",
+    "source": "hot495",
+    "dest": "interest-post",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "interest-post",
+    "source": "hot496",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "interest-post",
+    "source": "hot497",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "interest-post",
+    "source": "hot498",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "interest-post",
+    "source": "hot499",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "interest-history",
+    "source": "hot500",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "interest-history",
+    "source": "hot501",
+    "dest": "transaction-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "prices",
+    "source": "hot502",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "prices",
+    "source": "hot503",
+    "dest": "quote-updating",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "prices",
+    "source": "hot504",
+    "dest": "quote-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "prices",
+    "source": "hot505",
+    "dest": "quote-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "prices",
+    "source": "hot506",
+    "dest": "fund-nav",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "prices",
+    "source": "hot507",
+    "dest": "quote-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "prices",
+    "source": "hot508",
+    "dest": "quote-live",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "prices",
+    "source": "hot509",
+    "dest": "price-import",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "prices",
+    "source": "hot510",
+    "dest": "fx",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-detail",
+    "source": "hot511",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "quote-detail",
+    "source": "hot512",
+    "dest": "quote-updating",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-detail",
+    "source": "hot513",
+    "dest": "stock-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-detail",
+    "source": "hot514",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-detail",
+    "source": "hot515",
+    "dest": "ihsg",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-detail",
+    "source": "hot516",
+    "dest": "quote-missing",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-live",
+    "source": "hot517",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "quote-live",
+    "source": "hot518",
+    "dest": "quote-updating",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-live",
+    "source": "hot519",
+    "dest": "crypto-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-live",
+    "source": "hot520",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-updating",
+    "source": "hot521",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "quote-updating",
+    "source": "hot522",
+    "dest": "quote-detail",
+    "kind": "navigate",
+    "trigger": {
+      "type": "afterDelay",
+      "ms": 1200
+    }
+  },
+  {
+    "route": "quote-rate-limit",
+    "source": "hot523",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "quote-rate-limit",
+    "source": "hot524",
+    "dest": "prices",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-rate-limit",
+    "source": "hot525",
+    "dest": "quote-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "quote-missing",
+    "source": "hot526",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "quote-missing",
+    "source": "hot527",
+    "dest": "price-manual",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "price-manual",
+    "source": "hot528",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "price-manual",
+    "source": "hot529",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "price-manual",
+    "source": "hot530",
+    "dest": "stock-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "price-manual",
+    "source": "hot531",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "price-import",
+    "source": "hot532",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "price-import",
+    "source": "hot533",
+    "dest": "price-import-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "price-import",
+    "source": "hot534",
+    "dest": "sheet-category",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "price-import",
+    "source": "hot535",
+    "dest": "price-import-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "price-import-preview",
+    "source": "hot536",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "price-import-preview",
+    "source": "hot537",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "price-import-preview",
+    "source": "hot538",
+    "dest": "import-errors",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "catalog",
+    "source": "hot539",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "catalog",
+    "source": "hot540",
+    "dest": "stock-search",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "catalog",
+    "source": "hot541",
+    "dest": "catalog-import",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "catalog",
+    "source": "hot542",
+    "dest": "catalog-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "catalog",
+    "source": "hot543",
+    "dest": "catalog-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "catalog",
+    "source": "hot544",
+    "dest": "export",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "catalog-detail",
+    "source": "hot545",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "catalog-detail",
+    "source": "hot546",
+    "dest": "stock-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "catalog-import",
+    "source": "hot547",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "catalog-import",
+    "source": "hot548",
+    "dest": "catalog-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "catalog-import",
+    "source": "hot549",
+    "dest": "catalog-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "catalog-import",
+    "source": "hot550",
+    "dest": "catalog-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "catalog-preview",
+    "source": "hot551",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "catalog-preview",
+    "source": "hot552",
+    "dest": "sheet-catalog-confirm",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "catalog-preview",
+    "source": "hot553",
+    "dest": "catalog-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "import-errors",
+    "source": "hot554",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "import-errors",
+    "source": "hot555",
+    "dest": "price-import-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fx",
+    "source": "hot556",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "fx",
+    "source": "hot557",
+    "dest": "fx-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fx",
+    "source": "hot558",
+    "dest": "fx-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fx-add",
+    "source": "hot559",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "fx-add",
+    "source": "hot560",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "fx-add",
+    "source": "hot561",
+    "dest": "sheet-currency",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "fx-add",
+    "source": "hot562",
+    "dest": "sheet-currency",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "fx-add",
+    "source": "hot563",
+    "dest": "sheet-calendar",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot564",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot565",
+    "dest": "portfolio",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot566",
+    "dest": "assets",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot567",
+    "dest": "transactions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot568",
+    "dest": "settings",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot569",
+    "dest": "security",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot570",
+    "dest": "sheet-theme",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot571",
+    "dest": "categories",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot572",
+    "dest": "schedules",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot573",
+    "dest": "interest",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot574",
+    "dest": "prices",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot575",
+    "dest": "catalog",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot576",
+    "dest": "backup",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot577",
+    "dest": "export",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot578",
+    "dest": "guide",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot579",
+    "dest": "about",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "settings",
+    "source": "hot580",
+    "dest": "sheet-clear-data",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "backup",
+    "source": "hot581",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "backup",
+    "source": "hot582",
+    "dest": "backup-create",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "backup",
+    "source": "hot583",
+    "dest": "restore-pick",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "backup",
+    "source": "hot584",
+    "dest": "backup-create",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "backup-create",
+    "source": "hot585",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "backup-create",
+    "source": "hot586",
+    "dest": "backup-complete",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "backup-create",
+    "source": "hot587",
+    "dest": "backup-plain",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "backup-plain",
+    "source": "hot588",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "backup-plain",
+    "source": "hot589",
+    "dest": "backup-complete",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "backup-plain",
+    "source": "hot590",
+    "dest": "backup-create",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "backup-plain",
+    "source": "hot591",
+    "dest": "backup-create",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "backup-complete",
+    "source": "hot592",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "backup-complete",
+    "source": "hot593",
+    "dest": "backup",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "restore-pick",
+    "source": "hot594",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "restore-pick",
+    "source": "hot595",
+    "dest": "restore-password",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "restore-pick",
+    "source": "hot596",
+    "dest": "restore-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "restore-password",
+    "source": "hot597",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "restore-password",
+    "source": "hot598",
+    "dest": "restore-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "restore-preview",
+    "source": "hot599",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "restore-preview",
+    "source": "hot600",
+    "dest": "sheet-restore",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "restore-preview",
+    "source": "hot601",
+    "dest": "backup-create",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "restore-error",
+    "source": "hot602",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "restore-error",
+    "source": "hot603",
+    "dest": "restore-pick",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "restore-complete",
+    "source": "hot604",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "restore-complete",
+    "source": "hot605",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "export",
+    "source": "hot606",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "export",
+    "source": "hot607",
+    "dest": "backup-complete",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "export",
+    "source": "hot608",
+    "dest": "sheet-export-kind",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "export",
+    "source": "hot609",
+    "dest": "sheet-export-kind",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "export",
+    "source": "hot610",
+    "dest": "sheet-period",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "export",
+    "source": "hot611",
+    "dest": "sheet-assets",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "guide",
+    "source": "hot612",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "guide",
+    "source": "hot613",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "guide",
+    "source": "hot614",
+    "dest": "transfer-both",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "guide",
+    "source": "hot615",
+    "dest": "schedule-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "guide",
+    "source": "hot616",
+    "dest": "staking",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "guide",
+    "source": "hot617",
+    "dest": "prices",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "guide",
+    "source": "hot618",
+    "dest": "interest-preview",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "guide",
+    "source": "hot619",
+    "dest": "backup",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "about",
+    "source": "hot620",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "about",
+    "source": "hot621",
+    "dest": "licenses",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "licenses",
+    "source": "hot622",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "saved",
+    "source": "hot623",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "saved",
+    "source": "hot624",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "security",
+    "source": "hot625",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "security",
+    "source": "hot626",
+    "dest": "security-off",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "security",
+    "source": "hot627",
+    "dest": "pin",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "security",
+    "source": "hot628",
+    "dest": "pin-create",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "security",
+    "source": "hot629",
+    "dest": "pin-create",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "security",
+    "source": "hot630",
+    "dest": "pin-reset",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "security",
+    "source": "hot631",
+    "dest": "sheet-lock-time",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "security-off",
+    "source": "hot632",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "security-off",
+    "source": "hot633",
+    "dest": "security",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "pin-loading",
+    "source": "hot634",
+    "dest": "pin",
+    "kind": "navigate",
+    "trigger": {
+      "type": "afterDelay",
+      "ms": 1400
+    }
+  },
+  {
+    "route": "pin-reset-error",
+    "source": "hot635",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "pin-reset-error",
+    "source": "hot636",
+    "dest": "pin-loading",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "pin-lockout",
+    "source": "hot637",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "pin-lockout",
+    "source": "hot638",
+    "dest": "pin-loading",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "welcome",
+    "source": "hot639",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "welcome",
+    "source": "hot640",
+    "dest": "restore-pick",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "splash",
+    "source": "hot641",
+    "dest": "home",
+    "kind": "navigate",
+    "trigger": {
+      "type": "afterDelay",
+      "ms": 1200
+    }
+  },
+  {
+    "route": "storage-error",
+    "source": "hot642",
+    "dest": "",
+    "kind": "back",
+    "trigger": null
+  },
+  {
+    "route": "storage-error",
+    "source": "hot643",
+    "dest": "splash",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-bank",
+    "source": "hot644",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-ewallet",
+    "source": "hot645",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-bank-other",
+    "source": "hot646",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-ewallet-other",
+    "source": "hot647",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-frequency",
+    "source": "hot648",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-weekdays",
+    "source": "hot649",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-filter",
+    "source": "hot650",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-sort",
+    "source": "hot651",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-theme",
+    "source": "hot652",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-calendar",
+    "source": "hot653",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-time",
+    "source": "hot654",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-restore",
+    "source": "hot655",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-assets",
+    "source": "hot656",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-assets",
+    "source": "hot657",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-assets",
+    "source": "hot658",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-assets",
+    "source": "hot659",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-assets",
+    "source": "hot660",
+    "dest": "asset-debit-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-assets",
+    "source": "hot661",
+    "dest": "asset-ewallet",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-assets",
+    "source": "hot662",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-assets",
+    "source": "hot663",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-class",
+    "source": "hot664",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-class",
+    "source": "hot665",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-class",
+    "source": "hot666",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-class",
+    "source": "hot667",
+    "dest": "asset-ewallet",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-class",
+    "source": "hot668",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-class",
+    "source": "hot669",
+    "dest": "asset-debit-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-class",
+    "source": "hot670",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-class",
+    "source": "hot671",
+    "dest": "asset-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-category",
+    "source": "hot672",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-category",
+    "source": "hot673",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-category",
+    "source": "hot674",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-category",
+    "source": "hot675",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-category",
+    "source": "hot676",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-category",
+    "source": "hot677",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-category",
+    "source": "hot678",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-currency",
+    "source": "hot679",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-currency",
+    "source": "hot680",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-currency",
+    "source": "hot681",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-currency",
+    "source": "hot682",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-currency",
+    "source": "hot683",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-period",
+    "source": "hot684",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-period",
+    "source": "hot685",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-period",
+    "source": "hot686",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-period",
+    "source": "hot687",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-period",
+    "source": "hot688",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-period",
+    "source": "hot689",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-period",
+    "source": "hot690",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-investment-actions",
+    "source": "hot691",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-investment-actions",
+    "source": "hot692",
+    "dest": "trade-buy",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-investment-actions",
+    "source": "hot693",
+    "dest": "trade-sell",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-investment-actions",
+    "source": "hot694",
+    "dest": "unit-transfer",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-investment-actions",
+    "source": "hot695",
+    "dest": "dividend",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-investment-actions",
+    "source": "hot696",
+    "dest": "split",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-staking-actions",
+    "source": "hot697",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-staking-actions",
+    "source": "hot698",
+    "dest": "stake-reward",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-staking-actions",
+    "source": "hot699",
+    "dest": "stake-unstake",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-staking-actions",
+    "source": "hot700",
+    "dest": "stake-claim",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-staking-actions",
+    "source": "hot701",
+    "dest": "stake-slashing",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-actions",
+    "source": "hot702",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-actions",
+    "source": "hot703",
+    "dest": "asset-edit",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-actions",
+    "source": "hot704",
+    "dest": "transfer",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-actions",
+    "source": "hot705",
+    "dest": "interest-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-asset-actions",
+    "source": "hot706",
+    "dest": "asset-archive",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transaction-actions",
+    "source": "hot707",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transaction-actions",
+    "source": "hot708",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transaction-actions",
+    "source": "hot709",
+    "dest": "expense",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transaction-actions",
+    "source": "hot710",
+    "dest": "schedule-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transaction-actions",
+    "source": "hot711",
+    "dest": "sheet-delete",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-schedule-actions",
+    "source": "hot712",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-schedule-actions",
+    "source": "hot713",
+    "dest": "schedule-add",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-schedule-actions",
+    "source": "hot714",
+    "dest": "schedule-paused",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-schedule-actions",
+    "source": "hot715",
+    "dest": "schedule-detail",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-schedule-actions",
+    "source": "hot716",
+    "dest": "sheet-stop-schedule",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-export-kind",
+    "source": "hot717",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-export-kind",
+    "source": "hot718",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-export-kind",
+    "source": "hot719",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-export-kind",
+    "source": "hot720",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-export-kind",
+    "source": "hot721",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-export-kind",
+    "source": "hot722",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-lock-time",
+    "source": "hot723",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-lock-time",
+    "source": "hot724",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-lock-time",
+    "source": "hot725",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-lock-time",
+    "source": "hot726",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-photo",
+    "source": "hot727",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-photo",
+    "source": "hot728",
+    "dest": "receipt",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-photo",
+    "source": "hot729",
+    "dest": "receipt",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-photo",
+    "source": "hot730",
+    "dest": "sheet-delete",
+    "kind": "openOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-delete",
+    "source": "hot731",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-delete",
+    "source": "hot732",
+    "dest": "transactions",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-delete",
+    "source": "hot733",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-clear-data",
+    "source": "hot734",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-clear-data",
+    "source": "hot735",
+    "dest": "welcome",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-clear-data",
+    "source": "hot736",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-stop-schedule",
+    "source": "hot737",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-stop-schedule",
+    "source": "hot738",
+    "dest": "schedules",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-stop-schedule",
+    "source": "hot739",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-catalog-confirm",
+    "source": "hot740",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-catalog-confirm",
+    "source": "hot741",
+    "dest": "catalog",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-catalog-confirm",
+    "source": "hot742",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transfer-review",
+    "source": "hot743",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transfer-review",
+    "source": "hot744",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transfer-review",
+    "source": "hot745",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transaction-review",
+    "source": "hot746",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transaction-review",
+    "source": "hot747",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-transaction-review",
+    "source": "hot748",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-income-review",
+    "source": "hot749",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-income-review",
+    "source": "hot750",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-income-review",
+    "source": "hot751",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-trade-review",
+    "source": "hot752",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-trade-review",
+    "source": "hot753",
+    "dest": "saved",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-trade-review",
+    "source": "hot754",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-benchmark-info",
+    "source": "hot755",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  },
+  {
+    "route": "sheet-benchmark-info",
+    "source": "hot756",
+    "dest": "benchmark",
+    "kind": "navigate",
+    "trigger": null
+  },
+  {
+    "route": "sheet-benchmark-info",
+    "source": "hot757",
+    "dest": "",
+    "kind": "closeOverlay",
+    "trigger": null
+  }
+]

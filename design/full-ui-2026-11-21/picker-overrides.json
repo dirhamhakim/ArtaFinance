@@ -1,0 +1,52 @@
+[
+  [
+    "schedule-add",
+    "Jenis transaksi",
+    "sheet-transaction-type"
+  ],
+  [
+    "interest-add",
+    "Metode saldo",
+    "sheet-interest-basis"
+  ],
+  [
+    "interest-add",
+    "Dasar hari",
+    "sheet-day-basis"
+  ],
+  [
+    "interest-add",
+    "Pembulatan",
+    "sheet-rounding"
+  ],
+  [
+    "interest-tiers",
+    "Cara menerapkan",
+    "sheet-tier-mode"
+  ],
+  [
+    "fund-add",
+    "Jenis",
+    "sheet-fund-type"
+  ],
+  [
+    "fund-settlement",
+    "Status",
+    "sheet-fund-status"
+  ],
+  [
+    "price-import",
+    "Format",
+    "sheet-price-format"
+  ],
+  [
+    "export",
+    "Format",
+    "sheet-export-format"
+  ],
+  [
+    "stake-reward",
+    "Tujuan",
+    "sheet-reward-target"
+  ]
+]

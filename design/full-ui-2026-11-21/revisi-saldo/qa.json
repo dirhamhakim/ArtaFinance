@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-21",
+  "revision": "two-top-one-bottom",
+  "pages": 10,
+  "nodes": 19544,
+  "texts": 5322,
+  "instances": 1980,
+  "interactions": 1908,
+  "overflow": [],
+  "truncated": [],
+  "checks": [
+    "Aset and Liabilitas share top row",
+    "Total full width below divider",
+    "normal and masked card consistent",
+    "360px with text130%",
+    "large balances use compact display with exact-details example"
+  ]
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "file": "01-ringkasan",
+    "route": "home",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/01-ringkasan.png"
+  },
+  {
+    "file": "02-ringkasan-terang",
+    "route": "home",
+    "theme": "Light",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/02-ringkasan-terang.png"
+  },
+  {
+    "file": "03-aset",
+    "route": "assets",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/03-aset.png"
+  },
+  {
+    "file": "04-transfer-dua-biaya",
+    "route": "transfer-both",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/04-transfer-dua-biaya.png"
+  },
+  {
+    "file": "05-investasi",
+    "route": "portfolio",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/05-investasi.png"
+  },
+  {
+    "file": "06-benchmark-ihsg",
+    "route": "benchmark",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/06-benchmark-ihsg.png"
+  },
+  {
+    "file": "07-staking",
+    "route": "stake-detail",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/07-staking.png"
+  },
+  {
+    "file": "08-berulang",
+    "route": "schedule-add",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/08-berulang.png"
+  },
+  {
+    "file": "09-frekuensi-12",
+    "route": "sheet-frequency",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/09-frekuensi-12.png"
+  },
+  {
+    "file": "10-doku-ewallet",
+    "route": "sheet-ewallet",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/10-doku-ewallet.png"
+  },
+  {
+    "file": "11-pin",
+    "route": "pin",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/11-pin.png"
+  },
+  {
+    "file": "12-biometrik-overlay",
+    "route": "pin-loading",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/12-biometrik-overlay.png"
+  },
+  {
+    "file": "13-impor-idx",
+    "route": "catalog-preview",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/13-impor-idx.png"
+  },
+  {
+    "file": "14-pulihkan",
+    "route": "restore-preview",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/14-pulihkan.png"
+  },
+  {
+    "file": "16-splash-logo",
+    "route": "splash-phase3",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/16-splash-logo.png"
+  },
+  {
+    "file": "17-bunga",
+    "route": "interest-add",
+    "theme": "Dark",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/17-bunga.png"
+  },
+  {
+    "file": "18-pengaturan-terang",
+    "route": "settings",
+    "theme": "Light",
+    "path": "D:/Aplikasi Keuangan/design/full-ui-2026-11-21/previews/18-pengaturan-terang.png"
+  }
+]

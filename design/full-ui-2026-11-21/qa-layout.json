@@ -1,0 +1,588 @@
+{
+  "screens": 176,
+  "pairs": 176,
+  "nodes": 18774,
+  "frames": 5440,
+  "instances": 1966,
+  "text": 5264,
+  "interactions": 1898,
+  "overflow": [
+    {
+      "parent": 21848,
+      "p": "Header",
+      "id": 21852,
+      "n": "Penyimpanan belum dapat dibuka",
+      "b": [
+        60,
+        17,
+        276,
+        50
+      ],
+      "size": [
+        412,
+        56
+      ]
+    },
+    {
+      "parent": 21870,
+      "p": "Header",
+      "id": 21874,
+      "n": "Penyimpanan belum dapat dibuka",
+      "b": [
+        60,
+        17,
+        276,
+        50
+      ],
+      "size": [
+        412,
+        56
+      ]
+    },
+    {
+      "parent": 25557,
+      "p": "QA360 · Font130 · Dark",
+      "id": 25559,
+      "n": "4G  ▰",
+      "b": [
+        344,
+        3,
+        48,
+        20
+      ],
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "parent": 25572,
+      "p": "Tab Transfer",
+      "id": 25574,
+      "n": "Surface",
+      "b": [
+        12,
+        43,
+        100,
+        2
+      ],
+      "size": [
+        106.67,
+        46
+      ]
+    },
+    {
+      "parent": 25577,
+      "p": "Input Nominal",
+      "id": 25578,
+      "n": "Rp100.000",
+      "b": [
+        14,
+        15,
+        344,
+        26
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25608,
+      "p": "Switch Biaya transaksi",
+      "id": 25610,
+      "n": "Switch",
+      "b": [
+        336,
+        8,
+        36,
+        22
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25612,
+      "p": "Switch Biaya pengirim",
+      "id": 25614,
+      "n": "Switch",
+      "b": [
+        336,
+        8,
+        36,
+        22
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25618,
+      "p": "Input Nominal biaya pengirim",
+      "id": 25619,
+      "n": "Rp2.500",
+      "b": [
+        14,
+        15,
+        344,
+        26
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25620,
+      "p": "Switch Biaya penerima",
+      "id": 25622,
+      "n": "Switch",
+      "b": [
+        336,
+        8,
+        36,
+        22
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25626,
+      "p": "Input Nominal biaya penerima",
+      "id": 25627,
+      "n": "Rp1.000",
+      "b": [
+        14,
+        15,
+        344,
+        26
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25635,
+      "p": "Input Catatan",
+      "id": 25636,
+      "n": "Tulis catatan (opsional)",
+      "b": [
+        14,
+        15,
+        344,
+        26
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25637,
+      "p": "Row Lampiran struk",
+      "id": 25642,
+      "n": "Lampiran struk",
+      "b": [
+        52,
+        14,
+        290,
+        26
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25637,
+      "p": "Row Lampiran struk",
+      "id": 25643,
+      "n": "Pilih foto lewat pemilih foto Android",
+      "b": [
+        52,
+        38,
+        290,
+        22
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25637,
+      "p": "Row Lampiran struk",
+      "id": 25644,
+      "n": "Glyph/chevron-right",
+      "b": [
+        348,
+        24,
+        20,
+        20
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25637,
+      "p": "Row Lampiran struk",
+      "id": 25646,
+      "n": "Divider",
+      "b": [
+        52,
+        71,
+        320,
+        1
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25647,
+      "p": "Row Jadikan berulang",
+      "id": 25656,
+      "n": "Jadikan berulang",
+      "b": [
+        52,
+        14,
+        290,
+        26
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25647,
+      "p": "Row Jadikan berulang",
+      "id": 25657,
+      "n": "Atur tanggal dan frekuensi",
+      "b": [
+        52,
+        38,
+        290,
+        22
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25647,
+      "p": "Row Jadikan berulang",
+      "id": 25658,
+      "n": "Glyph/chevron-right",
+      "b": [
+        348,
+        24,
+        20,
+        20
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25647,
+      "p": "Row Jadikan berulang",
+      "id": 25660,
+      "n": "Divider",
+      "b": [
+        52,
+        71,
+        320,
+        1
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25666,
+      "p": "QA360 · Font130 · Light",
+      "id": 25668,
+      "n": "4G  ▰",
+      "b": [
+        344,
+        3,
+        48,
+        20
+      ],
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "parent": 25681,
+      "p": "Tab Transfer",
+      "id": 25683,
+      "n": "Surface",
+      "b": [
+        12,
+        43,
+        100,
+        2
+      ],
+      "size": [
+        106.67,
+        46
+      ]
+    },
+    {
+      "parent": 25686,
+      "p": "Input Nominal",
+      "id": 25687,
+      "n": "Rp100.000",
+      "b": [
+        14,
+        15,
+        344,
+        26
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25717,
+      "p": "Switch Biaya transaksi",
+      "id": 25719,
+      "n": "Switch",
+      "b": [
+        336,
+        8,
+        36,
+        22
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25721,
+      "p": "Switch Biaya pengirim",
+      "id": 25723,
+      "n": "Switch",
+      "b": [
+        336,
+        8,
+        36,
+        22
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25727,
+      "p": "Input Nominal biaya pengirim",
+      "id": 25728,
+      "n": "Rp2.500",
+      "b": [
+        14,
+        15,
+        344,
+        26
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25729,
+      "p": "Switch Biaya penerima",
+      "id": 25731,
+      "n": "Switch",
+      "b": [
+        336,
+        8,
+        36,
+        22
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25735,
+      "p": "Input Nominal biaya penerima",
+      "id": 25736,
+      "n": "Rp1.000",
+      "b": [
+        14,
+        15,
+        344,
+        26
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25744,
+      "p": "Input Catatan",
+      "id": 25745,
+      "n": "Tulis catatan (opsional)",
+      "b": [
+        14,
+        15,
+        344,
+        26
+      ],
+      "size": [
+        320,
+        50
+      ]
+    },
+    {
+      "parent": 25746,
+      "p": "Row Lampiran struk",
+      "id": 25751,
+      "n": "Lampiran struk",
+      "b": [
+        52,
+        14,
+        290,
+        26
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25746,
+      "p": "Row Lampiran struk",
+      "id": 25752,
+      "n": "Pilih foto lewat pemilih foto Android",
+      "b": [
+        52,
+        38,
+        290,
+        22
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25746,
+      "p": "Row Lampiran struk",
+      "id": 25753,
+      "n": "Glyph/chevron-right",
+      "b": [
+        348,
+        24,
+        20,
+        20
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25746,
+      "p": "Row Lampiran struk",
+      "id": 25755,
+      "n": "Divider",
+      "b": [
+        52,
+        71,
+        320,
+        1
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25756,
+      "p": "Row Jadikan berulang",
+      "id": 25765,
+      "n": "Jadikan berulang",
+      "b": [
+        52,
+        14,
+        290,
+        26
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25756,
+      "p": "Row Jadikan berulang",
+      "id": 25766,
+      "n": "Atur tanggal dan frekuensi",
+      "b": [
+        52,
+        38,
+        290,
+        22
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25756,
+      "p": "Row Jadikan berulang",
+      "id": 25767,
+      "n": "Glyph/chevron-right",
+      "b": [
+        348,
+        24,
+        20,
+        20
+      ],
+      "size": [
+        320,
+        72
+      ]
+    },
+    {
+      "parent": 25756,
+      "p": "Row Jadikan berulang",
+      "id": 25769,
+      "n": "Divider",
+      "b": [
+        52,
+        71,
+        320,
+        1
+      ],
+      "size": [
+        320,
+        72
+      ]
+    }
+  ],
+  "truncated": []
+}

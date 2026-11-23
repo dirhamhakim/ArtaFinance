@@ -1,0 +1,1298 @@
+[
+  {
+    "route": "home",
+    "title": "arta",
+    "page": 6534,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "home-private",
+    "title": "arta",
+    "page": 6534,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "home-slide2",
+    "title": "arta",
+    "page": 6534,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "reports",
+    "title": "Laporan",
+    "page": 6534,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "report-cash",
+    "title": "Aset noninvestasi",
+    "page": 6534,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "report-all",
+    "title": "Seluruh aset",
+    "page": 6534,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "report-cashflow",
+    "title": "Arus kas",
+    "page": 6534,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "transactions",
+    "title": "Transaksi",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "expense",
+    "title": "Catat transaksi",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "income",
+    "title": "Catat transaksi",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "transfer",
+    "title": "Transfer antar aset",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "transfer-both",
+    "title": "Transfer antar aset",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "transaction-detail",
+    "title": "Detail transaksi",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "receipt",
+    "title": "Lampiran struk",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "calendar",
+    "title": "Kalender transaksi",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "transaction-search",
+    "title": "Cari transaksi",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "transactions-empty",
+    "title": "Transaksi",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "categories",
+    "title": "Kategori",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "category-add",
+    "title": "Kategori transaksi",
+    "page": 6535,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "assets",
+    "title": "Aset",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "asset-add",
+    "title": "Tambah aset",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "asset-edit",
+    "title": "Edit aset",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "asset-debit-add",
+    "title": "Tambah aset debit",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "asset-ewallet",
+    "title": "Tambah e-wallet",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "asset-detail",
+    "title": "Mandiri",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "asset-debit",
+    "title": "Debit Jago Syariah",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "assets-negative",
+    "title": "Saldo minus",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "asset-archive",
+    "title": "Arsip aset",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "assets-empty",
+    "title": "Aset",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "debts",
+    "title": "Utang & piutang",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "receivables",
+    "title": "Piutang / dana belum cair",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "debt-add",
+    "title": "Catat utang",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "receivable-add",
+    "title": "Catat piutang",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "debt-detail",
+    "title": "Detail utang",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "debt-pay",
+    "title": "Pelunasan utang",
+    "page": 6536,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "portfolio",
+    "title": "Investasi",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "stocks",
+    "title": "Saham",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "crypto",
+    "title": "Crypto",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "funds",
+    "title": "Reksa dana",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "benchmark",
+    "title": "Portofolio vs IHSG",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "stock-detail",
+    "title": "BBCA",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "crypto-detail",
+    "title": "Bitcoin · BTC",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "ihsg",
+    "title": "IHSG · ^JKSE",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "holding",
+    "title": "Rincian kepemilikan",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "instrument-search",
+    "title": "Tambah instrumen",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "stock-search",
+    "title": "Saham Indonesia",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "crypto-search",
+    "title": "Crypto CoinGecko",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "crypto-list",
+    "title": "Daftar crypto",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "trade-buy",
+    "title": "Catat pembelian",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "trade-sell",
+    "title": "Catat penjualan",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "holding-opening",
+    "title": "Kepemilikan awal",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "unit-transfer",
+    "title": "Pindah aset investasi",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "dividend",
+    "title": "Dividen / reward",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "split",
+    "title": "Split / reverse split",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "investment-history",
+    "title": "Riwayat investasi",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "fund-add",
+    "title": "Tambah reksa dana",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "fund-detail",
+    "title": "Reksa dana",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "fund-nav",
+    "title": "Perbarui NAB",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "fund-buy",
+    "title": "Pembelian reksa dana",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "fund-settlement",
+    "title": "Konfirmasi / pencairan",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "staking",
+    "title": "Staking",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "stake-detail",
+    "title": "ETH staking",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "stake-add",
+    "title": "Catat stake",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "stake-unstake",
+    "title": "Proses unstake",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "stake-claim",
+    "title": "Dana unstake cair",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "stake-reward",
+    "title": "Reward staking",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "stake-slashing",
+    "title": "Biaya / slashing",
+    "page": 6537,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "schedules",
+    "title": "Transaksi berulang",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "schedule-add",
+    "title": "Buat transaksi berulang",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "schedule-preview",
+    "title": "Tinjau jadwal",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "schedule-detail",
+    "title": "Detail jadwal",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "schedule-paused",
+    "title": "Jadwal dijeda",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "schedule-history",
+    "title": "Riwayat jadwal",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "schedule-catchup",
+    "title": "Jadwal tertinggal",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "installment",
+    "title": "Cicilan",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "installment-add",
+    "title": "Buat cicilan",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "installment-detail",
+    "title": "Rincian cicilan",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "interest",
+    "title": "Bunga aset",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "interest-add",
+    "title": "Aturan bunga",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "interest-tiers",
+    "title": "Bunga bertingkat",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "interest-preview",
+    "title": "Estimasi bunga",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "interest-post",
+    "title": "Catat bunga",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "interest-history",
+    "title": "Riwayat bunga",
+    "page": 6538,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "prices",
+    "title": "Pusat harga",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "quote-detail",
+    "title": "Status data harga",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "quote-live",
+    "title": "Harga terbaru",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "quote-updating",
+    "title": "Memperbarui harga",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "quote-rate-limit",
+    "title": "Kuota sementara terbatas",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "quote-missing",
+    "title": "Harga belum tersedia",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "price-manual",
+    "title": "Harga manual",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "price-import",
+    "title": "Impor harga",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "price-import-preview",
+    "title": "Pratinjau impor harga",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "catalog",
+    "title": "Daftar saham IDX",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "catalog-detail",
+    "title": "Detail perusahaan",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "catalog-import",
+    "title": "Impor daftar saham",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "catalog-preview",
+    "title": "Pratinjau katalog",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "import-errors",
+    "title": "Baris perlu diperiksa",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "fx",
+    "title": "Kurs mata uang",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "fx-add",
+    "title": "Kurs manual",
+    "page": 6539,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "settings",
+    "title": "Pengaturan",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "backup",
+    "title": "Cadangkan & pulihkan",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "backup-create",
+    "title": "Buat cadangan",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "backup-plain",
+    "title": "Cadangan tanpa enkripsi",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "backup-complete",
+    "title": "Cadangan tersimpan",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "restore-pick",
+    "title": "Pulihkan cadangan",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "restore-password",
+    "title": "Buka cadangan",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "restore-preview",
+    "title": "Pratinjau pemulihan",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "restore-error",
+    "title": "Cadangan tidak dapat dibaca",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "restore-complete",
+    "title": "Pemulihan selesai",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "export",
+    "title": "Ekspor data",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "guide",
+    "title": "Panduan Arta",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "about",
+    "title": "Tentang Arta",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "licenses",
+    "title": "Sumber & lisensi",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "saved",
+    "title": "Pencatatan tersimpan",
+    "page": 6540,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "security",
+    "title": "Keamanan aplikasi",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "security-off",
+    "title": "Kunci aplikasi nonaktif",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "pin",
+    "title": "Kunci aplikasi",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "pin-filled",
+    "title": "Kunci aplikasi",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "pin-error",
+    "title": "Kunci aplikasi",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "pin-loading",
+    "title": "Kunci aplikasi",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "pin-reset",
+    "title": "Kunci aplikasi",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "pin-create",
+    "title": "Kunci aplikasi",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "pin-confirm",
+    "title": "Kunci aplikasi",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "pin-reset-error",
+    "title": "Sidik jari belum terverifikasi",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "pin-lockout",
+    "title": "Terlalu banyak percobaan",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "welcome",
+    "title": "Selamat datang",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "splash",
+    "title": "arta",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "storage-error",
+    "title": "Penyimpanan belum dapat dibuka",
+    "page": 6541,
+    "height": 915,
+    "kind": "screen",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-bank",
+    "title": "Bank",
+    "page": 6542,
+    "height": 626,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-ewallet",
+    "title": "E-wallet",
+    "page": 6542,
+    "height": 626,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-bank-other",
+    "title": "Bank lainnya",
+    "page": 6542,
+    "height": 326,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-ewallet-other",
+    "title": "E-wallet lainnya",
+    "page": 6542,
+    "height": 326,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-frequency",
+    "title": "Frekuensi",
+    "page": 6542,
+    "height": 814,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-weekdays",
+    "title": "Hari tertentu",
+    "page": 6542,
+    "height": 296,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-filter",
+    "title": "Filter transaksi",
+    "page": 6542,
+    "height": 530,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-sort",
+    "title": "Urutkan",
+    "page": 6542,
+    "height": 452,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-theme",
+    "title": "Tampilan",
+    "page": 6542,
+    "height": 292,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-calendar",
+    "title": "Tanggal",
+    "page": 6542,
+    "height": 468,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-time",
+    "title": "Waktu 24 jam",
+    "page": 6542,
+    "height": 452,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-restore",
+    "title": "Pulihkan",
+    "page": 6542,
+    "height": 400,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-assets",
+    "title": "Pilih aset",
+    "page": 6542,
+    "height": 672,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-asset-class",
+    "title": "Kelas aset",
+    "page": 6542,
+    "height": 672,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-category",
+    "title": "Pilih kategori",
+    "page": 6542,
+    "height": 596,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-currency",
+    "title": "Mata uang",
+    "page": 6542,
+    "height": 444,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-period",
+    "title": "Pilih periode",
+    "page": 6542,
+    "height": 596,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-investment-actions",
+    "title": "Aksi investasi",
+    "page": 6542,
+    "height": 520,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-staking-actions",
+    "title": "Aksi staking",
+    "page": 6542,
+    "height": 444,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-asset-actions",
+    "title": "Kelola aset",
+    "page": 6542,
+    "height": 444,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-transaction-actions",
+    "title": "Kelola transaksi",
+    "page": 6542,
+    "height": 444,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-schedule-actions",
+    "title": "Kelola jadwal",
+    "page": 6542,
+    "height": 444,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-export-kind",
+    "title": "Jenis ekspor",
+    "page": 6542,
+    "height": 520,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-lock-time",
+    "title": "Kunci otomatis",
+    "page": 6542,
+    "height": 368,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-photo",
+    "title": "Lampiran transaksi",
+    "page": 6542,
+    "height": 368,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-delete",
+    "title": "Hapus pencatatan?",
+    "page": 6542,
+    "height": 480,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-clear-data",
+    "title": "Hapus seluruh data?",
+    "page": 6542,
+    "height": 480,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-stop-schedule",
+    "title": "Hentikan jadwal?",
+    "page": 6542,
+    "height": 480,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-catalog-confirm",
+    "title": "Terapkan katalog IDX?",
+    "page": 6542,
+    "height": 480,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-transfer-review",
+    "title": "Tinjau transfer",
+    "page": 6542,
+    "height": 480,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-transaction-review",
+    "title": "Tinjau pengeluaran",
+    "page": 6542,
+    "height": 580,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-income-review",
+    "title": "Tinjau pemasukan",
+    "page": 6542,
+    "height": 480,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-trade-review",
+    "title": "Tinjau pembelian",
+    "page": 6542,
+    "height": 480,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  },
+  {
+    "route": "sheet-benchmark-info",
+    "title": "Tentang perbandingan",
+    "page": 6542,
+    "height": 480,
+    "kind": "sheet",
+    "reference": "Bibit cards/forms/sheets; Stockbit charts/portfolio; see screen coverage"
+  }
+]

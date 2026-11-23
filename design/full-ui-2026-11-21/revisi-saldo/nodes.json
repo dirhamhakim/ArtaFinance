@@ -1,0 +1,27 @@
+{
+  "review": {
+    "detailDark": 26747,
+    "detailLight": 26760,
+    "standarDark": {
+      "root": 26773,
+      "card": 26774
+    },
+    "standarLight": {
+      "root": 26796,
+      "card": 26797
+    },
+    "sempit-font130Dark": {
+      "root": 26819,
+      "card": 26820
+    },
+    "sempit-font130Light": {
+      "root": 26842,
+      "card": 26843
+    }
+  },
+  "full": {
+    "Aset": "Rp987.654.321.987.654",
+    "Liabilitas": "Rp123.456.789.123.456",
+    "Total": "Rp864.197.532.864.198"
+  }
+}
