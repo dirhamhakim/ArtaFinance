@@ -1,0 +1,122 @@
+[
+  {
+    "id": "cg:bitcoin",
+    "code": "BTC",
+    "name": "Bitcoin",
+    "kind": "crypto",
+    "currency": "IDR",
+    "provider_id": "bitcoin",
+    "logo": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
+    "metadata": {},
+    "overrides": {},
+    "archived": false
+  },
+  {
+    "id": "cg:ethereum",
+    "code": "ETH",
+    "name": "Ethereum",
+    "kind": "crypto",
+    "currency": "IDR",
+    "provider_id": "ethereum",
+    "logo": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+    "metadata": {},
+    "overrides": {},
+    "archived": false
+  },
+  {
+    "id": "cg:tether",
+    "code": "USDT",
+    "name": "Tether",
+    "kind": "crypto",
+    "currency": "IDR",
+    "provider_id": "tether",
+    "logo": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
+    "metadata": {},
+    "overrides": {},
+    "archived": false
+  },
+  {
+    "id": "cg:usd-coin",
+    "code": "USDC",
+    "name": "USDC",
+    "kind": "crypto",
+    "currency": "IDR",
+    "provider_id": "usd-coin",
+    "logo": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602",
+    "metadata": {},
+    "overrides": {},
+    "archived": false
+  },
+  {
+    "id": "cg:solana",
+    "code": "SOL",
+    "name": "Solana",
+    "kind": "crypto",
+    "currency": "IDR",
+    "provider_id": "solana",
+    "logo": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
+    "metadata": {},
+    "overrides": {},
+    "archived": false
+  },
+  {
+    "id": "cg:hyperliquid",
+    "code": "HYPE",
+    "name": "Hyperliquid",
+    "kind": "crypto",
+    "currency": "IDR",
+    "provider_id": "hyperliquid",
+    "logo": "https://coin-images.coingecko.com/coins/images/50882/large/hyperliquid.jpg?1729431300",
+    "metadata": {},
+    "overrides": {},
+    "archived": false
+  },
+  {
+    "id": "cg:tether-gold",
+    "code": "XAUT",
+    "name": "Tether Gold",
+    "kind": "crypto",
+    "currency": "IDR",
+    "provider_id": "tether-gold",
+    "logo": "https://coin-images.coingecko.com/coins/images/10481/large/logo.png?1774627372",
+    "metadata": {},
+    "overrides": {},
+    "archived": false
+  },
+  {
+    "id": "cg:pax-gold",
+    "code": "PAXG",
+    "name": "PAX Gold",
+    "kind": "crypto",
+    "currency": "IDR",
+    "provider_id": "pax-gold",
+    "logo": "https://coin-images.coingecko.com/coins/images/9519/large/asset-paxg.png?1785284785",
+    "metadata": {},
+    "overrides": {},
+    "archived": false
+  },
+  {
+    "id": "cg:binancecoin",
+    "code": "BNB",
+    "name": "BNB",
+    "kind": "crypto",
+    "currency": "IDR",
+    "provider_id": "binancecoin",
+    "logo": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970",
+    "metadata": {},
+    "overrides": {},
+    "archived": false
+  },
+  {
+    "id": "cg:ripple",
+    "code": "XRP",
+    "name": "XRP",
+    "kind": "crypto",
+    "currency": "IDR",
+    "provider_id": "ripple",
+    "logo": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
+    "metadata": {},
+    "overrides": {},
+    "archived": false
+  }
+]
