@@ -1,0 +1,314 @@
+[
+  {
+    "name": "home",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\home.svg",
+    "reference": "Bibit DOM / nav-ringkasan-rumah",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "portfolio",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\portfolio.svg",
+    "reference": "Bibit DOM / nav-investasi-pie",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "search",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\search.svg",
+    "reference": "Bibit DOM / kontrol-search",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "transfer",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\transfer.svg",
+    "reference": "Bibit DOM / nav-transaksi-panah",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "chevron-left",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\chevron-left.svg",
+    "reference": "Bibit DOM / kontrol-chevron-kiri",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "chevron-right",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\chevron-right.svg",
+    "reference": "Bibit DOM / kontrol-chevron-kanan",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "chevron-down",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\chevron-down.svg",
+    "reference": "Bibit DOM / kontrol-chevron-bawah",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "bell",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\bell.svg",
+    "reference": "Bibit DOM / kontrol-bell",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "lock",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\lock.svg",
+    "reference": "Bibit DOM / kontrol-gembok-privasi",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "close",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\close.svg",
+    "reference": "Bibit DOM / kontrol-close-banner",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "more-grid",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\more-grid.svg",
+    "reference": "Bibit DOM / pintasan-lainnya-grid",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "schedule",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\schedule.svg",
+    "reference": "Bibit DOM embedded img37 / SIP",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "document",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\document.svg",
+    "reference": "Bibit DOM / menu-dokumen-artikel",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "stocks",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\stocks.svg",
+    "reference": "Bibit 225626 / Saham",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "funds",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\funds.svg",
+    "reference": "Bibit 225626 / Reksa Dana",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "interest",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\interest.svg",
+    "reference": "Bibit Reksa Dana; user reuse for bunga",
+    "geometry_status": "user-approved-reuse"
+  },
+  {
+    "name": "settings",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\settings.svg",
+    "reference": "Stockbit DOM #28",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "logout",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\logout.svg",
+    "reference": "Stockbit DOM #35",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "calendar",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\calendar.svg",
+    "reference": "Stockbit DOM #17",
+    "geometry_status": "source-vector"
+  },
+  {
+    "name": "export",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\export.svg",
+    "reference": "Stockbit Logout rotated arrow up; user request",
+    "geometry_status": "user-approved-rotation"
+  },
+  {
+    "name": "import",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\import.svg",
+    "reference": "Stockbit Logout rotated arrow down; user request",
+    "geometry_status": "user-approved-rotation"
+  },
+  {
+    "name": "wallet",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\wallet.svg",
+    "reference": "Bibit 224342 RDN Wallet / compact wallet redraw",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "bank",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\bank.svg",
+    "reference": "Bank lainnya generic; follows bank glyph reference family",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "cash",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\cash.svg",
+    "reference": "Bibit 225040 money fund motif / cash adaptation",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "card",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\card.svg",
+    "reference": "Bibit 224444 ATM/card outline",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "exchange",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\exchange.svg",
+    "reference": "Bibit nav transfer; paired transfer glyph adaptation",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "receivable",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\receivable.svg",
+    "reference": "Bibit 225715 E-Statement document family",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "crypto",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\crypto.svg",
+    "reference": "Coin glyph follows rounded financial line family; crypto category adaptation",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "staking",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\staking.svg",
+    "reference": "Bibit PIN lock; user-approved staking redraw",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "unlock",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\unlock.svg",
+    "reference": "Bibit PIN lock; unlock state adaptation",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "clock",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\clock.svg",
+    "reference": "Stockbit 230057 market-closed clock, rounded line redraw",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "filter",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\filter.svg",
+    "reference": "Bibit 225709 filter / Stockbit sheet filter lines",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "sort",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\sort.svg",
+    "reference": "Bibit 224829 Urutkan paired arrows",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "eye",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\eye.svg",
+    "reference": "Stockbit 230215 visibility preference; eye outline redraw",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "eye-off",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\eye-off.svg",
+    "reference": "Visibility pair with eye reference",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "backspace",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\backspace.svg",
+    "reference": "Screenshot 2026-11-20 020102 bottom-right keypad",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "plus",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\plus.svg",
+    "reference": "Bibit 225626 Tambah circle plus",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "info",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\info.svg",
+    "reference": "Bibit 224358 balance information circle",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "check",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\check.svg",
+    "reference": "Bibit selected circle, Stockbit 230138 selected",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "more",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\more.svg",
+    "reference": "Bibit 225445 / Stockbit 230215 ellipsis",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "copy",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\copy.svg",
+    "reference": "Bibit 224444 Salin double-sheet",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "history",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\history.svg",
+    "reference": "Stockbit 230018 Riwayat rounded arrow",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "theme",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\theme.svg",
+    "reference": "Bibit 225715 Dark Mode / Stockbit 230018 App Theme",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "moon",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\moon.svg",
+    "reference": "Bibit 225715 crescent outline",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "arrow-up",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\arrow-up.svg",
+    "reference": "Stockbit 230151 positive arrow",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "arrow-down",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\arrow-down.svg",
+    "reference": "Stockbit 230151 negative arrow",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "refresh",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\refresh.svg",
+    "reference": "Stockbit 230018 update arrow family",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "receipt",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\receipt.svg",
+    "reference": "Bibit 225715 E-Statement; receipt adaptation",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "paperclip",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\paperclip.svg",
+    "reference": "Stockbit old 161509 composer attachment glyph",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "trash",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\trash.svg",
+    "reference": "Stockbit row delete / action family",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "warning",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\warning.svg",
+    "reference": "Status icon following reference rounded stroke family",
+    "geometry_status": "reference-redraw"
+  },
+  {
+    "name": "fingerprint",
+    "path": "D:\\Aplikasi Keuangan\\design\\master-components-2026-11-21\\svg-sources\\fingerprint.svg",
+    "reference": "Stockbit APK res/drawable/uikit_ic_stockbit_setting_menu_smart_login_fingerprint.xml",
+    "geometry_status": "apk-path-extracted"
+  }
+]

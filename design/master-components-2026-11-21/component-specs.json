@@ -1,0 +1,428 @@
+{
+  "Foundations/Tipografi": {
+    "page": 2,
+    "width": 412,
+    "height": 520,
+    "reference": "Bit Sans 400/700 from reference; native TypeStyles sizes"
+  },
+  "Foundations/Permukaan": {
+    "page": 2,
+    "width": 412,
+    "height": 440,
+    "reference": "Bibit 224150 section → card → information strip; APK palette"
+  },
+  "Button/Primary/Default": {
+    "page": 4,
+    "width": 372,
+    "height": 64,
+    "reference": "Bibit full-width CTA · radius 4 · 48px target"
+  },
+  "Button/Primary/Disabled": {
+    "page": 4,
+    "width": 372,
+    "height": 64,
+    "reference": "Bibit full-width CTA · radius 4 · 48px target"
+  },
+  "Button/Primary/Loading": {
+    "page": 4,
+    "width": 372,
+    "height": 64,
+    "reference": "Bibit full-width CTA · radius 4 · 48px target"
+  },
+  "Button/Secondary": {
+    "page": 4,
+    "width": 372,
+    "height": 64,
+    "reference": "Bibit reset/cancel outlined CTA"
+  },
+  "Field/Nominal/Empty": {
+    "page": 4,
+    "width": 372,
+    "height": 88,
+    "reference": "Bibit 224506 / 224903 label outside field"
+  },
+  "Field/Nominal/Filled": {
+    "page": 4,
+    "width": 372,
+    "height": 88,
+    "reference": "Bibit 224506 / 224903 label outside field"
+  },
+  "Field/Nominal/Focus": {
+    "page": 4,
+    "width": 372,
+    "height": 88,
+    "reference": "Bibit 224506 / 224903 label outside field"
+  },
+  "Field/Nominal/Error": {
+    "page": 4,
+    "width": 372,
+    "height": 112,
+    "reference": "Bibit 224506 / 224903 label outside field"
+  },
+  "Field/Nominal/Disabled": {
+    "page": 4,
+    "width": 372,
+    "height": 88,
+    "reference": "Bibit 224506 / 224903 label outside field"
+  },
+  "Field/Search": {
+    "page": 4,
+    "width": 372,
+    "height": 56,
+    "reference": "Stockbit native search 40dp; icon/clear inside"
+  },
+  "Field/Password": {
+    "page": 4,
+    "width": 372,
+    "height": 88,
+    "reference": "Existing password-eye request + Bibit field proportions"
+  },
+  "Field/Dropdown": {
+    "page": 4,
+    "width": 372,
+    "height": 88,
+    "reference": "Bibit 224601 SIP portfolio picker"
+  },
+  "Choice/Radio/Default": {
+    "page": 4,
+    "width": 372,
+    "height": 56,
+    "reference": "Bibit 224822 / Stockbit 230138 right-aligned circle"
+  },
+  "Choice/Radio/Selected": {
+    "page": 4,
+    "width": 372,
+    "height": 56,
+    "reference": "Bibit 224822 / Stockbit 230138 right-aligned circle"
+  },
+  "Choice/Toggle/Off": {
+    "page": 4,
+    "width": 372,
+    "height": 56,
+    "reference": "Bibit 225715 compact toggle, no extra card"
+  },
+  "Choice/Toggle/On": {
+    "page": 4,
+    "width": 372,
+    "height": 56,
+    "reference": "Bibit 225715 compact toggle, no extra card"
+  },
+  "Choice/Chips": {
+    "page": 4,
+    "width": 372,
+    "height": 92,
+    "reference": "Bibit 225709 / Stockbit 230241 thin outlined pills"
+  },
+  "Navigation/Active=0": {
+    "page": 4,
+    "width": 412,
+    "height": 72,
+    "reference": "Bibit 225626 icons only; green active; no capsule"
+  },
+  "Navigation/Active=1": {
+    "page": 4,
+    "width": 412,
+    "height": 72,
+    "reference": "Bibit 225626 icons only; green active; no capsule"
+  },
+  "Navigation/Active=2": {
+    "page": 4,
+    "width": 412,
+    "height": 72,
+    "reference": "Bibit 225626 icons only; green active; no capsule"
+  },
+  "Navigation/Active=3": {
+    "page": 4,
+    "width": 412,
+    "height": 72,
+    "reference": "Bibit 225626 icons only; green active; no capsule"
+  },
+  "Navigation/Active=4": {
+    "page": 4,
+    "width": 412,
+    "height": 72,
+    "reference": "Bibit 225626 icons only; green active; no capsule"
+  },
+  "Carousel/Indicator": {
+    "page": 4,
+    "width": 372,
+    "height": 64,
+    "reference": "Bibit 224150 / 224601 active short pill + muted dots"
+  },
+  "Tabs/Underline": {
+    "page": 4,
+    "width": 372,
+    "height": 56,
+    "reference": "Bibit 225656 / Stockbit 230121 underline selected"
+  },
+  "Card/Aset-Liabilitas-Total": {
+    "page": 5,
+    "width": 372,
+    "height": 154,
+    "reference": "Bibit 224150 metric groups + new 3-value requirement"
+  },
+  "Card/Aset-Privasi": {
+    "page": 5,
+    "width": 372,
+    "height": 112,
+    "reference": "Bibit dot privacy; labels remain visible"
+  },
+  "Card/Aset-Debit": {
+    "page": 5,
+    "width": 372,
+    "height": 164,
+    "reference": "Bibit 224342 RDN Wallet; Debit now independent pocket"
+  },
+  "Card/Investasi": {
+    "page": 5,
+    "width": 372,
+    "height": 184,
+    "reference": "Bibit 225440 portfolio inner card and two-column metrics"
+  },
+  "Card/Menu-Produk": {
+    "page": 5,
+    "width": 372,
+    "height": 128,
+    "reference": "Bibit 225626 coloured product tiles + circular tint"
+  },
+  "Card/Informasi": {
+    "page": 5,
+    "width": 372,
+    "height": 80,
+    "reference": "Bibit 224358 information strip inside card"
+  },
+  "Card/Peringatan": {
+    "page": 5,
+    "width": 372,
+    "height": 90,
+    "reference": "Reference warning strip; no invented promo"
+  },
+  "Row/Aset": {
+    "page": 5,
+    "width": 372,
+    "height": 80,
+    "reference": "Bibit 224424 provider row, subtitle, right amount"
+  },
+  "Row/Holdings": {
+    "page": 5,
+    "width": 372,
+    "height": 80,
+    "reference": "Bibit 225626 / Stockbit 230324 aligned code, name, value"
+  },
+  "Row/Transaksi": {
+    "page": 5,
+    "width": 372,
+    "height": 88,
+    "reference": "Bibit 225656 grouped transaction history"
+  },
+  "Row/Jadwal": {
+    "page": 5,
+    "width": 372,
+    "height": 96,
+    "reference": "Bibit SIP calendar family; Arta recurrence details"
+  },
+  "Row/Menu": {
+    "page": 5,
+    "width": 372,
+    "height": 64,
+    "reference": "Bibit 225715 flat settings row with chevron"
+  },
+  "Row/Staking": {
+    "page": 5,
+    "width": 372,
+    "height": 108,
+    "reference": "User-approved lock icon; Bibit metric/list pattern"
+  },
+  "Card/Transfer-Preview": {
+    "page": 5,
+    "width": 372,
+    "height": 220,
+    "reference": "Bibit 224903 summary rows; sender + receiver fees"
+  },
+  "Sheet/Frekuensi-berulang": {
+    "page": 6,
+    "width": 412,
+    "height": 814,
+    "reference": "Bibit radio bottom sheet + exact 12 user labels"
+  },
+  "Sheet/Hari-tertentu": {
+    "page": 6,
+    "width": 412,
+    "height": 296,
+    "reference": "Bibit outlined chips; user multi-weekday selection"
+  },
+  "Sheet/Filter-transaksi": {
+    "page": 6,
+    "width": 412,
+    "height": 530,
+    "reference": "Bibit 225709 filter sections and footer pair"
+  },
+  "Sheet/Urutkan-portofolio": {
+    "page": 6,
+    "width": 412,
+    "height": 452,
+    "reference": "Stockbit 230223 one-choice sorting sheet"
+  },
+  "Sheet/Pilih-Bank": {
+    "page": 6,
+    "width": 412,
+    "height": 626,
+    "reference": "Bibit 224424 provider list; local logo, custom Others"
+  },
+  "Sheet/Pilih-E-wallet": {
+    "page": 6,
+    "width": 412,
+    "height": 626,
+    "reference": "Bibit 224424 provider list; local logo, custom Others"
+  },
+  "Sheet/Rincian-saldo": {
+    "page": 6,
+    "width": 412,
+    "height": 376,
+    "reference": "Bibit 224358 nested balance detail"
+  },
+  "Sheet/Tema": {
+    "page": 6,
+    "width": 412,
+    "height": 292,
+    "reference": "Stockbit App Theme / native dark-light choice"
+  },
+  "Sheet/Konfirmasi-restore": {
+    "page": 6,
+    "width": 412,
+    "height": 400,
+    "reference": "Bibit 225751 security confirmation layout; Arta restore copy"
+  },
+  "Sheet/Kalender": {
+    "page": 6,
+    "width": 412,
+    "height": 468,
+    "reference": "Calendar required by user; reference period sheet styling"
+  },
+  "Sheet/Jam-24": {
+    "page": 6,
+    "width": 412,
+    "height": 452,
+    "reference": "24-hour wall-clock picker user requirement; Bibit sheet shell"
+  },
+  "Chart/Nilai-line": {
+    "page": 7,
+    "width": 372,
+    "height": 322,
+    "reference": "Stockbit 230121 line + quiet axes + period underline"
+  },
+  "Chart/Portofolio-vs-IHSG": {
+    "page": 7,
+    "width": 372,
+    "height": 352,
+    "reference": "Stockbit 230121 Cumulative Portfolio Return; green/purple lines"
+  },
+  "Chart/Tooltip": {
+    "page": 7,
+    "width": 372,
+    "height": 322,
+    "reference": "Stockbit touch marker + value/date; daily closing prices only"
+  },
+  "Chart/Pemasukan-Pengeluaran": {
+    "page": 7,
+    "width": 372,
+    "height": 322,
+    "reference": "Stockbit chart layout applied to two-series cash flow"
+  },
+  "Chart/Donut-alokasi": {
+    "page": 7,
+    "width": 372,
+    "height": 360,
+    "reference": "Stockbit 230121 clean ring, centre and readable legend"
+  },
+  "Chart/State/Empty": {
+    "page": 7,
+    "width": 372,
+    "height": 244,
+    "reference": "Reference quiet empty/error treatment; no fictional history"
+  },
+  "Chart/State/One-point": {
+    "page": 7,
+    "width": 372,
+    "height": 244,
+    "reference": "Reference quiet empty/error treatment; no fictional history"
+  },
+  "Chart/State/Missing-price": {
+    "page": 7,
+    "width": 372,
+    "height": 244,
+    "reference": "Reference quiet empty/error treatment; no fictional history"
+  },
+  "Security/PIN-Empty": {
+    "page": 8,
+    "width": 412,
+    "height": 915,
+    "reference": "Screenshot 020102; custom 4×3 keypad; no help/back"
+  },
+  "Security/PIN-Filled": {
+    "page": 8,
+    "width": 412,
+    "height": 915,
+    "reference": "Screenshot 020102; custom 4×3 keypad; no help/back"
+  },
+  "Security/PIN-Error": {
+    "page": 8,
+    "width": 412,
+    "height": 915,
+    "reference": "Screenshot 020102; custom 4×3 keypad; no help/back"
+  },
+  "Security/PIN-Biometric-Loading": {
+    "page": 8,
+    "width": 412,
+    "height": 915,
+    "reference": "PIN base preserved; full-page scrim overlay before Android biometric"
+  },
+  "Security/Reset-PIN": {
+    "page": 8,
+    "width": 412,
+    "height": 915,
+    "reference": "Forgot PIN via biometric authorization; no finance data reset"
+  },
+  "Security/Buat-PIN": {
+    "page": 8,
+    "width": 412,
+    "height": 915,
+    "reference": "Screenshot 020102; custom 4×3 keypad; no help/back"
+  },
+  "Security/Konfirmasi-PIN": {
+    "page": 8,
+    "width": 412,
+    "height": 915,
+    "reference": "Screenshot 020102; custom 4×3 keypad; no help/back"
+  },
+  "Compose/Ringkasan": {
+    "page": 9,
+    "width": 412,
+    "height": 915,
+    "reference": "Bibit 224150 nested sections; instances of masters"
+  },
+  "Compose/Aset": {
+    "page": 9,
+    "width": 412,
+    "height": 915,
+    "reference": "Bibit sections; new Debit class and liability summary"
+  },
+  "Compose/Transfer-Pengirim": {
+    "page": 9,
+    "width": 412,
+    "height": 915,
+    "reference": "Bibit 224506 form + new sender/receiver fee choices"
+  },
+  "Compose/Transfer-Dua-pihak": {
+    "page": 9,
+    "width": 412,
+    "height": 915,
+    "reference": "Bibit 224506 form + new sender/receiver fee choices"
+  },
+  "Compose/Portofolio": {
+    "page": 9,
+    "width": 412,
+    "height": 1100,
+    "reference": "Stockbit 230121 charts, legends and filters; component composition"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-21",
+  "native": {
+    "path": "D:\\Aplikasi Keuangan\\design\\Arta-Master-Ikon-Komponen-2026-11-21.figcraft",
+    "bytes": 2581082,
+    "sha256": "16d961b8c720263fccfefa1784514ec221ef83d701717fd12b0c8aaa5b946112",
+    "saved_metadata": {
+      "path": "D:/Aplikasi Keuangan/design/Arta-Master-Ikon-Komponen-2026-11-21.figcraft",
+      "dirty": false,
+      "document": 3,
+      "pages": 9,
+      "components": 161,
+      "sets": 6,
+      "variables": 33,
+      "styles": 6
+    }
+  },
+  "old_project": {
+    "exists": true,
+    "bytes": 4769338,
+    "matches_initial_size": true
+  },
+  "exports": {
+    "glyph_svg": 52,
+    "badge_svg": 12,
+    "brand_svg": 12,
+    "all_svg_xml_valid": true,
+    "png_previews": [
+      {
+        "file": "bank-picker.png",
+        "width": 412,
+        "height": 626
+      },
+      {
+        "file": "biometric-overlay.png",
+        "width": 412,
+        "height": 915
+      },
+      {
+        "file": "chart-benchmark.png",
+        "width": 372,
+        "height": 352
+      },
+      {
+        "file": "chart-donut.png",
+        "width": 372,
+        "height": 360
+      },
+      {
+        "file": "cover.png",
+        "width": 1440,
+        "height": 1480
+      },
+      {
+        "file": "frekuensi-12.png",
+        "width": 412,
+        "height": 814
+      },
+      {
+        "file": "glyphs-dark.png",
+        "width": 1200,
+        "height": 930
+      },
+      {
+        "file": "glyphs-light.png",
+        "width": 1200,
+        "height": 930
+      },
+      {
+        "file": "home-dark.png",
+        "width": 412,
+        "height": 915
+      },
+      {
+        "file": "home-light.png",
+        "width": 412,
+        "height": 915
+      },
+      {
+        "file": "pin-dark.png",
+        "width": 412,
+        "height": 915
+      },
+      {
+        "file": "pin-light.png",
+        "width": 412,
+        "height": 915
+      },
+      {
+        "file": "qa-360-font130.png",
+        "width": 360,
+        "height": 730
+      },
+      {
+        "file": "transfer-dua-biaya.png",
+        "width": 412,
+        "height": 915
+      }
+    ]
+  },
+  "contrast_samples": [
+    {
+      "theme": "Dark",
+      "foreground": "Text/Primary",
+      "background": "Background",
+      "ratio": 11.55
+    },
+    {
+      "theme": "Dark",
+      "foreground": "Text/Secondary",
+      "background": "Background",
+      "ratio": 6.33
+    },
+    {
+      "theme": "Dark",
+      "foreground": "Text/Muted",
+      "background": "Background",
+      "ratio": 4.87
+    },
+    {
+      "theme": "Dark",
+      "foreground": "OnAction",
+      "background": "Action",
+      "ratio": 4.8
+    },
+    {
+      "theme": "Dark",
+      "foreground": "Accent",
+      "background": "Accent/Tint",
+      "ratio": 4.86
+    },
+    {
+      "theme": "Dark",
+      "foreground": "Purple",
+      "background": "Purple/Tint",
+      "ratio": 5.29
+    },
+    {
+      "theme": "Dark",
+      "foreground": "Blue",
+      "background": "Blue/Tint",
+      "ratio": 4.75
+    },
+    {
+      "theme": "Light",
+      "foreground": "Text/Primary",
+      "background": "Background",
+      "ratio": 12.63
+    },
+    {
+      "theme": "Light",
+      "foreground": "Text/Secondary",
+      "background": "Background",
+      "ratio": 4.95
+    },
+    {
+      "theme": "Light",
+      "foreground": "Text/Muted",
+      "background": "Background",
+      "ratio": 4.54
+    },
+    {
+      "theme": "Light",
+      "foreground": "OnAction",
+      "background": "Action",
+      "ratio": 4.8
+    },
+    {
+      "theme": "Light",
+      "foreground": "Accent",
+      "background": "Accent/Tint",
+      "ratio": 4.58
+    },
+    {
+      "theme": "Light",
+      "foreground": "Purple",
+      "background": "Purple/Tint",
+      "ratio": 4.52
+    },
+    {
+      "theme": "Light",
+      "foreground": "Blue",
+      "background": "Blue/Tint",
+      "ratio": 5.32
+    }
+  ],
+  "fonts_reference_files": 2,
+  "app_code_changed": false,
+  "apk_built": false,
+  "desktop_app_opened": false
+}

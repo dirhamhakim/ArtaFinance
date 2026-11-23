@@ -1,0 +1,812 @@
+[
+  {
+    "file": "unit-000.json",
+    "name": "home",
+    "commands": 203
+  },
+  {
+    "file": "unit-001.json",
+    "name": "home-private",
+    "commands": 203
+  },
+  {
+    "file": "unit-002.json",
+    "name": "home-slide2",
+    "commands": 192
+  },
+  {
+    "file": "unit-003.json",
+    "name": "reports",
+    "commands": 97
+  },
+  {
+    "file": "unit-004.json",
+    "name": "report-cash",
+    "commands": 67
+  },
+  {
+    "file": "unit-005.json",
+    "name": "report-all",
+    "commands": 67
+  },
+  {
+    "file": "unit-006.json",
+    "name": "report-cashflow",
+    "commands": 69
+  },
+  {
+    "file": "unit-007.json",
+    "name": "transactions",
+    "commands": 101
+  },
+  {
+    "file": "unit-008.json",
+    "name": "expense",
+    "commands": 113
+  },
+  {
+    "file": "unit-009.json",
+    "name": "income",
+    "commands": 113
+  },
+  {
+    "file": "unit-010.json",
+    "name": "transfer",
+    "commands": 138
+  },
+  {
+    "file": "unit-011.json",
+    "name": "transfer-both",
+    "commands": 144
+  },
+  {
+    "file": "unit-012.json",
+    "name": "transaction-detail",
+    "commands": 69
+  },
+  {
+    "file": "unit-013.json",
+    "name": "receipt",
+    "commands": 49
+  },
+  {
+    "file": "unit-014.json",
+    "name": "calendar",
+    "commands": 39
+  },
+  {
+    "file": "unit-015.json",
+    "name": "transaction-search",
+    "commands": 64
+  },
+  {
+    "file": "unit-016.json",
+    "name": "transactions-empty",
+    "commands": 46
+  },
+  {
+    "file": "unit-017.json",
+    "name": "categories",
+    "commands": 67
+  },
+  {
+    "file": "unit-018.json",
+    "name": "category-add",
+    "commands": 47
+  },
+  {
+    "file": "unit-019.json",
+    "name": "assets",
+    "commands": 165
+  },
+  {
+    "file": "unit-020.json",
+    "name": "asset-add",
+    "commands": 77
+  },
+  {
+    "file": "unit-021.json",
+    "name": "asset-edit",
+    "commands": 77
+  },
+  {
+    "file": "unit-022.json",
+    "name": "asset-debit-add",
+    "commands": 84
+  },
+  {
+    "file": "unit-023.json",
+    "name": "asset-ewallet",
+    "commands": 77
+  },
+  {
+    "file": "unit-024.json",
+    "name": "asset-detail",
+    "commands": 85
+  },
+  {
+    "file": "unit-025.json",
+    "name": "asset-debit",
+    "commands": 92
+  },
+  {
+    "file": "unit-026.json",
+    "name": "assets-negative",
+    "commands": 37
+  },
+  {
+    "file": "unit-027.json",
+    "name": "asset-archive",
+    "commands": 41
+  },
+  {
+    "file": "unit-028.json",
+    "name": "assets-empty",
+    "commands": 47
+  },
+  {
+    "file": "unit-029.json",
+    "name": "debts",
+    "commands": 53
+  },
+  {
+    "file": "unit-030.json",
+    "name": "receivables",
+    "commands": 38
+  },
+  {
+    "file": "unit-031.json",
+    "name": "debt-add",
+    "commands": 62
+  },
+  {
+    "file": "unit-032.json",
+    "name": "receivable-add",
+    "commands": 55
+  },
+  {
+    "file": "unit-033.json",
+    "name": "debt-detail",
+    "commands": 57
+  },
+  {
+    "file": "unit-034.json",
+    "name": "debt-pay",
+    "commands": 55
+  },
+  {
+    "file": "unit-035.json",
+    "name": "portfolio",
+    "commands": 127
+  },
+  {
+    "file": "unit-036.json",
+    "name": "stocks",
+    "commands": 102
+  },
+  {
+    "file": "unit-037.json",
+    "name": "crypto",
+    "commands": 102
+  },
+  {
+    "file": "unit-038.json",
+    "name": "funds",
+    "commands": 48
+  },
+  {
+    "file": "unit-039.json",
+    "name": "benchmark",
+    "commands": 68
+  },
+  {
+    "file": "unit-040.json",
+    "name": "stock-detail",
+    "commands": 97
+  },
+  {
+    "file": "unit-041.json",
+    "name": "crypto-detail",
+    "commands": 97
+  },
+  {
+    "file": "unit-042.json",
+    "name": "ihsg",
+    "commands": 50
+  },
+  {
+    "file": "unit-043.json",
+    "name": "holding",
+    "commands": 54
+  },
+  {
+    "file": "unit-044.json",
+    "name": "instrument-search",
+    "commands": 81
+  },
+  {
+    "file": "unit-045.json",
+    "name": "stock-search",
+    "commands": 49
+  },
+  {
+    "file": "unit-046.json",
+    "name": "crypto-search",
+    "commands": 49
+  },
+  {
+    "file": "unit-047.json",
+    "name": "crypto-list",
+    "commands": 165
+  },
+  {
+    "file": "unit-048.json",
+    "name": "trade-buy",
+    "commands": 102
+  },
+  {
+    "file": "unit-049.json",
+    "name": "trade-sell",
+    "commands": 102
+  },
+  {
+    "file": "unit-050.json",
+    "name": "holding-opening",
+    "commands": 109
+  },
+  {
+    "file": "unit-051.json",
+    "name": "unit-transfer",
+    "commands": 78
+  },
+  {
+    "file": "unit-052.json",
+    "name": "dividend",
+    "commands": 69
+  },
+  {
+    "file": "unit-053.json",
+    "name": "split",
+    "commands": 60
+  },
+  {
+    "file": "unit-054.json",
+    "name": "investment-history",
+    "commands": 59
+  },
+  {
+    "file": "unit-055.json",
+    "name": "fund-add",
+    "commands": 63
+  },
+  {
+    "file": "unit-056.json",
+    "name": "fund-detail",
+    "commands": 60
+  },
+  {
+    "file": "unit-057.json",
+    "name": "fund-nav",
+    "commands": 47
+  },
+  {
+    "file": "unit-058.json",
+    "name": "fund-buy",
+    "commands": 70
+  },
+  {
+    "file": "unit-059.json",
+    "name": "fund-settlement",
+    "commands": 61
+  },
+  {
+    "file": "unit-060.json",
+    "name": "staking",
+    "commands": 65
+  },
+  {
+    "file": "unit-061.json",
+    "name": "stake-detail",
+    "commands": 55
+  },
+  {
+    "file": "unit-062.json",
+    "name": "stake-add",
+    "commands": 64
+  },
+  {
+    "file": "unit-063.json",
+    "name": "stake-unstake",
+    "commands": 58
+  },
+  {
+    "file": "unit-064.json",
+    "name": "stake-claim",
+    "commands": 58
+  },
+  {
+    "file": "unit-065.json",
+    "name": "stake-reward",
+    "commands": 64
+  },
+  {
+    "file": "unit-066.json",
+    "name": "stake-slashing",
+    "commands": 58
+  },
+  {
+    "file": "unit-067.json",
+    "name": "schedules",
+    "commands": 82
+  },
+  {
+    "file": "unit-068.json",
+    "name": "schedule-add",
+    "commands": 114
+  },
+  {
+    "file": "unit-069.json",
+    "name": "schedule-preview",
+    "commands": 41
+  },
+  {
+    "file": "unit-070.json",
+    "name": "schedule-detail",
+    "commands": 81
+  },
+  {
+    "file": "unit-071.json",
+    "name": "schedule-paused",
+    "commands": 39
+  },
+  {
+    "file": "unit-072.json",
+    "name": "schedule-history",
+    "commands": 48
+  },
+  {
+    "file": "unit-073.json",
+    "name": "schedule-catchup",
+    "commands": 54
+  },
+  {
+    "file": "unit-074.json",
+    "name": "installment",
+    "commands": 45
+  },
+  {
+    "file": "unit-075.json",
+    "name": "installment-add",
+    "commands": 74
+  },
+  {
+    "file": "unit-076.json",
+    "name": "installment-detail",
+    "commands": 57
+  },
+  {
+    "file": "unit-077.json",
+    "name": "interest",
+    "commands": 60
+  },
+  {
+    "file": "unit-078.json",
+    "name": "interest-add",
+    "commands": 107
+  },
+  {
+    "file": "unit-079.json",
+    "name": "interest-tiers",
+    "commands": 64
+  },
+  {
+    "file": "unit-080.json",
+    "name": "interest-preview",
+    "commands": 41
+  },
+  {
+    "file": "unit-081.json",
+    "name": "interest-post",
+    "commands": 60
+  },
+  {
+    "file": "unit-082.json",
+    "name": "interest-history",
+    "commands": 33
+  },
+  {
+    "file": "unit-083.json",
+    "name": "prices",
+    "commands": 137
+  },
+  {
+    "file": "unit-084.json",
+    "name": "quote-detail",
+    "commands": 85
+  },
+  {
+    "file": "unit-085.json",
+    "name": "quote-live",
+    "commands": 51
+  },
+  {
+    "file": "unit-086.json",
+    "name": "quote-updating",
+    "commands": 28
+  },
+  {
+    "file": "unit-087.json",
+    "name": "quote-rate-limit",
+    "commands": 46
+  },
+  {
+    "file": "unit-088.json",
+    "name": "quote-missing",
+    "commands": 33
+  },
+  {
+    "file": "unit-089.json",
+    "name": "price-manual",
+    "commands": 53
+  },
+  {
+    "file": "unit-090.json",
+    "name": "price-import",
+    "commands": 49
+  },
+  {
+    "file": "unit-091.json",
+    "name": "price-import-preview",
+    "commands": 50
+  },
+  {
+    "file": "unit-092.json",
+    "name": "catalog",
+    "commands": 80
+  },
+  {
+    "file": "unit-093.json",
+    "name": "catalog-detail",
+    "commands": 43
+  },
+  {
+    "file": "unit-094.json",
+    "name": "catalog-import",
+    "commands": 62
+  },
+  {
+    "file": "unit-095.json",
+    "name": "catalog-preview",
+    "commands": 64
+  },
+  {
+    "file": "unit-096.json",
+    "name": "import-errors",
+    "commands": 60
+  },
+  {
+    "file": "unit-097.json",
+    "name": "fx",
+    "commands": 45
+  },
+  {
+    "file": "unit-098.json",
+    "name": "fx-add",
+    "commands": 55
+  },
+  {
+    "file": "unit-099.json",
+    "name": "settings",
+    "commands": 211
+  },
+  {
+    "file": "unit-100.json",
+    "name": "backup",
+    "commands": 67
+  },
+  {
+    "file": "unit-101.json",
+    "name": "backup-create",
+    "commands": 60
+  },
+  {
+    "file": "unit-102.json",
+    "name": "backup-plain",
+    "commands": 46
+  },
+  {
+    "file": "unit-103.json",
+    "name": "backup-complete",
+    "commands": 35
+  },
+  {
+    "file": "unit-104.json",
+    "name": "restore-pick",
+    "commands": 46
+  },
+  {
+    "file": "unit-105.json",
+    "name": "restore-password",
+    "commands": 39
+  },
+  {
+    "file": "unit-106.json",
+    "name": "restore-preview",
+    "commands": 43
+  },
+  {
+    "file": "unit-107.json",
+    "name": "restore-error",
+    "commands": 35
+  },
+  {
+    "file": "unit-108.json",
+    "name": "restore-complete",
+    "commands": 35
+  },
+  {
+    "file": "unit-109.json",
+    "name": "export",
+    "commands": 64
+  },
+  {
+    "file": "unit-110.json",
+    "name": "guide",
+    "commands": 118
+  },
+  {
+    "file": "unit-111.json",
+    "name": "about",
+    "commands": 45
+  },
+  {
+    "file": "unit-112.json",
+    "name": "licenses",
+    "commands": 26
+  },
+  {
+    "file": "unit-113.json",
+    "name": "saved",
+    "commands": 35
+  },
+  {
+    "file": "unit-114.json",
+    "name": "security",
+    "commands": 80
+  },
+  {
+    "file": "unit-115.json",
+    "name": "security-off",
+    "commands": 32
+  },
+  {
+    "file": "unit-116.json",
+    "name": "pin",
+    "commands": 19
+  },
+  {
+    "file": "unit-117.json",
+    "name": "pin-filled",
+    "commands": 19
+  },
+  {
+    "file": "unit-118.json",
+    "name": "pin-error",
+    "commands": 19
+  },
+  {
+    "file": "unit-119.json",
+    "name": "pin-loading",
+    "commands": 19
+  },
+  {
+    "file": "unit-120.json",
+    "name": "pin-reset",
+    "commands": 19
+  },
+  {
+    "file": "unit-121.json",
+    "name": "pin-create",
+    "commands": 19
+  },
+  {
+    "file": "unit-122.json",
+    "name": "pin-confirm",
+    "commands": 19
+  },
+  {
+    "file": "unit-123.json",
+    "name": "pin-reset-error",
+    "commands": 35
+  },
+  {
+    "file": "unit-124.json",
+    "name": "pin-lockout",
+    "commands": 35
+  },
+  {
+    "file": "unit-125.json",
+    "name": "welcome",
+    "commands": 43
+  },
+  {
+    "file": "unit-126.json",
+    "name": "splash",
+    "commands": 22
+  },
+  {
+    "file": "unit-127.json",
+    "name": "storage-error",
+    "commands": 35
+  },
+  {
+    "file": "unit-128.json",
+    "name": "sheet-bank",
+    "commands": 17
+  },
+  {
+    "file": "unit-129.json",
+    "name": "sheet-ewallet",
+    "commands": 17
+  },
+  {
+    "file": "unit-130.json",
+    "name": "sheet-bank-other",
+    "commands": 17
+  },
+  {
+    "file": "unit-131.json",
+    "name": "sheet-ewallet-other",
+    "commands": 17
+  },
+  {
+    "file": "unit-132.json",
+    "name": "sheet-frequency",
+    "commands": 17
+  },
+  {
+    "file": "unit-133.json",
+    "name": "sheet-weekdays",
+    "commands": 17
+  },
+  {
+    "file": "unit-134.json",
+    "name": "sheet-filter",
+    "commands": 17
+  },
+  {
+    "file": "unit-135.json",
+    "name": "sheet-sort",
+    "commands": 17
+  },
+  {
+    "file": "unit-136.json",
+    "name": "sheet-theme",
+    "commands": 17
+  },
+  {
+    "file": "unit-137.json",
+    "name": "sheet-calendar",
+    "commands": 17
+  },
+  {
+    "file": "unit-138.json",
+    "name": "sheet-time",
+    "commands": 17
+  },
+  {
+    "file": "unit-139.json",
+    "name": "sheet-restore",
+    "commands": 17
+  },
+  {
+    "file": "unit-140.json",
+    "name": "sheet-assets",
+    "commands": 113
+  },
+  {
+    "file": "unit-141.json",
+    "name": "sheet-asset-class",
+    "commands": 99
+  },
+  {
+    "file": "unit-142.json",
+    "name": "sheet-category",
+    "commands": 87
+  },
+  {
+    "file": "unit-143.json",
+    "name": "sheet-currency",
+    "commands": 63
+  },
+  {
+    "file": "unit-144.json",
+    "name": "sheet-period",
+    "commands": 87
+  },
+  {
+    "file": "unit-145.json",
+    "name": "sheet-investment-actions",
+    "commands": 75
+  },
+  {
+    "file": "unit-146.json",
+    "name": "sheet-staking-actions",
+    "commands": 63
+  },
+  {
+    "file": "unit-147.json",
+    "name": "sheet-asset-actions",
+    "commands": 63
+  },
+  {
+    "file": "unit-148.json",
+    "name": "sheet-transaction-actions",
+    "commands": 63
+  },
+  {
+    "file": "unit-149.json",
+    "name": "sheet-schedule-actions",
+    "commands": 63
+  },
+  {
+    "file": "unit-150.json",
+    "name": "sheet-export-kind",
+    "commands": 75
+  },
+  {
+    "file": "unit-151.json",
+    "name": "sheet-lock-time",
+    "commands": 51
+  },
+  {
+    "file": "unit-152.json",
+    "name": "sheet-photo",
+    "commands": 55
+  },
+  {
+    "file": "unit-153.json",
+    "name": "sheet-delete",
+    "commands": 25
+  },
+  {
+    "file": "unit-154.json",
+    "name": "sheet-clear-data",
+    "commands": 25
+  },
+  {
+    "file": "unit-155.json",
+    "name": "sheet-stop-schedule",
+    "commands": 25
+  },
+  {
+    "file": "unit-156.json",
+    "name": "sheet-catalog-confirm",
+    "commands": 25
+  },
+  {
+    "file": "unit-157.json",
+    "name": "sheet-transfer-review",
+    "commands": 25
+  },
+  {
+    "file": "unit-158.json",
+    "name": "sheet-transaction-review",
+    "commands": 25
+  },
+  {
+    "file": "unit-159.json",
+    "name": "sheet-income-review",
+    "commands": 25
+  },
+  {
+    "file": "unit-160.json",
+    "name": "sheet-trade-review",
+    "commands": 25
+  },
+  {
+    "file": "unit-161.json",
+    "name": "sheet-benchmark-info",
+    "commands": 25
+  }
+]
