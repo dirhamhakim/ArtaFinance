@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "name": "Arta three-part loader",
+  "source": "arta-symbol-dark.svg",
+  "svg_groups": [
+    "Rise",
+    "Balance",
+    "Bridge"
+  ],
+  "runtime_recommendation": "Flutter AnimationController; assets bundled offline",
+  "runtime_cycle_ms": 960,
+  "phase_interval_ms": 320,
+  "tween_ms": 240,
+  "easing": "easeInOut",
+  "phases": [
+    {
+      "phase": 1,
+      "opacity": {
+        "Rise": 1,
+        "Balance": 0.18,
+        "Bridge": 0.18
+      }
+    },
+    {
+      "phase": 2,
+      "opacity": {
+        "Rise": 0.18,
+        "Balance": 1,
+        "Bridge": 0.18
+      }
+    },
+    {
+      "phase": 3,
+      "opacity": {
+        "Rise": 0.18,
+        "Balance": 0.18,
+        "Bridge": 1
+      }
+    }
+  ],
+  "splash_opacity": {
+    "Rise": 1,
+    "Balance": 1,
+    "Bridge": 1
+  },
+  "reduced_motion": {
+    "animated": false,
+    "opacity": {
+      "Rise": 1,
+      "Balance": 1,
+      "Bridge": 1
+    }
+  },
+  "completion": "Stop when actual work completes; no artificial minimum wait; no blocking on online price/logo fetch",
+  "prototype_only": {
+    "dark_start": 4911,
+    "light_start": 6836,
+    "exit_dark": 202,
+    "exit_light": 4291,
+    "after_delay_ms": [
+      400,
+      320,
+      320,
+      400
+    ],
+    "transition_ms": [
+      200,
+      240,
+      240,
+      220
+    ],
+    "note": "Prototype uses timed frame navigation for review. Runtime uses readiness of local data."
+  }
+}
