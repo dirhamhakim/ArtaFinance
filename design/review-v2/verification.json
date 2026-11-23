@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-18",
+  "revision": 2,
+  "referencesReviewed": 59,
+  "longSourceImages": 8,
+  "longImageSegments": 24,
+  "screensExported": 95,
+  "nodes": 4815,
+  "text": 1967,
+  "components": 28,
+  "instances": 282,
+  "screens": 95,
+  "overlays": 17,
+  "interactions": 709,
+  "flows": [
+    {
+      "description": "",
+      "name": "01 · Mulai dari Beranda",
+      "start": 202
+    },
+    {
+      "description": "",
+      "name": "02 · Catat transaksi",
+      "start": 498
+    },
+    {
+      "description": "",
+      "name": "03 · Kelola investasi",
+      "start": 656
+    },
+    {
+      "description": "",
+      "name": "04 · Berulang & akhir bulan",
+      "start": 1801
+    },
+    {
+      "description": "",
+      "name": "05 · Bunga buatan pengguna",
+      "start": 2262
+    },
+    {
+      "description": "",
+      "name": "06 · Backup & pemulihan",
+      "start": 3042
+    }
+  ],
+  "variables": 18,
+  "styles": 11,
+  "pages": 7,
+  "textOutsideParent": 0,
+  "contentOutsideFormViewport": 0,
+  "invalidPrototypeDestinations": 0,
+  "missingFonts": 0,
+  "contrastPairs": 114,
+  "contrastFailures": 0,
+  "minimumTextContrast": {
+    "light": 4.655050454735327,
+    "dark": 4.726200019243443
+  },
+  "notes": [
+    "Font-family identity in source images remains unproven; Lato is the selected visual substitute.",
+    "Source measurements normalized to width 412, not original device dp.",
+    "Chart endpoint markers may extend into plot padding by four pixels; no financial text/form content clips.",
+    "This validates a design prototype, not app runtime behavior."
+  ]
+}
