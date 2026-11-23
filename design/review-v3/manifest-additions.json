@@ -1,0 +1,713 @@
+[
+  {
+    "route": "light-Akun",
+    "id": 7190,
+    "page": 4,
+    "title": "Akun",
+    "prefix": "light-Akun",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "negativeExpense",
+    "id": 5709,
+    "page": 4,
+    "title": "Catat pengeluaran",
+    "prefix": "negativeExpense",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-Saldo-minus-pengeluaran",
+    "id": 6949,
+    "page": 4,
+    "title": "Catat pengeluaran",
+    "prefix": "light-Saldo-minus-pengeluaran",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "negativeAccount",
+    "id": 5718,
+    "page": 4,
+    "title": "Mandiri",
+    "prefix": "negativeAccount",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-Saldo-minus-akun",
+    "id": 6982,
+    "page": 4,
+    "title": "Mandiri",
+    "prefix": "light-Saldo-minus-akun",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "light-Lainnya",
+    "id": 7006,
+    "page": 5,
+    "title": "Lainnya",
+    "prefix": "light-Lainnya",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "light-Pengaturan",
+    "id": 7095,
+    "page": 5,
+    "title": "Pengaturan",
+    "prefix": "light-Pengaturan",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "brandSplash",
+    "id": 4911,
+    "page": 4816,
+    "title": "Arta · brandSplash",
+    "prefix": "brandSplash",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-splash",
+    "id": 6836,
+    "page": 4816,
+    "title": "Arta · splash",
+    "prefix": "light-splash",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "brandLoading1",
+    "id": 4924,
+    "page": 4816,
+    "title": "Arta · brandLoading1",
+    "prefix": "brandLoading1",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-loading1",
+    "id": 6849,
+    "page": 4816,
+    "title": "Arta · loading1",
+    "prefix": "light-loading1",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "brandLoading2",
+    "id": 4937,
+    "page": 4816,
+    "title": "Arta · brandLoading2",
+    "prefix": "brandLoading2",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-loading2",
+    "id": 6862,
+    "page": 4816,
+    "title": "Arta · loading2",
+    "prefix": "light-loading2",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "brandLoading3",
+    "id": 4950,
+    "page": 4816,
+    "title": "Arta · brandLoading3",
+    "prefix": "brandLoading3",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-loading3",
+    "id": 6875,
+    "page": 4816,
+    "title": "Arta · loading3",
+    "prefix": "light-loading3",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "brandReducedMotion",
+    "id": 4963,
+    "page": 4816,
+    "title": "Arta · brandReducedMotion",
+    "prefix": "brandReducedMotion",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-reduced",
+    "id": 6888,
+    "page": 4816,
+    "title": "Arta · reduced",
+    "prefix": "light-reduced",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "brandLoadError",
+    "id": 4976,
+    "page": 4816,
+    "title": "Catatan belum terbuka",
+    "prefix": "brandLoadError",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-loadError",
+    "id": 6901,
+    "page": 4816,
+    "title": "Catatan belum terbuka",
+    "prefix": "light-loadError",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "brandAbout",
+    "id": 4991,
+    "page": 4816,
+    "title": "Tentang Arta",
+    "prefix": "brandAbout",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-about",
+    "id": 6916,
+    "page": 4816,
+    "title": "Tentang Arta",
+    "prefix": "light-about",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "catalog",
+    "id": 5026,
+    "page": 4817,
+    "title": "Katalog saham Indonesia",
+    "prefix": "catalog",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-catalog",
+    "id": 5979,
+    "page": 4817,
+    "title": "Katalog saham Indonesia",
+    "prefix": "light-catalog",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "importFile",
+    "id": 5035,
+    "page": 4817,
+    "title": "Impor daftar saham",
+    "prefix": "importFile",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-importFile",
+    "id": 6035,
+    "page": 4817,
+    "title": "Impor daftar saham",
+    "prefix": "light-importFile",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "filePicker",
+    "id": 5044,
+    "page": 4817,
+    "title": "Pilih file",
+    "prefix": "filePicker",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-filePicker",
+    "id": 6065,
+    "page": 4817,
+    "title": "Pilih file",
+    "prefix": "light-filePicker",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "fileReview",
+    "id": 5053,
+    "page": 4817,
+    "title": "Periksa file",
+    "prefix": "fileReview",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-fileReview",
+    "id": 6101,
+    "page": 4817,
+    "title": "Periksa file",
+    "prefix": "light-fileReview",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "validate",
+    "id": 5062,
+    "page": 4817,
+    "title": "Memeriksa daftar saham",
+    "prefix": "validate",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-validate",
+    "id": 6139,
+    "page": 4817,
+    "title": "Memeriksa daftar saham",
+    "prefix": "light-validate",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "review",
+    "id": 5071,
+    "page": 4817,
+    "title": "Pratinjau pembaruan",
+    "prefix": "review",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-review",
+    "id": 6155,
+    "page": 4817,
+    "title": "Pratinjau pembaruan",
+    "prefix": "light-review",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "changes",
+    "id": 5080,
+    "page": 4817,
+    "title": "Perubahan metadata",
+    "prefix": "changes",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-changes",
+    "id": 6201,
+    "page": 4817,
+    "title": "Perubahan metadata",
+    "prefix": "light-changes",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "changeDetail",
+    "id": 5089,
+    "page": 4817,
+    "title": "Rincian perubahan",
+    "prefix": "changeDetail",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-changeDetail",
+    "id": 6239,
+    "page": 4817,
+    "title": "Rincian perubahan",
+    "prefix": "light-changeDetail",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "missing",
+    "id": 5098,
+    "page": 4817,
+    "title": "Tidak ada di file ini",
+    "prefix": "missing",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-missing",
+    "id": 6267,
+    "page": 4817,
+    "title": "Tidak ada di file ini",
+    "prefix": "light-missing",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "invalid",
+    "id": 5107,
+    "page": 4817,
+    "title": "Periksa isi file",
+    "prefix": "invalid",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-invalid",
+    "id": 6289,
+    "page": 4817,
+    "title": "Periksa isi file",
+    "prefix": "light-invalid",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "applying",
+    "id": 5116,
+    "page": 4817,
+    "title": "Memperbarui katalog",
+    "prefix": "applying",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-applying",
+    "id": 6315,
+    "page": 4817,
+    "title": "Memperbarui katalog",
+    "prefix": "light-applying",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "success",
+    "id": 5125,
+    "page": 4817,
+    "title": "Katalog diperbarui",
+    "prefix": "success",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-success",
+    "id": 6331,
+    "page": 4817,
+    "title": "Katalog diperbarui",
+    "prefix": "light-success",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "catalogAfter",
+    "id": 5134,
+    "page": 4817,
+    "title": "Katalog saham Indonesia",
+    "prefix": "catalogAfter",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-catalogAfter",
+    "id": 6359,
+    "page": 4817,
+    "title": "Katalog saham Indonesia",
+    "prefix": "light-catalogAfter",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "noChanges",
+    "id": 5143,
+    "page": 4817,
+    "title": "Katalog sudah sesuai",
+    "prefix": "noChanges",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-noChanges",
+    "id": 6415,
+    "page": 4817,
+    "title": "Katalog sudah sesuai",
+    "prefix": "light-noChanges",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "stock",
+    "id": 5152,
+    "page": 4817,
+    "title": "Detail saham",
+    "prefix": "stock",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-stock",
+    "id": 6438,
+    "page": 4817,
+    "title": "Detail saham",
+    "prefix": "light-stock",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "stockARTO",
+    "id": 5908,
+    "page": 4817,
+    "title": "Detail saham",
+    "prefix": "stockARTO",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-stockARTO",
+    "id": 6471,
+    "page": 4817,
+    "title": "Detail saham",
+    "prefix": "light-stockARTO",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "stockBBRI",
+    "id": 5837,
+    "page": 4817,
+    "title": "Detail saham",
+    "prefix": "stockBBRI",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-stockBBRI",
+    "id": 6504,
+    "page": 4817,
+    "title": "Detail saham",
+    "prefix": "light-stockBBRI",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "stockBMRI",
+    "id": 5766,
+    "page": 4817,
+    "title": "Detail saham",
+    "prefix": "stockBMRI",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-stockBMRI",
+    "id": 6537,
+    "page": 4817,
+    "title": "Detail saham",
+    "prefix": "light-stockBMRI",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "stockEdit",
+    "id": 5161,
+    "page": 4817,
+    "title": "Edit metadata saham",
+    "prefix": "stockEdit",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-stockEdit",
+    "id": 6570,
+    "page": 4817,
+    "title": "Edit metadata saham",
+    "prefix": "light-stockEdit",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "stockEditARTO",
+    "id": 5941,
+    "page": 4817,
+    "title": "Edit metadata saham",
+    "prefix": "stockEditARTO",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-stockEditARTO",
+    "id": 6608,
+    "page": 4817,
+    "title": "Edit metadata saham",
+    "prefix": "light-stockEditARTO",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "stockEditBBRI",
+    "id": 5870,
+    "page": 4817,
+    "title": "Edit metadata saham",
+    "prefix": "stockEditBBRI",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-stockEditBBRI",
+    "id": 6646,
+    "page": 4817,
+    "title": "Edit metadata saham",
+    "prefix": "light-stockEditBBRI",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "stockEditBMRI",
+    "id": 5799,
+    "page": 4817,
+    "title": "Edit metadata saham",
+    "prefix": "stockEditBMRI",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-stockEditBMRI",
+    "id": 6684,
+    "page": 4817,
+    "title": "Edit metadata saham",
+    "prefix": "light-stockEditBMRI",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "export",
+    "id": 5170,
+    "page": 4817,
+    "title": "Ekspor katalog",
+    "prefix": "export",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-export",
+    "id": 6722,
+    "page": 4817,
+    "title": "Ekspor katalog",
+    "prefix": "light-export",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "exportSuccess",
+    "id": 5179,
+    "page": 4817,
+    "title": "Katalog berhasil diekspor",
+    "prefix": "exportSuccess",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-exportSuccess",
+    "id": 6748,
+    "page": 4817,
+    "title": "Katalog berhasil diekspor",
+    "prefix": "light-exportSuccess",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "importError",
+    "id": 5188,
+    "page": 4817,
+    "title": "Pembaruan belum tersimpan",
+    "prefix": "importError",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-importError",
+    "id": 6763,
+    "page": 4817,
+    "title": "Pembaruan belum tersimpan",
+    "prefix": "light-importError",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "fileJSON",
+    "id": 5197,
+    "page": 4817,
+    "title": "Periksa file JSON",
+    "prefix": "fileJSON",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-fileJSON",
+    "id": 6779,
+    "page": 4817,
+    "title": "Periksa file JSON",
+    "prefix": "light-fileJSON",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "newStocks",
+    "id": 5646,
+    "page": 4817,
+    "title": "Saham baru di katalog",
+    "prefix": "newStocks",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-newStocks",
+    "id": 6817,
+    "page": 4817,
+    "title": "Saham baru di katalog",
+    "prefix": "light-newStocks",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "catalogSearch",
+    "id": 7270,
+    "page": 4817,
+    "title": "Cari saham",
+    "prefix": "catalogSearch",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-search",
+    "id": 7335,
+    "page": 4817,
+    "title": "Cari saham",
+    "prefix": "light-search",
+    "theme": "Light",
+    "revision": 3
+  },
+  {
+    "route": "catalogFormatError",
+    "id": 7310,
+    "page": 4817,
+    "title": "File belum sesuai",
+    "prefix": "catalogFormatError",
+    "theme": "Dark",
+    "revision": 3
+  },
+  {
+    "route": "light-formatError",
+    "id": 7375,
+    "page": 4817,
+    "title": "File belum sesuai",
+    "prefix": "light-formatError",
+    "theme": "Light",
+    "revision": 3
+  }
+]

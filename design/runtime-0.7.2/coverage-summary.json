@@ -1,0 +1,27 @@
+{
+  "app_version": "0.7.2+11",
+  "dated": "2026-11-22",
+  "states": 286,
+  "artboards": 572,
+  "pages": {
+    "Ringkasan": 32,
+    "Aset": 66,
+    "Pemilih": 56,
+    "Transaksi": 48,
+    "Berulang": 54,
+    "Investasi": 76,
+    "Staking": 28,
+    "Bunga": 20,
+    "Katalog": 44,
+    "Harga": 36,
+    "Kategori": 24,
+    "Pengaturan": 46,
+    "Keamanan": 42
+  },
+  "prototype_interactions": 3924,
+  "flow_starts": 30,
+  "polish_commands": 940,
+  "unresolved": [],
+  "library_pages": 9,
+  "app_pages": 13
+}

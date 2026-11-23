@@ -1,0 +1,558 @@
+{
+  "revision": 3,
+  "screens": [
+    {
+      "id": 7190,
+      "name": "Light / Akun",
+      "page": 4,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/7190-light-akun.png"
+    },
+    {
+      "id": 5709,
+      "name": "negativeExpense / Catat pengeluaran",
+      "page": 4,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5709-negativeexpense-catat-pengeluaran.png"
+    },
+    {
+      "id": 6949,
+      "name": "Light / Saldo minus · pengeluaran",
+      "page": 4,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6949-light-saldo-minus-pengeluaran.png"
+    },
+    {
+      "id": 5718,
+      "name": "negativeAccount / Mandiri",
+      "page": 4,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5718-negativeaccount-mandiri.png"
+    },
+    {
+      "id": 6982,
+      "name": "Light / Saldo minus · akun",
+      "page": 4,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6982-light-saldo-minus-akun.png"
+    },
+    {
+      "id": 7006,
+      "name": "Light / Lainnya",
+      "page": 5,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/7006-light-lainnya.png"
+    },
+    {
+      "id": 7095,
+      "name": "Light / Pengaturan",
+      "page": 5,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/7095-light-pengaturan.png"
+    },
+    {
+      "id": 4911,
+      "name": "brandSplash / ",
+      "page": 4816,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/4911-brandsplash.png"
+    },
+    {
+      "id": 6836,
+      "name": "Light / splash",
+      "page": 4816,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6836-light-splash.png"
+    },
+    {
+      "id": 4924,
+      "name": "brandLoading1 / ",
+      "page": 4816,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/4924-brandloading1.png"
+    },
+    {
+      "id": 6849,
+      "name": "Light / loading1",
+      "page": 4816,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6849-light-loading1.png"
+    },
+    {
+      "id": 4937,
+      "name": "brandLoading2 / ",
+      "page": 4816,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/4937-brandloading2.png"
+    },
+    {
+      "id": 6862,
+      "name": "Light / loading2",
+      "page": 4816,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6862-light-loading2.png"
+    },
+    {
+      "id": 4950,
+      "name": "brandLoading3 / ",
+      "page": 4816,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/4950-brandloading3.png"
+    },
+    {
+      "id": 6875,
+      "name": "Light / loading3",
+      "page": 4816,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6875-light-loading3.png"
+    },
+    {
+      "id": 4963,
+      "name": "brandReducedMotion / ",
+      "page": 4816,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/4963-brandreducedmotion.png"
+    },
+    {
+      "id": 6888,
+      "name": "Light / reduced",
+      "page": 4816,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6888-light-reduced.png"
+    },
+    {
+      "id": 4976,
+      "name": "brandLoadError / Catatan belum terbuka",
+      "page": 4816,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/4976-brandloaderror-catatan-belum-terbuka.png"
+    },
+    {
+      "id": 6901,
+      "name": "Light / loadError",
+      "page": 4816,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6901-light-loaderror.png"
+    },
+    {
+      "id": 4991,
+      "name": "brandAbout / Tentang Arta",
+      "page": 4816,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/4991-brandabout-tentang-arta.png"
+    },
+    {
+      "id": 6916,
+      "name": "Light / about",
+      "page": 4816,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6916-light-about.png"
+    },
+    {
+      "id": 5026,
+      "name": "catalog / Katalog saham Indonesia",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5026-catalog-katalog-saham-indonesia.png"
+    },
+    {
+      "id": 5979,
+      "name": "Light / catalog",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5979-light-catalog.png"
+    },
+    {
+      "id": 5035,
+      "name": "importFile / Impor daftar saham",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5035-importfile-impor-daftar-saham.png"
+    },
+    {
+      "id": 6035,
+      "name": "Light / importFile",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6035-light-importfile.png"
+    },
+    {
+      "id": 5044,
+      "name": "filePicker / Pilih file",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5044-filepicker-pilih-file.png"
+    },
+    {
+      "id": 6065,
+      "name": "Light / filePicker",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6065-light-filepicker.png"
+    },
+    {
+      "id": 5053,
+      "name": "fileReview / Periksa file",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5053-filereview-periksa-file.png"
+    },
+    {
+      "id": 6101,
+      "name": "Light / fileReview",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6101-light-filereview.png"
+    },
+    {
+      "id": 5062,
+      "name": "validate / Memeriksa daftar saham",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5062-validate-memeriksa-daftar-saham.png"
+    },
+    {
+      "id": 6139,
+      "name": "Light / validate",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6139-light-validate.png"
+    },
+    {
+      "id": 5071,
+      "name": "review / Pratinjau pembaruan",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5071-review-pratinjau-pembaruan.png"
+    },
+    {
+      "id": 6155,
+      "name": "Light / review",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6155-light-review.png"
+    },
+    {
+      "id": 5080,
+      "name": "changes / Perubahan metadata",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5080-changes-perubahan-metadata.png"
+    },
+    {
+      "id": 6201,
+      "name": "Light / changes",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6201-light-changes.png"
+    },
+    {
+      "id": 5089,
+      "name": "changeDetail / Rincian perubahan",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5089-changedetail-rincian-perubahan.png"
+    },
+    {
+      "id": 6239,
+      "name": "Light / changeDetail",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6239-light-changedetail.png"
+    },
+    {
+      "id": 5098,
+      "name": "missing / Tidak ada di file ini",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5098-missing-tidak-ada-di-file-ini.png"
+    },
+    {
+      "id": 6267,
+      "name": "Light / missing",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6267-light-missing.png"
+    },
+    {
+      "id": 5107,
+      "name": "invalid / Periksa isi file",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5107-invalid-periksa-isi-file.png"
+    },
+    {
+      "id": 6289,
+      "name": "Light / invalid",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6289-light-invalid.png"
+    },
+    {
+      "id": 5116,
+      "name": "applying / Memperbarui katalog",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5116-applying-memperbarui-katalog.png"
+    },
+    {
+      "id": 6315,
+      "name": "Light / applying",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6315-light-applying.png"
+    },
+    {
+      "id": 5125,
+      "name": "success / Katalog diperbarui",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5125-success-katalog-diperbarui.png"
+    },
+    {
+      "id": 6331,
+      "name": "Light / success",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6331-light-success.png"
+    },
+    {
+      "id": 5134,
+      "name": "catalogAfter / Katalog saham Indonesia",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5134-catalogafter-katalog-saham-indonesia.png"
+    },
+    {
+      "id": 6359,
+      "name": "Light / catalogAfter",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6359-light-catalogafter.png"
+    },
+    {
+      "id": 5143,
+      "name": "noChanges / Katalog sudah sesuai",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5143-nochanges-katalog-sudah-sesuai.png"
+    },
+    {
+      "id": 6415,
+      "name": "Light / noChanges",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6415-light-nochanges.png"
+    },
+    {
+      "id": 5152,
+      "name": "stock / Detail saham",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5152-stock-detail-saham.png"
+    },
+    {
+      "id": 6438,
+      "name": "Light / stock",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6438-light-stock.png"
+    },
+    {
+      "id": 5908,
+      "name": "stockARTO / Detail ARTO",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5908-stockarto-detail-arto.png"
+    },
+    {
+      "id": 6471,
+      "name": "Light / stockARTO",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6471-light-stockarto.png"
+    },
+    {
+      "id": 5837,
+      "name": "stockBBRI / Detail BBRI",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5837-stockbbri-detail-bbri.png"
+    },
+    {
+      "id": 6504,
+      "name": "Light / stockBBRI",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6504-light-stockbbri.png"
+    },
+    {
+      "id": 5766,
+      "name": "stockBMRI / Detail BMRI",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5766-stockbmri-detail-bmri.png"
+    },
+    {
+      "id": 6537,
+      "name": "Light / stockBMRI",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6537-light-stockbmri.png"
+    },
+    {
+      "id": 5161,
+      "name": "stockEdit / Edit metadata saham",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5161-stockedit-edit-metadata-saham.png"
+    },
+    {
+      "id": 6570,
+      "name": "Light / stockEdit",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6570-light-stockedit.png"
+    },
+    {
+      "id": 5941,
+      "name": "stockEditARTO / Edit ARTO",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5941-stockeditarto-edit-arto.png"
+    },
+    {
+      "id": 6608,
+      "name": "Light / stockEditARTO",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6608-light-stockeditarto.png"
+    },
+    {
+      "id": 5870,
+      "name": "stockEditBBRI / Edit BBRI",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5870-stockeditbbri-edit-bbri.png"
+    },
+    {
+      "id": 6646,
+      "name": "Light / stockEditBBRI",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6646-light-stockeditbbri.png"
+    },
+    {
+      "id": 5799,
+      "name": "stockEditBMRI / Edit BMRI",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5799-stockeditbmri-edit-bmri.png"
+    },
+    {
+      "id": 6684,
+      "name": "Light / stockEditBMRI",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6684-light-stockeditbmri.png"
+    },
+    {
+      "id": 5170,
+      "name": "export / Ekspor katalog",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5170-export-ekspor-katalog.png"
+    },
+    {
+      "id": 6722,
+      "name": "Light / export",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6722-light-export.png"
+    },
+    {
+      "id": 5179,
+      "name": "exportSuccess / Katalog berhasil diekspor",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5179-exportsuccess-katalog-berhasil-diekspor.png"
+    },
+    {
+      "id": 6748,
+      "name": "Light / exportSuccess",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6748-light-exportsuccess.png"
+    },
+    {
+      "id": 5188,
+      "name": "importError / Pembaruan belum tersimpan",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5188-importerror-pembaruan-belum-tersimpan.png"
+    },
+    {
+      "id": 6763,
+      "name": "Light / importError",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6763-light-importerror.png"
+    },
+    {
+      "id": 5197,
+      "name": "fileJSON / Periksa file JSON",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5197-filejson-periksa-file-json.png"
+    },
+    {
+      "id": 6779,
+      "name": "Light / fileJSON",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6779-light-filejson.png"
+    },
+    {
+      "id": 5646,
+      "name": "newStocks / Saham baru di katalog",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/5646-newstocks-saham-baru-di-katalog.png"
+    },
+    {
+      "id": 6817,
+      "name": "Light / newStocks",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/6817-light-newstocks.png"
+    },
+    {
+      "id": 7270,
+      "name": "catalogSearch / Cari saham",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/7270-catalogsearch-cari-saham.png"
+    },
+    {
+      "id": 7335,
+      "name": "Light / search",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/7335-light-search.png"
+    },
+    {
+      "id": 7310,
+      "name": "catalogFormatError / File belum sesuai",
+      "page": 4817,
+      "theme": "Dark",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/7310-catalogformaterror-file-belum-sesuai.png"
+    },
+    {
+      "id": 7375,
+      "name": "Light / formatError",
+      "page": 4817,
+      "theme": "Light",
+      "path": "D:/Aplikasi Keuangan/design/review-v3/7375-light-formaterror.png"
+    }
+  ]
+}

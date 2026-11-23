@@ -1,0 +1,112 @@
+{
+  "extensionScreens": 79,
+  "boundsIssues": [],
+  "badFonts": [],
+  "brokenLinks": [],
+  "stats": {
+    "nodes": 7436,
+    "text": 3175,
+    "components": 32,
+    "instances": 397,
+    "screens": 174,
+    "overlays": 17,
+    "interactions": 960,
+    "flows": [
+      {
+        "description": "",
+        "name": "01 · Mulai dari Beranda",
+        "start": 202
+      },
+      {
+        "description": "",
+        "name": "02 · Catat transaksi",
+        "start": 498
+      },
+      {
+        "description": "",
+        "name": "03 · Kelola investasi",
+        "start": 656
+      },
+      {
+        "description": "",
+        "name": "04 · Berulang & akhir bulan",
+        "start": 1801
+      },
+      {
+        "description": "",
+        "name": "05 · Bunga buatan pengguna",
+        "start": 2262
+      },
+      {
+        "description": "",
+        "name": "06 · Backup & pemulihan",
+        "start": 3042
+      },
+      {
+        "description": "",
+        "name": "07 · Logo & pembukaan Arta",
+        "start": 4911
+      },
+      {
+        "description": "",
+        "name": "08 · Pembukaan gagal & coba lagi",
+        "start": 4976
+      },
+      {
+        "description": "",
+        "name": "09 · Impor katalog IDX",
+        "start": 5026
+      },
+      {
+        "description": "",
+        "name": "10 · File katalog bermasalah",
+        "start": 5107
+      },
+      {
+        "description": "",
+        "name": "11 · Pembaruan gagal & pemulihan",
+        "start": 5188
+      },
+      {
+        "description": "",
+        "name": "12 · Saldo noninvestasi boleh minus",
+        "start": 5709
+      },
+      {
+        "description": "",
+        "name": "13 · Logo Arta · terang",
+        "start": 6836
+      },
+      {
+        "description": "",
+        "name": "14 · Impor katalog · terang",
+        "start": 5979
+      },
+      {
+        "description": "",
+        "name": "15 · Saldo minus · terang",
+        "start": 6949
+      }
+    ]
+  },
+  "visualReview": {
+    "screens": 79,
+    "contactSheets": 7,
+    "fullSizePrimaryScreensReviewed": true,
+    "splashOpacityCorrected": true
+  },
+  "fonts": {
+    "missing": []
+  },
+  "contrast": {
+    "pairs": 114,
+    "failures": 0,
+    "minimumTextLight": 4.655050454735327,
+    "minimumTextDark": 4.726200019243443
+  },
+  "androidVector": {
+    "exportWarnings": [],
+    "compiled": false
+  },
+  "runtimeImportTested": false
+}
