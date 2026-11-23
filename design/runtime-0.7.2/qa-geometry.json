@@ -1,0 +1,14 @@
+{
+  "app_artboards": 572,
+  "app_descendant_nodes": 28240,
+  "app_text_layers": 10116,
+  "app_vector_layers": 3728,
+  "geometry_findings": 0,
+  "findings": [],
+  "invalid_prototype_destinations": [],
+  "all_document_actions": 4399,
+  "notes": [
+    "Scrollable content intentionally extends viewport. Glyph vector/group bounds and full-screen scrims are excluded from containment checks.",
+    "A geometry finding is reviewed before being treated as a clipping defect."
+  ]
+}

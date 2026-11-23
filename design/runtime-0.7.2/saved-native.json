@@ -1,0 +1,145 @@
+{
+  "path": "D:/Aplikasi Keuangan/design/Arta-0.7.2-Seluruh-Tampilan.figcraft",
+  "dirty": false,
+  "reopenedFromDisk": true,
+  "pages": [
+    {
+      "id": 6580,
+      "name": "00 · Panduan & Cakupan 0.7.2",
+      "children": 1,
+      "flows": 0
+    },
+    {
+      "id": 1,
+      "name": "LIB 00 · Rujukan lama (bukan layar APK)",
+      "children": 2,
+      "flows": 0
+    },
+    {
+      "id": 2,
+      "name": "LIB 01 · Token & Tipografi",
+      "children": 8,
+      "flows": 0
+    },
+    {
+      "id": 3,
+      "name": "LIB 02 · Ikon & Logo Editable",
+      "children": 52,
+      "flows": 0
+    },
+    {
+      "id": 4,
+      "name": "LIB 03 · Kontrol & Form",
+      "children": 97,
+      "flows": 0
+    },
+    {
+      "id": 5,
+      "name": "LIB 04 · Card & Daftar",
+      "children": 64,
+      "flows": 0
+    },
+    {
+      "id": 6,
+      "name": "LIB 05 · Sheet & Pemilih",
+      "children": 52,
+      "flows": 0
+    },
+    {
+      "id": 7,
+      "name": "LIB 06 · Chart & State",
+      "children": 56,
+      "flows": 0
+    },
+    {
+      "id": 8,
+      "name": "LIB 07 · Master PIN",
+      "children": 28,
+      "flows": 0
+    },
+    {
+      "id": 9,
+      "name": "LIB 08 · Contoh komposisi master",
+      "children": 34,
+      "flows": 0
+    },
+    {
+      "id": 6581,
+      "name": "APP 01 · Ringkasan & Analisis",
+      "children": 32,
+      "flows": 6
+    },
+    {
+      "id": 6582,
+      "name": "APP 02 · Aset & Utang",
+      "children": 66,
+      "flows": 2
+    },
+    {
+      "id": 6583,
+      "name": "APP 03 · Transaksi & Struk",
+      "children": 48,
+      "flows": 2
+    },
+    {
+      "id": 6584,
+      "name": "APP 04 · Berulang & Cicilan",
+      "children": 54,
+      "flows": 2
+    },
+    {
+      "id": 6585,
+      "name": "APP 05 · Investasi & IHSG",
+      "children": 76,
+      "flows": 4
+    },
+    {
+      "id": 6586,
+      "name": "APP 06 · Staking Crypto",
+      "children": 28,
+      "flows": 2
+    },
+    {
+      "id": 6587,
+      "name": "APP 07 · Bunga & Bagi Hasil",
+      "children": 20,
+      "flows": 2
+    },
+    {
+      "id": 6588,
+      "name": "APP 08 · Katalog IDX & Instrumen",
+      "children": 44,
+      "flows": 2
+    },
+    {
+      "id": 6589,
+      "name": "APP 09 · Harga & Kurs",
+      "children": 36,
+      "flows": 2
+    },
+    {
+      "id": 6590,
+      "name": "APP 10 · Kategori 0.7.2",
+      "children": 24,
+      "flows": 2
+    },
+    {
+      "id": 6591,
+      "name": "APP 11 · Pengaturan & Backup",
+      "children": 46,
+      "flows": 2
+    },
+    {
+      "id": 6592,
+      "name": "APP 12 · Keamanan & Pembukaan",
+      "children": 42,
+      "flows": 2
+    },
+    {
+      "id": 6593,
+      "name": "APP 13 · Pemilih & Sistem Android",
+      "children": 56,
+      "flows": 0
+    }
+  ]
+}

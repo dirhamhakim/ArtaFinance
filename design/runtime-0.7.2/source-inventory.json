@@ -1,0 +1,405 @@
+[
+  {
+    "file": "lib/screens/account_form.dart",
+    "public_widgets": [
+      "AccountForm"
+    ],
+    "mapped_states": [
+      "asset-bank",
+      "asset-cash",
+      "asset-ewallet",
+      "asset-exchange",
+      "asset-liability",
+      "asset-receivable",
+      "asset-debit",
+      "asset-classes"
+    ]
+  },
+  {
+    "file": "lib/screens/analytics_screen.dart",
+    "public_widgets": [
+      "AnalyticsScreen"
+    ],
+    "mapped_states": [
+      "analysis-combined",
+      "analysis-investment",
+      "analysis-cash",
+      "analysis-cashflow",
+      "analysis-scope",
+      "analysis-private",
+      "analysis-method",
+      "chart-empty",
+      "chart-one",
+      "chart-missing",
+      "chart-tooltip"
+    ]
+  },
+  {
+    "file": "lib/screens/asset_detail_screen.dart",
+    "public_widgets": [
+      "AssetDetailScreen"
+    ],
+    "mapped_states": [
+      "asset-detail",
+      "asset-debit-detail",
+      "asset-negative",
+      "asset-not-found",
+      "asset-detail-empty"
+    ]
+  },
+  {
+    "file": "lib/screens/cards_screen.dart",
+    "public_widgets": [
+      "CardsScreen",
+      "CardForm"
+    ],
+    "mapped_states": [
+      "cards",
+      "card-new",
+      "card-edit",
+      "cards-empty"
+    ]
+  },
+  {
+    "file": "lib/screens/catalog_screen.dart",
+    "public_widgets": [
+      "InstrumentLogo",
+      "CatalogScreen",
+      "InstrumentForm"
+    ],
+    "mapped_states": [
+      "catalog",
+      "catalog-stock",
+      "catalog-crypto",
+      "catalog-fund",
+      "catalog-select",
+      "catalog-more",
+      "catalog-empty",
+      "instrument-stock",
+      "instrument-crypto",
+      "instrument-fund",
+      "instrument-archived",
+      "instrument-source",
+      "search-stock",
+      "search-stock-results",
+      "search-crypto",
+      "search-crypto-results",
+      "search-no-results",
+      "idx-file",
+      "idx-sheets",
+      "idx-preview",
+      "idx-error",
+      "catalog-export"
+    ]
+  },
+  {
+    "file": "lib/screens/categories_screen.dart",
+    "public_widgets": [
+      "CategoriesScreen"
+    ],
+    "mapped_states": [
+      "categories",
+      "categories-income",
+      "categories-search",
+      "categories-no-match",
+      "categories-archive",
+      "categories-archive-empty",
+      "category-add",
+      "category-add-income",
+      "category-edit",
+      "category-duplicate",
+      "category-archive",
+      "category-reactivate"
+    ]
+  },
+  {
+    "file": "lib/screens/debts_screen.dart",
+    "public_widgets": [
+      "DebtsScreen"
+    ],
+    "mapped_states": [
+      "debts",
+      "debt-pay",
+      "debt-receive",
+      "debt-borrow",
+      "debt-lend",
+      "debt-spend"
+    ]
+  },
+  {
+    "file": "lib/screens/home_screen.dart",
+    "public_widgets": [
+      "HomeScreen"
+    ],
+    "mapped_states": [
+      "home",
+      "home-empty",
+      "home-private",
+      "home-slide2",
+      "home-incomplete",
+      "assets",
+      "assets-empty",
+      "assets-search",
+      "transactions",
+      "transactions-search",
+      "transactions-date",
+      "transactions-empty",
+      "transactions-no-match",
+      "settings",
+      "theme-picker",
+      "csv-expanded",
+      "backup-encrypt",
+      "backup-password-error",
+      "backup-json-file",
+      "backup-encrypted-file",
+      "csv-transactions-file",
+      "csv-holdings-file",
+      "csv-prices-file",
+      "restore-mandatory-file",
+      "backup-success",
+      "csv-success",
+      "restore-file",
+      "restore-password",
+      "restore-preview",
+      "restore-wrong-password",
+      "restore-invalid",
+      "restore-cancelled",
+      "restore-progress",
+      "licenses",
+      "assets-filter-bank",
+      "assets-filter-cash",
+      "assets-filter-ewallet",
+      "assets-filter-exchange",
+      "assets-filter-liability",
+      "assets-filter-receivable",
+      "assets-filter-debit",
+      "transactions-expense",
+      "transactions-income",
+      "transactions-transfer"
+    ]
+  },
+  {
+    "file": "lib/screens/interest_screen.dart",
+    "public_widgets": [
+      "InterestScreen",
+      "InterestRuleForm",
+      "InterestPostForm"
+    ],
+    "mapped_states": [
+      "interest",
+      "interest-empty",
+      "interest-more",
+      "interest-rule",
+      "interest-rule-monthly",
+      "interest-rule-progressive",
+      "interest-rule-automatic",
+      "interest-post",
+      "interest-void",
+      "interest-voided"
+    ]
+  },
+  {
+    "file": "lib/screens/investment_form.dart",
+    "public_widgets": [
+      "InvestmentForm",
+      "PriceForm"
+    ],
+    "mapped_states": [
+      "investment-buy",
+      "investment-sell",
+      "investment-opening",
+      "investment-transfer",
+      "investment-dividend",
+      "investment-reward",
+      "investment-split",
+      "investment-unit-price",
+      "investment-opening-unknown",
+      "investment-edit",
+      "investment-delete",
+      "price-stock",
+      "price-crypto",
+      "price-fund",
+      "investment-buy-crypto",
+      "investment-buy-fund"
+    ]
+  },
+  {
+    "file": "lib/screens/market_settings_screen.dart",
+    "public_widgets": [
+      "MarketSettingsScreen",
+      "FxRateForm"
+    ],
+    "mapped_states": [
+      "market",
+      "market-key-visible",
+      "market-auto-off",
+      "market-saved",
+      "price-csv-file",
+      "price-csv-preview",
+      "price-csv-error",
+      "fx-usd",
+      "fx-usdt",
+      "fx-sgd",
+      "fx-eur",
+      "fx-myr"
+    ]
+  },
+  {
+    "file": "lib/screens/occurrence_form.dart",
+    "public_widgets": [
+      "OccurrenceForm"
+    ],
+    "mapped_states": [
+      "occurrence",
+      "occurrence-transfer",
+      "occurrence-skip",
+      "occurrence-installment"
+    ]
+  },
+  {
+    "file": "lib/screens/performance_screen.dart",
+    "public_widgets": [
+      "PerformanceScreen"
+    ],
+    "mapped_states": [
+      "performance",
+      "performance-dividend",
+      "performance-incomplete",
+      "performance-method",
+      "performance-private"
+    ]
+  },
+  {
+    "file": "lib/screens/portfolio_screen.dart",
+    "public_widgets": [
+      "PortfolioScreen",
+      "InvestmentHistoryScreen",
+      "InstrumentDetailScreen"
+    ],
+    "mapped_states": [
+      "portfolio",
+      "portfolio-stock",
+      "portfolio-crypto",
+      "portfolio-fund",
+      "portfolio-composition",
+      "portfolio-empty",
+      "portfolio-private",
+      "portfolio-missing",
+      "portfolio-actions",
+      "holding-expanded",
+      "holding-crypto",
+      "holding-fund",
+      "holding-missing",
+      "investment-history",
+      "instrument-detail",
+      "instrument-history-empty",
+      "investment-history-empty"
+    ]
+  },
+  {
+    "file": "lib/screens/schedules_screen.dart",
+    "public_widgets": [
+      "SchedulesScreen",
+      "ScheduleDetailScreen"
+    ],
+    "mapped_states": [
+      "schedules",
+      "schedules-paused",
+      "schedules-stopped",
+      "schedules-all",
+      "schedules-installment",
+      "schedules-empty",
+      "schedule-create",
+      "schedule-detail",
+      "schedule-paused",
+      "schedule-stopped",
+      "schedule-installment",
+      "schedule-completed",
+      "schedule-stop",
+      "schedule-resume",
+      "schedule-not-found"
+    ]
+  },
+  {
+    "file": "lib/screens/security_screen.dart",
+    "public_widgets": [
+      "SecurityScreen",
+      "PinSetupScreen"
+    ],
+    "mapped_states": [
+      "security",
+      "security-enabled",
+      "security-disable",
+      "pin",
+      "pin-filled",
+      "pin-visible",
+      "pin-error",
+      "pin-lockout",
+      "pin-biometric-loading",
+      "pin-no-biometric",
+      "pin-setup",
+      "pin-confirm",
+      "pin-mismatch",
+      "pin-reset"
+    ]
+  },
+  {
+    "file": "lib/screens/staking_screen.dart",
+    "public_widgets": [
+      "StakingScreen",
+      "StakingPlanForm",
+      "StakingEventForm"
+    ],
+    "mapped_states": [
+      "staking",
+      "staking-empty",
+      "staking-plan",
+      "staking-plan-edit",
+      "staking-activity-stake",
+      "staking-activity-request",
+      "staking-activity-unstake",
+      "staking-activity-reward",
+      "staking-activity-loss",
+      "staking-pending",
+      "staking-reward-free",
+      "staking-fee",
+      "staking-activity-edit",
+      "staking-delete"
+    ]
+  },
+  {
+    "file": "lib/screens/transaction_form.dart",
+    "public_widgets": [
+      "TransactionForm"
+    ],
+    "mapped_states": [
+      "expense",
+      "income",
+      "transfer",
+      "transfer-sender",
+      "transfer-receiver",
+      "transfer-both",
+      "transfer-fx",
+      "expense-fx",
+      "repeat-expense",
+      "repeat-income",
+      "repeat-transfer",
+      "installment",
+      "expense-card",
+      "transaction-edit",
+      "transaction-error",
+      "transaction-saving",
+      "transaction-delete",
+      "schedule-edit",
+      "repeat-weekdays",
+      "repeat-yearly",
+      "debt-pay",
+      "debt-receive",
+      "debt-borrow",
+      "debt-lend",
+      "debt-spend",
+      "repeat-with-end",
+      "transfer-fx-receiver"
+    ]
+  }
+]
