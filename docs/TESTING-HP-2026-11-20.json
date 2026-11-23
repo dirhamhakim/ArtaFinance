@@ -1,0 +1,432 @@
+{
+  "status": "testing_session_complete_with_findings",
+  "app": "Arta",
+  "version": "0.6.0+8",
+  "device": "Samsung SM-A057F Android 15",
+  "started_at": "2026-11-20T11:28:54.827593+07:00",
+  "baseline_financial_data_empty": true,
+  "baseline_integrity": "ok",
+  "baseline_database": "baseline.sqlite",
+  "installed_apk_sha256_matches_delivered": true,
+  "hotspot_or_mobile_data_changed": false,
+  "airplane_mode_changed": false,
+  "emulator_used": false,
+  "bibit_stockbit_opened": false,
+  "bibit_stockbit_screenshots_taken": false,
+  "reference_apks_copied": [
+    "design/references-apk/bibit/extraction.json",
+    "design/references-apk/stockbit/extraction.json"
+  ],
+  "findings": [
+    {
+      "id": "BUG-002",
+      "severity": "low",
+      "summary": "Settings footer shows Arta 0.4.0 on installed 0.6.0+8",
+      "evidence": "settings-backup.xml"
+    },
+    {
+      "id": "BUG-003",
+      "severity": "high",
+      "summary": "Transaction save button partly under Samsung 3-button navigation bar at bottom of scroll; keyboard-open workaround needed",
+      "evidence": "expense-save-position.png",
+      "code_changed": false
+    },
+    {
+      "id": "BUG-004",
+      "severity": "medium",
+      "summary": "Restore deletes market_daily_auto preference and re-enables automatic daily prices",
+      "evidence": "restore-auto-preference-reset.png",
+      "code_changed": false
+    }
+  ],
+  "checks": {
+    "T01": {
+      "status": "SEBAGIAN",
+      "actual": "Startup dan beberapa force-stop/buka ulang berhasil; logo dan loading terlihat. APK terpasang cocok SHA256. Instalasi/upgrade tidak dijalankan dalam sesi ini; data awal kosong.",
+      "evidence": "initial; cold-reopen; final-ready-summary"
+    },
+    "T02": {
+      "status": "SEBAGIAN",
+      "actual": "Lima akun dibuat lewat UI, termasuk saldo awal -1.000; total awal 99.000. Tidak mematikan internet karena laptop memakai hotspot HP.",
+      "evidence": "account QA screenshots; baseline.sqlite"
+    },
+    "T03": {
+      "status": "LULUS",
+      "actual": "Ekspor native QA-Awal-060.json valid, schema 5, 308.476 byte, lima akun. File dibaca kembali dari penyimpanan HP melalui ADB.",
+      "evidence": "QA-Awal-060.json"
+    },
+    "T04": {
+      "status": "LULUS",
+      "actual": "Pengeluaran 150.000 memberi saldo -50.000; pemasukan 20.000 menjadi -30.000, masing-masing tercatat sekali. Menyimpan memakai workaround keyboard terbuka karena BUG-003.",
+      "evidence": "basic-complete.sqlite; expense-save-position"
+    },
+    "T05": {
+      "status": "LULUS",
+      "actual": "Transfer 5.000 + biaya 1.000: Mandiri -36.000, Wallet 5.000. Field biaya muncul setelah toggle dinyalakan.",
+      "evidence": "basic-complete.sqlite"
+    },
+    "T06": {
+      "status": "LULUS",
+      "actual": "Edit pengeluaran 150.000 menjadi 100.000: Mandiri 14.000. Batal hapus tidak mengubah data; konfirmasi hapus: Mandiri 114.000, Wallet 5.000, Minus -1.000; total 118.000.",
+      "evidence": "basic-complete.sqlite"
+    },
+    "T07": {
+      "status": "SEBAGIAN",
+      "actual": "Nama akun kosong ditolak. Matriks seluruh input tidak valid, akun sama dan tombol ganda belum diselesaikan.",
+      "evidence": "account validation evidence"
+    },
+    "T08": {
+      "status": "LULUS",
+      "actual": "Saldo -999,90 lalu -999,70 lalu tepat -1.000. Nilai minor tersimpan 10, 20, 30 tanpa residu floating point.",
+      "evidence": "basic-complete.sqlite"
+    },
+    "T09": {
+      "status": "LULUS",
+      "actual": "Pencarian kategori/catatan/akun, tidak ditemukan dan kosong sesuai. Pemasukan 20.000,30; pengeluaran 1.000,30; pokok transfer tidak masuk arus kas.",
+      "evidence": "search-income; search-note; search-account; search-empty; basic-cashflow"
+    },
+    "T10": {
+      "status": "SEBAGIAN",
+      "actual": "Force-stop Arta dan buka ulang mempertahankan baris akun/transaksi, integritas ok. Mode pesawat dan restart HP tidak dilakukan demi hotspot.",
+      "evidence": "after-reopen.sqlite; cold-reopen"
+    },
+    "T11": {
+      "status": "SEBAGIAN",
+      "actual": "Aturan dari fixture backup menghasilkan tanggal 4 dan akhir bulan Januari-Maret 2024, termasuk 29 Februari: 6 transaksi, saldo -34.500. Pembuatan aturan lewat form belum diuji.",
+      "evidence": "portfolio-imported.sqlite; schedules-pending"
+    },
+    "T12": {
+      "status": "LULUS",
+      "actual": "Refresh berulang mempertahankan enam transaksi otomatis. Setelah empat konfirmasi tambahan, reset/restore/cold reopen mempertahankan tepat 10 transaksi dan 10 kejadian unik, tanpa duplikasi. Varian keadaan uji dijelaskan di laporan.",
+      "evidence": "schedules-complete.sqlite; restored-after-reset.sqlite"
+    },
+    "T13": {
+      "status": "SEBAGIAN",
+      "actual": "Aturan berasal dari fixture. UI mengubah aktual 7.000 menjadi 7.500, tanggal 11 April; jatuh tempo tetap 10 April, aturan tetap 7.000, saldo QA Jadwal -42.000. Pembuatan form/double tap belum diuji.",
+      "evidence": "schedule-progress; schedules-complete.sqlite"
+    },
+    "T20": {
+      "status": "SEBAGIAN",
+      "actual": "Varian fixture total 10, tiga konfirmasi UI: 3,33 + 3,33 + 3,34, jumlah tepat 10, tanpa pokok tambahan. Kasus total 100 mulai tanggal 31 dan pembuatan form belum dijalankan.",
+      "evidence": "schedules-confirmed-final; schedules-complete.sqlite"
+    },
+    "T22": {
+      "status": "LULUS",
+      "actual": "Restore fixture schema 5 dan roundtrip backup lengkap berhasil. Setelah reset dan cold reopen, koleksi finansial dibandingkan persis dengan backup; tidak ada kejadian jadwal ganda. Varian data lebih lengkap dari contoh dasar.",
+      "evidence": "restored-after-reset.sqlite; QA-Full-Plain-060.json"
+    },
+    "T23": {
+      "status": "LULUS",
+      "actual": "Ekspor terenkripsi 451.933 byte, sandi salah tidak mengganti data, sandi benar memunculkan preview lalu berhasil restore setelah cadangan wajib disimpan. Akun/transaksi/jadwal/kartu/investasi/staking/bunga/katalog/kurs cocok persis.",
+      "evidence": "QA-Full-Encrypted-060.json; encrypted-correct-preview; after-encrypted-restore.sqlite"
+    },
+    "T24": {
+      "status": "LULUS",
+      "actual": "Batal picker, batal preview, batal cadangan wajib, JSON rusak dan versi tidak didukung mempertahankan baris finansial. Memakai perbandingan snapshot lima transaksi sebagai penanda, bukan menambah pemasukan 1.",
+      "evidence": "mandatory-backup-cancelled; restore-invalid-json; restore-unsupported-version; after-mandatory-cancel.sqlite"
+    },
+    "T25": {
+      "status": "GAGAL",
+      "actual": "Tema gelap/terang berhasil. Tombol simpan transaksi tertutup sebagian navigasi Samsung (BUG-003). Font besar dan landscape belum diuji; kegagalan tata letak sudah terkonfirmasi secara visual.",
+      "evidence": "expense-save-position; light-theme-donut"
+    },
+    "T27": {
+      "status": "SEBAGIAN",
+      "actual": "Kalender digunakan mengubah tanggal aktual 10 ke 11 April. Jam analog 24 jam terlihat tanpa AM/PM. Mengubah dan menyimpan jam dari dial belum diuji lengkap.",
+      "evidence": "calendar-dialog; schedule-actual-calendar; clock-24h"
+    },
+    "T29": {
+      "status": "SEBAGIAN",
+      "actual": "Toggle biaya off menyembunyikan field; on menampilkan field dan biaya 1.000 terpotong pada transfer serta jual saham. Matriks mematikan kembali biaya lama belum diselesaikan.",
+      "evidence": "basic-complete.sqlite; benchmark-after-full-sale"
+    },
+    "T30": {
+      "status": "SEBAGIAN",
+      "actual": "Mata menyamarkan angka dengan titik dan menyembunyikan chart/komposisi. Seluruh rincian sensitif, semua tab, dan persistensi preferensi belum diperiksa lengkap.",
+      "evidence": "privacy-hidden; cashflow-chart-hidden; light-theme-donut"
+    },
+    "T31": {
+      "status": "SEBAGIAN",
+      "actual": "Paket terpasang tidak meminta izin baca galeri/penyimpanan umum. Memilih, menyimpan dan memulihkan foto belum dilakukan.",
+      "evidence": "online-checks.json; pemeriksaan dumpsys package"
+    },
+    "T33": {
+      "status": "SEBAGIAN",
+      "actual": "PIN enam angka di keypad khusus dibuat dengan sidik jari default aktif; PIN benar berhasil membuka; kunci uji dinonaktifkan. Matriks konfirmasi PIN berbeda dan semua tombol belum diselesaikan.",
+      "evidence": "security-setup; security-saved; pin-correct-confirmed"
+    },
+    "T34": {
+      "status": "SEBAGIAN",
+      "actual": "Satu percobaan PIN salah tidak membuka data. Penundaan setelah beberapa kegagalan beruntun belum diuji.",
+      "evidence": "pin-correct-unlocked; pin-correct-confirmed"
+    },
+    "T35": {
+      "status": "LULUS",
+      "actual": "Sensor sidik jari asli pemilik HP membuka Arta melalui dialog biometrik Android. Membatalkan dialog tidak membuka data; PIN Arta yang benar membuka sebagai fallback.",
+      "evidence": "biometric-prompt; biometric-owner-result; pin-fallback; pin-correct-confirmed"
+    },
+    "T37": {
+      "status": "SEBAGIAN",
+      "actual": "Tombol mata pada field API key dummy dan sandi backup QA diuji. API key sebenarnya selalu dimasukkan dalam keadaan tersembunyi. Perubahan seluruh sandi/kunci belum diuji lengkap.",
+      "evidence": "price-key-eye-dummy; encrypted-backup-form"
+    },
+    "T39": {
+      "status": "SEBAGIAN",
+      "actual": "Kartu dari fixture menampilkan rekening QA Jago Syariah dan saldo 1.000.000. Kekayaan tidak dihitung dua kali. Pembuatan kartu dan pengeluaran dengan pilihan kartu belum diuji.",
+      "evidence": "cards-linked; fixture-independent-expected.json"
+    },
+    "T41": {
+      "status": "SEBAGIAN",
+      "actual": "Logo/splash/loading dan empty state Ringkasan tampil; ilustrasi finansial tanpa kucing terlihat. Semua variasi empty/search/photo belum diperiksa.",
+      "evidence": "reset-fresh-first; final-clean-summary"
+    },
+    "T42": {
+      "status": "SEBAGIAN",
+      "actual": "Pencarian lokal BBCA dan katalog saham tersedia; metadata hasil impor 944 saham dipertahankan. Semua filter/arsip/pagination belum diselesaikan.",
+      "evidence": "investment-select-bbca; idx-import-ready"
+    },
+    "T43": {
+      "status": "SEBAGIAN",
+      "actual": "Impor Excel IDX lewat picker berhasil: tetap 944, baru/berubah/tidak ditemukan 0; diterapkan tanpa duplikat. Impor JSON dan contoh pembaruan berbeda belum diuji.",
+      "evidence": "idx-import-ready; online-complete.sqlite"
+    },
+    "T46": {
+      "status": "SEBAGIAN",
+      "actual": "Pencarian bitcoin di CoinGecko menampilkan ID berbeda; BCH ditambahkan lewat UI dan ikut backup. Simbol ambigu/error/offline belum diuji lengkap.",
+      "evidence": "external-search-filters; QA-Full-Plain-060.json"
+    },
+    "T47": {
+      "status": "SEBAGIAN",
+      "actual": "Reksa dana manual dari fixture tampil sebagai 100 unit bernilai 100.000. Pengisian NAB lewat form dan transaksi beli/jual dana belum dijalankan.",
+      "evidence": "analytics-investment-donut"
+    },
+    "T49": {
+      "status": "SEBAGIAN",
+      "actual": "Pembelian 100 BBCA bruto 900.000 pada 5 November menambah unit menjadi 200 dan memotong kas sekuritas 900.000. Input lot dan semua variasi biaya belum diuji.",
+      "evidence": "after-buy-current; before-online.sqlite"
+    },
+    "T50": {
+      "status": "SEBAGIAN",
+      "actual": "Jual seluruh 200 BBCA bruto 2.000.000, biaya 1.000, pada 12 November berhasil; kas sekuritas menjadi 3.599.000. Penarikan dana ke bank belum diuji.",
+      "evidence": "benchmark-after-full-sale; QA-Full-Plain-060.json"
+    },
+    "T52": {
+      "status": "SEBAGIAN",
+      "actual": "Saldo awal unit dengan modal diketahui dipulihkan tanpa menarik kas; jumlah kekayaan cocok oracle. Form pembukaan dan modal tidak diketahui belum diuji.",
+      "evidence": "portfolio-fixture-summary; fixture-independent-expected.json"
+    },
+    "T57": {
+      "status": "SEBAGIAN",
+      "actual": "Grafik detail BTC memuat riwayat panjang dan quote penutupan; semua periode/history saham/fund dan sentuhan grafik belum diuji lengkap.",
+      "evidence": "btc-reference-history"
+    },
+    "T58": {
+      "status": "SEBAGIAN",
+      "actual": "Key pengguna dimasukkan privat, tersimpan terenkripsi, dan berhasil dipakai. Key tidak ada pada backup finansial. Key dummy punya mata. Error key salah/kuota belum disimulasikan.",
+      "evidence": "price-key-saved-masked; QA-Basic-Complete-060.json; final-key-saved-masked"
+    },
+    "T59": {
+      "status": "SEBAGIAN",
+      "actual": "Yahoo IHSG online dan pencarian BBCA/BBCA.JK berhasil. Harga penutupan saham individual tidak diminta setelah seluruh unit saham dijual.",
+      "evidence": "ihsg-online-refresh; yahoo-search-symbol; yahoo-search-code-retry"
+    },
+    "T60": {
+      "status": "LULUS",
+      "actual": "Permintaan harga terbaru BTC/ETH berhasil dalam satu permintaan crypto; dua quote live bertanggal 20 November tersimpan terpisah dan tidak mengubah valuasi penutupan.",
+      "evidence": "crypto-live-online; online-complete.sqlite"
+    },
+    "T61": {
+      "status": "SEBAGIAN",
+      "actual": "Switch otomatis dan penyimpanan key diperiksa; ditemukan BUG-004 setelah restore. Offline, rate limit dan pergantian hari belum diuji karena jaringan dipertahankan.",
+      "evidence": "restore-auto-preference-reset; daily-close-online"
+    },
+    "T64": {
+      "status": "SEBAGIAN",
+      "actual": "Akun USD 100 dengan kurs 16.000 dari fixture bernilai 1.600.000 dalam ringkasan/chart. Form kurs, akun tanpa kurs dan nominal pecahan lintas mata uang belum diuji lengkap.",
+      "evidence": "analytics-cash-donut; fixture-independent-expected.json"
+    },
+    "T67": {
+      "status": "SEBAGIAN",
+      "actual": "Aturan fixture 10% basis 365/pajak 20% memberi bruto 1.000, pajak 200, neto 800 pada hari pertama. Form aturan dan semua basis saldo belum diuji.",
+      "evidence": "interest-estimates"
+    },
+    "T68": {
+      "status": "SEBAGIAN",
+      "actual": "Dua bunga dikonfirmasi UI: neto 800 dan 800,18 setelah saldo bertambah. Tidak ada periode menunggu; posting cocok perhitungan independen. Membatalkan posting belum diuji.",
+      "evidence": "interest-posted; before-online.sqlite"
+    },
+    "T74": {
+      "status": "LULUS",
+      "actual": "Backup lengkap dengan kartu, jadwal, staking, bunga, investasi, kurs dan katalog berhasil divalidasi dan dipulihkan; koleksi finansial cocok persis.",
+      "evidence": "QA-Full-Plain-060.json; after-encrypted-restore.sqlite; restored-after-reset.sqlite"
+    },
+    "T75": {
+      "status": "SEBAGIAN",
+      "actual": "API key dan PIN tidak ikut dipulihkan setelah hapus data; aplikasi kembali tanpa kunci, key kosong. Migrasi seluruh versi backup lama belum dijalankan.",
+      "evidence": "final-key-before; reset-fresh-confirmed"
+    },
+    "T76": {
+      "status": "TERHALANG",
+      "actual": "Force-stop/buka ulang berhasil dengan data tetap; bagian seluruhnya offline tidak dijalankan agar hotspot dan internet laptop tetap menyala.",
+      "evidence": "after-reopen.sqlite; restored-after-reset.sqlite"
+    },
+    "T77": {
+      "status": "GAGAL",
+      "actual": "BUG-003: Simpan transaksi berada sebagian di bawah bilah navigasi Samsung saat keyboard tersembunyi. Workaround diperlukan. Semua ukuran font/orientasi belum diperiksa.",
+      "evidence": "expense-save-position; save-keyboard-hidden; save-with-keyboard"
+    },
+    "T79": {
+      "status": "LULUS",
+      "actual": "pm clear hanya paket Arta: akun/transaksi/jadwal/kejadian/kartu 0, saldo 0, integritas ok; tanpa login/PIN QA, key kosong, sepuluh crypto default kembali. Hotspot tidak diubah.",
+      "evidence": "reset-fresh-confirmed.sqlite; reset-fresh-confirmed; final-key-before"
+    },
+    "T80": {
+      "status": "LULUS",
+      "actual": "Setelah reset, backup lengkap dipulihkan melalui picker dan cadangan wajib; cold reopen mempertahankan seluruh koleksi finansial persis. Data QA kemudian dibersihkan kembali.",
+      "evidence": "restored-after-reset.sqlite; restored-cold-reopen; final-clean-summary"
+    },
+    "T81": {
+      "status": "SEBAGIAN",
+      "actual": "Line dan donut investasi tampil dengan nilai 61.350.000, termasuk pokok staking sekali. Periode/tooltip/segmen pada semua scope belum diselesaikan.",
+      "evidence": "analytics-investment-line; analytics-investment-donut"
+    },
+    "T82": {
+      "status": "SEBAGIAN",
+      "actual": "Dua garis pemasukan/pengeluaran, nilai/tanggal sentuhan, transfer tidak dihitung sebagai pemasukan; varian pengeluaran beragam periode belum diuji.",
+      "evidence": "cashflow-linechart; basic-cashflow"
+    },
+    "T83": {
+      "status": "LULUS",
+      "actual": "Line kas 8.814.500, donut hanya saldo positif, QA Minus -1.000 dan QA Jadwal -34.500 terpisah; kas sekuritas termasuk, kartu tidak menambah total.",
+      "evidence": "analytics-cash-line; analytics-cash-donut"
+    },
+    "T84": {
+      "status": "SEBAGIAN",
+      "actual": "Gabungan 70.164.500 cocok penjumlahan kas dan investasi. Pembelian 900.000 yang bernilai 1.000.000 hanya menambah kekayaan 100.000. Varian bank->RDN->beli tepat 200 belum dijalankan.",
+      "evidence": "analytics-combined-line; analytics-combined-donut; after-buy-current"
+    },
+    "T86": {
+      "status": "SEBAGIAN",
+      "actual": "Chart disembunyikan saat mata aktif, tema terang/gelap diperiksa secara visual. Semua scope, font besar dan landscape belum diuji lengkap.",
+      "evidence": "cashflow-chart-hidden; light-theme-donut"
+    },
+    "T87": {
+      "status": "LULUS",
+      "actual": "Sepuluh bawaan terverifikasi: BTC ETH USDT USDC SOL HYPE XAUT PAXG BNB XRP. BCH hanya tambahan QA dari pencarian; setelah reset kembali sepuluh.",
+      "evidence": "online-checks.json; final-clean.sqlite"
+    },
+    "T88": {
+      "status": "SEBAGIAN",
+      "actual": "Posisi staking dan aktivitas awal dari fixture terbaca benar; total unit tidak dihitung dua kali. Membuat posisi/stake via form dan menolak jual unit terkunci belum dijalankan.",
+      "evidence": "staking-before; fixture-independent-expected.json"
+    },
+    "T89": {
+      "status": "SEBAGIAN",
+      "actual": "Pending 0,1 tetap terkunci setelah estimasi cair lewat. Klaim manual 0,1 lewat form membuat pending 0 dan bebas 0,7; total tetap 1,005. Form pengajuan awal berasal dari fixture.",
+      "evidence": "staking-before; staking-claimed; after-staking-claim.sqlite"
+    },
+    "T90": {
+      "status": "SEBAGIAN",
+      "actual": "Reward aktual 0,01 restake dan APR 5% dari fixture tampil terpisah; estimasi tidak menjadi unit. Pencatatan reward baru melalui form belum diuji.",
+      "evidence": "staking-before"
+    },
+    "T91": {
+      "status": "SEBAGIAN",
+      "actual": "Slashing 0,005 dari fixture mengurangi unit total menjadi 1,005 dan aktif menjadi 0,305. Form slashing/fee/pending loss belum dijalankan.",
+      "evidence": "staking-before; fixture-independent-expected.json"
+    },
+    "T92": {
+      "status": "SEBAGIAN",
+      "actual": "Backup/restore mempertahankan posisi dan aktivitas staking persis. Edit/hapus/arsip posisi dan aktivitas belum diuji.",
+      "evidence": "after-encrypted-restore.sqlite; restored-after-reset.sqlite"
+    },
+    "T94": {
+      "status": "SEBAGIAN",
+      "actual": "Dua quote live 20 November terpisah; 14 close BTC/ETH 13-19 November tersimpan, as_of 00:00 UTC hari berikutnya. Tidak ada close hari berjalan. Jadwal pergantian hari dan offline belum diuji.",
+      "evidence": "crypto-live-online; daily-close-online; online-complete.sqlite"
+    },
+    "T96": {
+      "status": "SEBAGIAN",
+      "actual": "Harga penutupan dan harga terbaru dipisahkan dalam backup lengkap dan dapat dipulihkan. Preferensi otomatis berubah setelah restore (BUG-004). Matriks semua versi quote lama belum diuji.",
+      "evidence": "QA-Full-Plain-060.json; restore-auto-preference-reset"
+    },
+    "T97": {
+      "status": "SEBAGIAN",
+      "actual": "Grafik riwayat BTC panjang berhasil dimuat dari paket APK. Internet tetap aktif, jadi pembuktian mode pesawat belum dijalankan.",
+      "evidence": "btc-reference-history"
+    },
+    "T100": {
+      "status": "SEBAGIAN",
+      "actual": "Backup finansial terenkripsi 451.933 byte dan plain sekitar 339 KB, jauh lebih kecil dari seluruh aset riwayat. Cache publik bawaan tidak digandakan dalam backup. Batas maksimum belum diuji.",
+      "evidence": "QA-Full-Encrypted-060.json; QA-Full-Plain-060.json"
+    },
+    "T101": {
+      "status": "SEBAGIAN",
+      "actual": "Tema terang/gelap, logo/loading, chart dan ilustrasi finansial tanpa kucing diperiksa. Footer versi tertinggal BUG-002. Seluruh layar belum direview visual.",
+      "evidence": "light-theme-donut; final-ready-summary; settings-backup"
+    },
+    "T102": {
+      "status": "SEBAGIAN",
+      "actual": "Referensi IHSG dan dua garis tampil; Yahoo ^JKSE memperbarui sampai 19 November, sesi berjalan tidak masuk. Offline/error/429 belum diuji.",
+      "evidence": "performance-before-flows; ihsg-online-refresh"
+    },
+    "T103": {
+      "status": "SEBAGIAN",
+      "actual": "Pembelian tambahan 100 BBCA tidak membuat return melonjak: tetap +11,11%. Top-up/withdraw/dividen/split dan arus masuk di pertengahan hari belum seluruhnya diuji.",
+      "evidence": "benchmark-after-buy-confirmed"
+    },
+    "T104": {
+      "status": "LULUS",
+      "actual": "Jual seluruh 200 BBCA pada 12 November, bruto 2.000.000 fee 1.000; unit nol tetapi return tetap +11,06% sampai tanggal akhir, sesuai oracle 11,055555...%.",
+      "evidence": "benchmark-after-full-sale; ihsg-online-refresh"
+    },
+    "T106": {
+      "status": "SEBAGIAN",
+      "actual": "Periode 1B/3B/6B/1T/Semua pada grafik perbandingan berhasil dipilih. Split, gap harga, histori kurs dan sentuhan semua titik belum diuji.",
+      "evidence": "performance-periods"
+    },
+    "T107": {
+      "status": "SEBAGIAN",
+      "actual": "Pencarian Yahoo BBCA.JK dan BBCA berhasil, AAPL tidak masuk daftar Indonesia. Penambahan IPO sungguhan yang tidak ada pada katalog belum dijalankan.",
+      "evidence": "yahoo-search-symbol; yahoo-search-code-retry; external-search-filters"
+    },
+    "T108": {
+      "status": "SEBAGIAN",
+      "actual": "Roundtrip backup finansial terbaru dan startup/cold reopen berhasil; BUG-004 mengubah preferensi auto close. Upgrade dari APK lama/data pribadi dan seluruh regresi belum dijalankan.",
+      "evidence": "restored-after-reset.sqlite; restore-auto-preference-reset"
+    }
+  },
+  "case_totals": {
+    "SEBAGIAN": 50,
+    "LULUS": 18,
+    "GAGAL": 2,
+    "TERHALANG": 1,
+    "BELUM": 37
+  },
+  "final_financial_state": "empty, original baseline contained no personal finances",
+  "final_app_lock_enabled": false,
+  "final_default_crypto_count": 10,
+  "encrypted_backup_validated": true,
+  "encrypted_backup_bytes": 451933,
+  "source_files_unchanged": 137,
+  "report": "docs/TESTING-HP-2026-11-20.md",
+  "manual_checklist": "docs/TESTING-APK-0.2.0.md",
+  "finished_at": "2026-11-20T06:03:52.040597+00:00",
+  "final_financial_counts": {
+    "accounts": 0,
+    "ledger_transactions": 0,
+    "schedules": 0,
+    "schedule_occurrences": 0,
+    "payment_cards": 0
+  },
+  "final_network": {
+    "airplane_mode_on": "0",
+    "mobile_data": "1",
+    "tethered_state_observed": true
+  },
+  "final_user_api_key_configured": true,
+  "application_code_modified": false,
+  "apk_built_or_installed": false,
+  "credential_artifact_scan_files": 153,
+  "credential_leaks_found": 0
+}

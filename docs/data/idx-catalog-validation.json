@@ -1,0 +1,78 @@
+{
+  "catalog_version": "idx-2026-11-18-c727d1cf67a0-r2",
+  "source_sha256": "c727d1cf67a06854a0c6577d9b4ae8d704b71e83fb18986420294a1c53f31b7b",
+  "sheets": [
+    "Sheet1"
+  ],
+  "source_headers": [
+    "No",
+    "Kode",
+    "Nama Perusahaan",
+    "Tanggal Pencatatan",
+    "Saham",
+    "Papan Pencatatan"
+  ],
+  "data_rows": 944,
+  "catalog_records": 944,
+  "unique_codes": 944,
+  "rejected_rows": 0,
+  "shares_count_records": 944,
+  "shares_count_min": "3600000",
+  "shares_count_max": "1140573267220",
+  "listing_date_min": "1977-08-10",
+  "listing_date_max": "2026-07-10",
+  "listing_board_counts": {
+    "Akselerasi": 42,
+    "Ekonomi Baru": 1,
+    "Pemantauan Khusus": 60,
+    "Pengembangan": 547,
+    "Utama": 294
+  },
+  "name_length_counts": {
+    "10": 2,
+    "11": 2,
+    "12": 6,
+    "13": 6,
+    "14": 10,
+    "15": 15,
+    "16": 20,
+    "17": 26,
+    "18": 30,
+    "19": 24,
+    "20": 36,
+    "21": 42,
+    "22": 53,
+    "23": 70,
+    "24": 65,
+    "25": 68,
+    "26": 69,
+    "27": 72,
+    "28": 65,
+    "29": 73,
+    "30": 190
+  },
+  "warnings": [
+    {
+      "issue": "possible_source_name_truncation",
+      "name_length_limit_observed": 30,
+      "records_at_limit": 190,
+      "note": "Some source names appear cut off. Not every name at the limit is incomplete. Names are preserved, not inferred."
+    }
+  ],
+  "checks": {
+    "expected_headers": true,
+    "unique_nonblank_codes_and_names": true,
+    "four_letter_stock_codes": true,
+    "source_number_column_ignored": true,
+    "listing_dates_parsed": true,
+    "shares_format_checked": true,
+    "shares_count_preserved_exactly": true,
+    "no_formula_or_error_cells": true,
+    "names_preserved_after_edge_trimming": true
+  },
+  "external_checks": {
+    "idx_completeness": "not_verified",
+    "yahoo_prices": "not_verified",
+    "stockbit_logos": "not_verified"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "verified_date": "2026-11-19",
+  "app": "Arta",
+  "version": "0.1.0+1",
+  "package_id": "id.arta.arta",
+  "flutter": "3.50.0",
+  "dart": "3.14.0",
+  "tests_passed": 15,
+  "analysis": "No issues found",
+  "build": "debug",
+  "apk": "build/app/outputs/flutter-apk/app-debug.apk",
+  "bytes": 173705424,
+  "sha256": "ad4e0a976c6e66825efec2f6d4a9365ff1a224daef248ab927e5486bc5e539d6",
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "abis": ["arm64-v8a", "armeabi-v7a", "x86_64"],
+  "signature_verified": true,
+  "signing_certificate": "Android Debug",
+  "physical_device_tested": false,
+  "visual_review": [
+    "build/ui-review/empty-dark.png",
+    "build/ui-review/overview-dark.png",
+    "build/ui-review/overview-light.png"
+  ]
+}

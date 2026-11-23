@@ -1,0 +1,103 @@
+﻿{
+    "verified_date":  "2026-11-19T18:53:54.2533752+07:00",
+    "app":  "Arta",
+    "version":  "0.3.0+5",
+    "package_id":  "id.arta.arta",
+    "status":  "apk_built_verified_physical_testing_pending",
+    "apk_built":  true,
+    "android_gradle_build_run":  true,
+    "database_schema_version":  3,
+    "backup_schema_version":  3,
+    "accepted_backup_versions":  [
+                                     1,
+                                     2,
+                                     3
+                                 ],
+    "encrypted_envelope_version":  1,
+    "analysis":  "No issues found",
+    "unique_dart_flutter_tests_verified":  75,
+    "full_suite_passed_cases":  74,
+    "final_ui_rerun_passed_cases":  7,
+    "test_note":  "Full suite 74 passed; UI rerun 7 passed after adding one end-to-end security case and focus exclusion. 75 unique cases verified, not a single full run of 75.",
+    "test_logs":  [
+                      "build/tests-0.3.0.log",
+                      "build/ui-final-0.3.0.log"
+                  ],
+    "kotlin_native_typecheck_passed":  true,
+    "kotlin_files_checked":  4,
+    "jvm_pin_policy_checks_passed":  true,
+    "native_check_command":  "scripts/check-android-native.ps1",
+    "native_check_note":  "Standalone cached Kotlin compiler against Android SDK and Flutter embedding; no APK or Gradle assemble.",
+    "physical_device_tested":  false,
+    "emulator_used":  false,
+    "google_login_tested":  false,
+    "build_confirmation":  "User replied ya boleh after build confirmation request.",
+    "last_available_apk":  "build/app/outputs/flutter-apk/arta-0.3.0-debug.apk",
+    "last_available_apk_sha256":  "12e4cedde3b14c08f89bf005f70c43a3af05eed2fc17eaaec1e27338a99b0a86",
+    "screenshot_review":  [
+                              "pin-lock-dark",
+                              "time-picker-dark",
+                              "cards-dark",
+                              "cat-empty-dark",
+                              "cat-empty-light"
+                          ],
+    "source_hashes":  [
+                          {
+                              "file":  "lib/models/ledger.dart",
+                              "sha256":  "4520d73cf41fbe5e39326b981749e7edb14d94be42ff82910097d4b388bdc60e"
+                          },
+                          {
+                              "file":  "lib/models/schedule.dart",
+                              "sha256":  "f74efbffc533ea740a0162063d134b4f7fee54dfa35b9b2e3607b8a8ecef70d6"
+                          },
+                          {
+                              "file":  "lib/models/receipt_image.dart",
+                              "sha256":  "ee5bd47f9721813c3e61dc58d13844e3cc715d052af0dfab3b8c8de3b5a46d80"
+                          },
+                          {
+                              "file":  "lib/models/payment_card.dart",
+                              "sha256":  "21271766fb0ea8526e636509400ebe8556c992614037236874eb8c9d03026a7f"
+                          },
+                          {
+                              "file":  "lib/repositories/finance_repository.dart",
+                              "sha256":  "9022405a3908dfb5a9b8a65e598784e06ce9834a3d6153e0edf73c12befa5082"
+                          },
+                          {
+                              "file":  "lib/services/backup_service.dart",
+                              "sha256":  "0c0dc821ff41e41fdbf8ecae9e71d5085dd10c800257f3c12273ee5aae2f78b1"
+                          },
+                          {
+                              "file":  "lib/controllers/app_lock_controller.dart",
+                              "sha256":  "dbb5ef4bd3e17ffb1e8d00d094b0a63c082e37e53efa1c587ad28814fba8f91d"
+                          },
+                          {
+                              "file":  "lib/services/app_lock_service.dart",
+                              "sha256":  "d0437ea1a18dd3592eb895fd9eac27293ca121ff164c102ddccd9797ac1890e5"
+                          },
+                          {
+                              "file":  "lib/widgets/app_lock_gate.dart",
+                              "sha256":  "4b8b41004e61cf6a27b114da5129e97e401dca448541dc69bf2274a78394d7e7"
+                          },
+                          {
+                              "file":  "lib/screens/security_screen.dart",
+                              "sha256":  "f5b82dbe57721cc6abdbd6b6fa73a69917cfa194979c8acefcd9fcb9f4f0e3d0"
+                          },
+                          {
+                              "file":  "android/app/src/main/kotlin/id/arta/arta/MainActivity.kt",
+                              "sha256":  "f824eb4adb75096c17c7ed20a8a35271f9f8a8127c546b4f2561f546d9ef53f8"
+                          },
+                          {
+                              "file":  "android/app/src/main/kotlin/id/arta/arta/AppSecurityBridge.kt",
+                              "sha256":  "4f04485aeb1f42bdd55e1ed48e65c1e90e74150fe251099d4318ecc7b9bceeca"
+                          },
+                          {
+                              "file":  "android/app/src/main/kotlin/id/arta/arta/ReceiptPickerBridge.kt",
+                              "sha256":  "39454ba3f7b73ae31b4a78f6589c1b3c6628ddcfe6deff33cbdf026e41233d29"
+                          },
+                          {
+                              "file":  "android/app/src/main/kotlin/id/arta/arta/PinPolicy.kt",
+                              "sha256":  "86c0db2f914903456b6f6df2e84b27efdd0f0798441e23ee2e1321e8f6260bdd"
+                          }
+                      ],
+    "build_metadata":  "docs/BUILD-0.3.0.json"
+}

@@ -1,0 +1,31 @@
+﻿{
+    "verified_date":  "2026-11-19T18:05:13.8617847+07:00",
+    "app":  "Arta",
+    "version":  "0.2.2+4",
+    "package_id":  "id.arta.arta",
+    "database_schema_version":  2,
+    "backup_schema_version":  2,
+    "build":  "debug",
+    "apk":  "build/app/outputs/flutter-apk/arta-0.2.2-debug.apk",
+    "bytes":  175204342,
+    "sha256":  "7a765c0b028d4f5b41badbebc4d6d6e3c3fc80f8b0a1bd769f4cefa75cd1ba27",
+    "signature_verified":  true,
+    "signing_certificate_sha256":  "dc78d38e5fda668f75bb53f3b7296dfd49c80f8700e79b237d032fab8e2f1269",
+    "tests_passed":  55,
+    "test_verification":  "48 existing tests passed in suite; 7 new widget tests passed on targeted rerun after harness fixes; 5 repository cases rerun after adding on-disk privacy persistence assertion. Not a single final all-tests run.",
+    "analysis":  "No issues found",
+    "physical_device_tested":  false,
+    "emulator_used":  false,
+    "changes":  [
+                    "Optional transfer fee toggle in transaction/schedule/occurrence forms",
+                    "Independent backup password visibility controls",
+                    "Persistent device-only amount masking across overview/accounts/transactions/schedules; cash bars hidden"
+                ],
+    "pending":  [
+                    "Optional biometric and separate app PIN with custom keypad",
+                    "Transaction time with 24-hour dial",
+                    "Photo Picker attachments",
+                    "Cat empty states",
+                    "Linked Jago Syariah debit card"
+                ]
+}

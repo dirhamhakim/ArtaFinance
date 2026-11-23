@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-21",
+  "status": "COMPLETE_WITH_DOCUMENTED_LIMITATIONS",
+  "device": "Samsung A05s SM-A057F / Android 15",
+  "serial": "R9RX200AM3W",
+  "initial_version": "0.7.0+9",
+  "target_version": "0.7.1+10",
+  "initial_financial_data": "empty / SQLite integrity ok",
+  "host_tests": {
+    "passed": 188,
+    "failed": 0,
+    "log": "build/physical-device-0.7.1/host-tests-final.log"
+  },
+  "restore_regression": {
+    "passed": 27,
+    "failed": 0
+  },
+  "demo_verification": {
+    "passed": 66,
+    "failed": 0
+  },
+  "android_tests": [
+    {
+      "id": "P01",
+      "scope": "Android + UI + SQLite",
+      "status": "PASS",
+      "actual": "Real directory and bootstrap open; negative balance and transaction survive file close/reopen."
+    },
+    {
+      "id": "P02",
+      "scope": "Android UI + SQLite",
+      "status": "PASS",
+      "actual": "Blank account rejected; -1000 account saved; zero expense rejected; expense 5500 yields exactly -6500."
+    },
+    {
+      "id": "P03",
+      "scope": "Native SQLite + search UI",
+      "status": "PASS",
+      "actual": "Bank 114000, wallet 5000, minus -1000; 5 transactions; monthly income 20000.30 and expense 1000.30; invalid transfer/fee rejected."
+    },
+    {
+      "id": "P04",
+      "scope": "Native SQLite + scheduler",
+      "status": "PASS",
+      "actual": "Six Mandiri dates including leap day; refresh no duplicates; concurrent confirmation posts once; actual/due dates separate; skip and delete stay resolved."
+    },
+    {
+      "id": "P05",
+      "scope": "Native SQLite + scheduler",
+      "status": "PASS",
+      "actual": "Paused edit preserves state and day-31 anchor; resume catches up exactly; skip-before-today and stop work; interval/week/leap-year/end-date/WITA persist and invalid rules rejected."
+    },
+    {
+      "id": "P06",
+      "scope": "Native SQLite + installment accounting",
+      "status": "PASS",
+      "actual": "100 splits 33.33/33.33/33.34; actual30 + skip + actual33.34 then delete30 gives final -133.34 including prior auto plan; history is deleted/skipped/posted."
+    },
+    {
+      "id": "P07",
+      "scope": "Native Android file + background isolate + SQLite",
+      "status": "PASS",
+      "actual": "Plain/encrypted snapshots restored exactly including skipped/deleted history; wrong password and malformed/unsupported JSON rejected; v1 -1100 and return to full v2 succeed. Android document picker is tested separately."
+    },
+    {
+      "id": "P08",
+      "scope": "Android UI + orientation",
+      "status": "PASS",
+      "actual": "Created end-of-month rule using form; detail themes light/dark/system; long installment form save reachable in landscape with simulated text scale 2. No transaction saved by preview."
+    },
+    {
+      "id": "P09",
+      "scope": "Android UI + native SQLite",
+      "status": "PASS",
+      "actual": "Default picker/custom search, independent drafts, native save, exact balance and reused custom category."
+    },
+    {
+      "id": "P11",
+      "scope": "Android investment UI + SQLite",
+      "status": "PASS",
+      "actual": "Fractional fund buy debits cash once; manual NAV values units without changing cash."
+    },
+    {
+      "id": "P12",
+      "scope": "Android staking UI + SQLite",
+      "status": "PASS",
+      "actual": "Plan and stake saved through forms: 10 total = 6 locked + 4 available; APR does not mint units or cash."
+    },
+    {
+      "id": "P13",
+      "scope": "Android interest UI + SQLite",
+      "status": "PASS",
+      "actual": "Actual gross 120 tax 24 yields net 96 once; duplicate ignored, void returns original balance."
+    },
+    {
+      "id": "P10",
+      "scope": "Android file SQLite + real backup codec",
+      "status": "PASS",
+      "actual": "Full 1.3 MB fixture restored/reopened in 4257 ms; all balances, categories, 3 JPEGs, 12 investment kinds, staking, interest, schedules, catalog, FX, preferences and charts preserved."
+    }
+  ],
+  "manual_tests": [
+    {
+      "id": "M01",
+      "status": "PASS",
+      "actual": "Normal APK 0.7.1+10 installed as update; original finances empty, header privacy/loading removed and card privacy retained.",
+      "at": "2026-11-21T15:53:37.156540"
+    },
+    {
+      "id": "M02",
+      "status": "PASS",
+      "actual": "Android document picker restore: mandatory prior backup saved, all 22 assets / 202 transactions / schedules / cards / investment extras including JPEGs match JSON exactly; auto price preference stays off.",
+      "at": "2026-11-21T15:53:37.168887"
+    },
+    {
+      "id": "M03",
+      "status": "PASS",
+      "actual": "Native JSON export saved through Android DocumentsUI; decode and comparison preserve every financial field including all three receipt images.",
+      "at": "2026-11-21T15:54:24.194291"
+    },
+    {
+      "id": "M04",
+      "status": "PASS",
+      "actual": "Transaksi pengeluaran Rp12.345,67, kategori Makan & Minum, 20 Nov 2026 23:45 Jakarta dan 1 JPEG tersimpan di SQLite offline. Total turun tepat Rp12.345,67. Keyboard Samsung, kalender, dial 24 jam dan PhotoPicker Android berfungsi tanpa izin galeri menyeluruh.",
+      "at": "2026-11-21T16:03:09.352477"
+    },
+    {
+      "id": "M05a",
+      "status": "PASS",
+      "actual": "Backup terenkripsi disimpan lewat DocumentsUI, isi transaksi tidak bocor sebagai teks biasa.",
+      "at": "2026-11-21T16:04:37.167220"
+    },
+    {
+      "id": "M05",
+      "status": "PASS",
+      "actual": "Backup terenkripsi diekspor dan dipulihkan lewat DocumentsUI Android; seluruh isi tabel termasuk foto sama persis tanpa memperhitungkan urutan baris. Sandi salah tidak mengubah data.",
+      "at": "2026-11-21T16:07:05.680288"
+    },
+    {
+      "id": "M06-QA-Malformed.json",
+      "status": "PASS",
+      "actual": "Restore QA-Malformed.json ditolak sebelum pratinjau, semua tabel tetap sama.",
+      "at": "2026-11-21T16:07:39.842021"
+    },
+    {
+      "id": "M06b",
+      "status": "PASS",
+      "actual": "Backup schema999 ditolak; semua tabel tetap sama.",
+      "at": "2026-11-21T16:09:31.325363"
+    },
+    {
+      "id": "M07",
+      "status": "PASS",
+      "actual": "Pembatalan penyimpanan cadangan wajib membatalkan restore; 203 transaksi tetap tersimpan.",
+      "at": "2026-11-21T16:10:06.706443"
+    },
+    {
+      "id": "M08-transaksi",
+      "status": "PASS",
+      "actual": "CSV transaksi: 275 baris = 203 transaksi + 46 event investasi + 26 bunga; foto tidak ikut CSV (tersedia di JSON).",
+      "at": "2026-11-21T16:22:07.251727"
+    },
+    {
+      "id": "M08-kepemilikan",
+      "status": "PASS",
+      "actual": "CSV kepemilikan: 21 baris berhasil diekspor melalui Android.",
+      "at": "2026-11-21T16:22:41.339990"
+    },
+    {
+      "id": "M08-harga",
+      "status": "PASS",
+      "actual": "CSV harga: 2998 baris berhasil diekspor melalui Android.",
+      "at": "2026-11-21T16:23:33.876791"
+    },
+    {
+      "id": "M09",
+      "status": "PASS",
+      "actual": "Pengaturan digulir, pindah Ringkasan lalu kembali: menu CSV dan ketiga ekspor berjalan. Bug PageStorage tidak muncul lagi pada APK perbaikan.",
+      "at": "2026-11-21T16:23:34.036794"
+    },
+    {
+      "id": "M10a",
+      "status": "PASS",
+      "actual": "Impor Excel IDX asli melalui Android: 944 tetap, 0 baru/berubah, metadata tersimpan, transaksi dan unit investasi tidak berubah.",
+      "at": "2026-11-21T16:26:44.516417"
+    },
+    {
+      "id": "M10b",
+      "status": "PASS",
+      "actual": "Katalog JSON menambah tepat 1 saham simulasi QATZ, termasuk tanggal IPO, jumlah lembar dan papan; pencarian lokal menemukannya offline.",
+      "at": "2026-11-21T16:27:19.672415"
+    },
+    {
+      "id": "M11",
+      "status": "PASS",
+      "actual": "Impor CSV menambah observasi NAB 1.560,25 pada 20 Nov; riwayat sumber lama tetap ada, nilai investasi naik Rp2.755 ke Rp40.167.378,63. Transaksi dan unit tetap.",
+      "at": "2026-11-21T16:32:18.002725"
+    },
+    {
+      "id": "M12",
+      "status": "PASS",
+      "actual": "Grafik portofolio/donut serta laporan gabungan, noninvestasi dan pemasukan-pengeluaran tampil offline. Gabungan Rp123.000.267,52 sesuai saldo + investasi; saldo negatif dijelaskan terpisah dari donut.",
+      "at": "2026-11-21T16:36:11.635719"
+    },
+    {
+      "id": "M13",
+      "status": "PASS",
+      "actual": "Perbandingan saham vs IHSG tampil offline: periode sama 3 Jun-18 Nov, TWR saham -5,40%, IHSG -11,67%, selisih +6,27 poin; basis awal 0%.",
+      "at": "2026-11-21T16:37:28.175530"
+    },
+    {
+      "id": "M14a",
+      "status": "PASS",
+      "actual": "Pencarian Yahoo Finance BBCA di HP online mengembalikan PT Bank Central Asia Tbk sebagai idx:BBCA; tidak ada simbol luar IDX.",
+      "at": "2026-11-21T16:38:58.459841"
+    },
+    {
+      "id": "M14b",
+      "status": "PASS",
+      "actual": "CoinGecko online mengembalikan ID crypto yang berbeda jelas; Chainlink dipilih dan ditambah satu kali. Katalog menjadi 960 tanpa mengubah holdings.",
+      "at": "2026-11-21T16:39:45.002089"
+    },
+    {
+      "id": "M15",
+      "status": "PASS",
+      "actual": "Harga terbaru manual: 15 observasi baru dari CoinGecko, Yahoo · terbaru (dapat tertunda). Transaksi/unit tetap, valuasi penutupan tidak berubah oleh harga live.",
+      "at": "2026-11-21T16:41:16.604099"
+    },
+    {
+      "id": "M16a",
+      "status": "PASS",
+      "actual": "155 observasi penutupan baru tersimpan dari Yahoo/CoinGecko. Harga crypto selesai UTC sampai 20 Nov, harga saham sesi selesai; transaksi/unit tidak berubah.",
+      "at": "2026-11-21T16:42:29.212823"
+    },
+    {
+      "id": "M17",
+      "status": "PASS",
+      "actual": "API key yang sebelumnya diberikan disimpan melalui form ke Android Keystore, terpisah dari backup. Pembaruan harian otomatis kembali aktif seperti kondisi awal.",
+      "at": "2026-11-21T16:49:11.428892"
+    },
+    {
+      "id": "M16b",
+      "status": "PASS",
+      "actual": "Setelah Demo API key disimpan, semua 10 crypto default mempunyai penutupan UTC 20 Nov. Membuka ulang aplikasi dengan otomatis aktif melengkapi 3 instrumen yang tersisa; data dan key bertahan setelah restart.",
+      "at": "2026-11-21T16:55:12.684903"
+    },
+    {
+      "id": "M18",
+      "status": "PASS",
+      "actual": "Data finansial awal dipulihkan melalui restore Android dengan cadangan hasil uji tersimpan. Katalog kembali 944 saham + 10 crypto; akun/transaksi/jadwal/kartu uji hilang. API key dan pengaturan keamanan tidak dihapus.",
+      "at": "2026-11-21T16:56:11.821371"
+    },
+    {
+      "id": "M16c",
+      "status": "PASS",
+      "actual": "Cache IHSG dari Yahoo Finance tersimpan sampai sesi 20 Nov; basis historis bawaan tetap tersedia offline.",
+      "at": "2026-11-21T16:57:13.310046"
+    },
+    {
+      "id": "M19",
+      "status": "PASS",
+      "actual": "Lima tab dapat dibuka pada APK final, empty state Aset/Transaksi tampil. Mata pada card menyimpan status hide di SQLite saat pindah tab, lalu dikembalikan visible; header tetap tanpa mata/loading.",
+      "at": "2026-11-21T16:57:40.738009"
+    },
+    {
+      "id": "M20",
+      "status": "PASS",
+      "actual": "Sesudah restore, API key masih terpasang dan pembaruan penutupan otomatis aktif. Key tetap berada di penyimpanan perangkat, tidak di file JSON.",
+      "at": "2026-11-21T16:58:09.598232"
+    },
+    {
+      "id": "M21",
+      "status": "PASS",
+      "actual": "Seluruh tabel finansial dan metadata cocok dengan backup sebelum demo. Backup akhir tidak memuat API key. Foto uji dan paket QA terpisah dibersihkan, mode pesawat mati, stay-awake USB kembali 0; aplikasi utama tetap terpasang.",
+      "at": "2026-11-21T17:00:43.921877"
+    }
+  ],
+  "harness_notes": [
+    "P10 initially lacked the demo in isolated id.arta.arta.deviceqa; provisioned fixture and retest passed. Personal application data was not used by automated integration tests."
+  ],
+  "remaining": [
+    "normal APK manual flows",
+    "native document/photo pickers",
+    "real network/cache",
+    "final state/settings recovery"
+  ],
+  "security": {
+    "status": "USER_REPORTED_PASS",
+    "actual": "Owner reports PIN and fingerprint normal; do not retest or alter settings."
+  },
+  "final_ui_regression": {
+    "passed": 49,
+    "failed": 0,
+    "note": "48 cases passed in batch; moved privacy control test needed scroll-to-card. Four cases in that file then passed on retest."
+  },
+  "completed_at": "2026-11-21T17:00:52.045320+07:00",
+  "analyzer": "No issues found",
+  "live_api": {
+    "yahoo_search": "PASS",
+    "coingecko_search": "PASS",
+    "live_quotes": 15,
+    "live_symbols": "5 saham + 10 crypto",
+    "default_crypto_daily_close": "10/10, tanggal UTC 2026-11-20",
+    "ihsg_last_close": "2026-11-20",
+    "key_configured": true,
+    "key_in_backup": false
+  },
+  "final_state": {
+    "financial_data": "restored to initial empty snapshot",
+    "catalog": "944 saham + 10 crypto",
+    "daily_auto": true,
+    "amounts_hidden": false,
+    "airplane_mode": false,
+    "stay_awake_usb": false,
+    "security_settings": "preserved; PIN/biometric not retested",
+    "temporary_qa_package": "uninstalled"
+  },
+  "limitations": [
+    "Google Sheets CSV publik belum diuji secara live karena URL belum dikonfigurasi; CSV lokal/parser/validasi URL lulus.",
+    "Reset destruktif pada paket utama tidak dijalankan agar PIN/sidik jari pengguna tetap terjaga. Logika reset diuji otomatis dan bootstrap penyimpanan baru diuji pada Android terpisah.",
+    "Hasil fisik berlaku untuk Samsung A05s Android 15; kondisi 404/429 diuji dengan respons simulasi, bukan menghabiskan kuota API."
+  ],
+  "provider_regression": {
+    "passed": 35,
+    "failed": 0,
+    "included_in_full_suite": true
+  }
+}

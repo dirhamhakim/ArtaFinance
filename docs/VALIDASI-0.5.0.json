@@ -1,0 +1,638 @@
+{
+  "verified_date": "2026-11-20T00:34:11.989001+07:00",
+  "app": "Arta",
+  "version": "0.5.0+7",
+  "package_id": "id.arta.arta",
+  "status": "source_validated_no_apk_user_requested_no_build",
+  "apk_built": false,
+  "android_gradle_build_run": false,
+  "database_schema_version": 4,
+  "backup_schema_version": 5,
+  "accepted_backup_versions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "encrypted_envelope_version": 1,
+  "analysis": "No issues found",
+  "analysis_log": "build/analyze-final-0.5.0.log",
+  "full_suite_passed": true,
+  "full_suite_passed_cases": 150,
+  "test_command": "flutter test --no-pub --concurrency=1 --reporter expanded",
+  "test_log": "build/tests-final-0.5.0.log",
+  "targeted_tests_passed_cases": 24,
+  "targeted_cases_included_in_full_suite": true,
+  "live_daily_close_test": {
+    "verified_at": "2026-11-19T17:33:17.058491Z",
+    "provider": "CoinGecko Demo",
+    "instrument": "bitcoin",
+    "observations": 7,
+    "first_date": "2026-11-12",
+    "last_date": "2026-11-18",
+    "last_as_of": "2026-11-19T00:00:00.000Z",
+    "live_tail_excluded": true,
+    "credential_recorded": false
+  },
+  "live_daily_close_log": "build/daily-close-live-0.5.0.log",
+  "reference_data": {
+    "stock_instruments": 918,
+    "crypto_instruments": 10,
+    "stock_no_data": [
+      "ARMY",
+      "BTEL",
+      "CBMF",
+      "CPRI",
+      "GAMA",
+      "HKMU",
+      "HOME",
+      "HOTL",
+      "IIKP",
+      "JSKY",
+      "KBRI",
+      "MAGP",
+      "META",
+      "NUSA",
+      "OCAP",
+      "POOL",
+      "POSA",
+      "PURE",
+      "RIMO",
+      "SCPI",
+      "SIMA",
+      "SMRU",
+      "TECH",
+      "TRAM",
+      "TRIO",
+      "WSKT"
+    ],
+    "missing_default_crypto": [],
+    "crypto_codes": [
+      "BNB",
+      "BTC",
+      "ETH",
+      "HYPE",
+      "PAXG",
+      "SOL",
+      "USDC",
+      "USDT",
+      "XAUT",
+      "XRP"
+    ],
+    "observations": 2963202,
+    "invalid_points_skipped": 0,
+    "invalid_sample": [],
+    "precision_roundings": 0,
+    "compressed_bytes": 10353846,
+    "input_sha256": {
+      "C:\\Users\\User\\Downloads\\harga_penutupan_saham.json": "8c6be237191701ca274a7113436e44d2733d50c18582f1e3830455ac0ad61197",
+      "C:\\Users\\User\\Downloads\\crypto_penutupan.json": "970612e522631fa1c872549c33aac56cb555bc81aee1de434e200d41061ba9d8"
+    }
+  },
+  "reference_manifest": "assets/data/history/index.json",
+  "reference_files_hash_verified": 928,
+  "references_loaded_per_instrument_in_isolate": true,
+  "references_in_financial_database_or_backup": false,
+  "original_downloads_modified": false,
+  "default_crypto_codes": [
+    "BNB",
+    "BTC",
+    "ETH",
+    "HYPE",
+    "PAXG",
+    "SOL",
+    "USDC",
+    "USDT",
+    "XAUT",
+    "XRP"
+  ],
+  "new_default_crypto": "XRP",
+  "previous_nine_defaults_missing": [],
+  "charts": [
+    "combined assets line/donut",
+    "investment line/donut",
+    "account balances line/donut",
+    "income/expense lines"
+  ],
+  "staking": "manual stake, pending unstake, release, actual reward, token loss and cash fees",
+  "native_baseline_match_files": 5,
+  "native_unchanged_from_0_4_0": true,
+  "native_checks_rerun": false,
+  "physical_phone_tested": false,
+  "emulator_used": false,
+  "phone_commands_run": false,
+  "credential_embedded": false,
+  "credential_scan_files": 163,
+  "api_key_in_backup": false,
+  "previous_apk_unchanged_sha256": "f14750ced04f1b304ccf28333a66f93719e8c59b81b3d1590a1032cab97f5322",
+  "manual_checklist": "docs/TESTING-APK-0.2.0.md",
+  "manual_checklist_cases": 100,
+  "manual_cases_not_run": 100,
+  "ui_previews": [
+    "build/ui-review/analytics-dark-0.5.0.png",
+    "build/ui-review/analytics-light-0.5.0.png",
+    "build/ui-review/donut-dark-0.5.0.png",
+    "build/ui-review/donut-light-0.5.0.png"
+  ],
+  "limits": [
+    "APK packaging and physical-device verification remain pending.",
+    "Automatic close updates run only foreground and unlocked; no Android background worker.",
+    "Stock split actions must be recorded accurately in the ledger; source references are split adjusted.",
+    "Reference histories keep original provider differences and missing dates; no invented prices."
+  ],
+  "source_hashes": [
+    {
+      "file": "android/app/src/debug/AndroidManifest.xml",
+      "sha256": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c"
+    },
+    {
+      "file": "android/app/src/main/AndroidManifest.xml",
+      "sha256": "ff66d16850588ef0a7d6332b60b5e0ea2de199483ebfb6cf6754680bc29cf84d"
+    },
+    {
+      "file": "android/app/src/main/kotlin/id/arta/arta/AppSecurityBridge.kt",
+      "sha256": "d5507ea29fbdf3bfae50f619baa03a7225088bd1766e1d19492897215644badc"
+    },
+    {
+      "file": "android/app/src/main/kotlin/id/arta/arta/MainActivity.kt",
+      "sha256": "f824eb4adb75096c17c7ed20a8a35271f9f8a8127c546b4f2561f546d9ef53f8"
+    },
+    {
+      "file": "android/app/src/main/kotlin/id/arta/arta/PinPolicy.kt",
+      "sha256": "86c0db2f914903456b6f6df2e84b27efdd0f0798441e23ee2e1321e8f6260bdd"
+    },
+    {
+      "file": "android/app/src/main/kotlin/id/arta/arta/ReceiptPickerBridge.kt",
+      "sha256": "39454ba3f7b73ae31b4a78f6589c1b3c6628ddcfe6deff33cbdf026e41233d29"
+    },
+    {
+      "file": "android/app/src/main/res/drawable/arta_launcher_foreground.xml",
+      "sha256": "380513d4099e599893e7f551020575133671d495a7a0ae5728fd0428ed491477"
+    },
+    {
+      "file": "android/app/src/main/res/drawable/arta_symbol.xml",
+      "sha256": "39c8e1bb7d8e098b28c06137b9d6a51786d15c69c379319a910f628039ac82f3"
+    },
+    {
+      "file": "android/app/src/main/res/drawable/launch_background.xml",
+      "sha256": "079e203f9424a09d5b1dca79259b5cd87565e0c948454902a857c9e70aa9e75e"
+    },
+    {
+      "file": "android/app/src/main/res/drawable-v21/launch_background.xml",
+      "sha256": "079e203f9424a09d5b1dca79259b5cd87565e0c948454902a857c9e70aa9e75e"
+    },
+    {
+      "file": "android/app/src/main/res/mipmap-anydpi/arta_launcher.xml",
+      "sha256": "0df80a17301a3336adb4090b03c30f4343fb8b1a17e9b7c308420d2752bf24aa"
+    },
+    {
+      "file": "android/app/src/main/res/mipmap-anydpi-v26/arta_launcher.xml",
+      "sha256": "696cb95c4020259db80789651b8d5478a721c76c620d369bbf8415e140ce15a2"
+    },
+    {
+      "file": "android/app/src/main/res/values/colors.xml",
+      "sha256": "bc86db7f0919c474645b9eb102456f5609c713eae10c693a24dfb67bba78036a"
+    },
+    {
+      "file": "android/app/src/main/res/values/styles.xml",
+      "sha256": "cca15a99b59380a548bf6a890f7ca5380ee509b1f9bbb2f5f9ec3589fa25c2f7"
+    },
+    {
+      "file": "android/app/src/main/res/values-night/styles.xml",
+      "sha256": "ea763597dc1a84c8034251caee98d7753e0fbf57340ffc94677427de4b537516"
+    },
+    {
+      "file": "android/app/src/main/res/values-night-v31/styles.xml",
+      "sha256": "40995c4a08d6716c10029bc70180d0ff08bd066104f405b0173c3c5759fca02f"
+    },
+    {
+      "file": "android/app/src/main/res/values-v31/styles.xml",
+      "sha256": "40995c4a08d6716c10029bc70180d0ff08bd066104f405b0173c3c5759fca02f"
+    },
+    {
+      "file": "android/app/src/profile/AndroidManifest.xml",
+      "sha256": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c"
+    },
+    {
+      "file": "assets/data/crypto_defaults.json",
+      "sha256": "fcb944bd243ed1a56f5903d9dcf8dd3aeb22cfe26da05578430ae9643e3e9fed"
+    },
+    {
+      "file": "assets/data/history/index.json",
+      "sha256": "f2a7c778dde3daffb413a71608bb8545d41bdbc1a18dea47c16346db83d5e194"
+    },
+    {
+      "file": "assets/data/idx_stocks.json",
+      "sha256": "22cacbcccbb2cf24fe8c2e6ef3766180d32262088737f72927681d133493c629"
+    },
+    {
+      "file": "integration_test/physical_device_test.dart",
+      "sha256": "e2563f45d9755c03baa40872e304317dcc168e88af4961a25e983e0b057a0aae"
+    },
+    {
+      "file": "lib/app.dart",
+      "sha256": "f147ffe53333e88aecc8d339054a6c0926d578bcc57c2ed7693eb1e9ca73320c"
+    },
+    {
+      "file": "lib/controllers/app_lock_controller.dart",
+      "sha256": "dbb5ef4bd3e17ffb1e8d00d094b0a63c082e37e53efa1c587ad28814fba8f91d"
+    },
+    {
+      "file": "lib/controllers/finance_controller.dart",
+      "sha256": "33af089ec42f85eaef316c857b168f7ed77df08370c1b6501f6c0648facc7a85"
+    },
+    {
+      "file": "lib/database/app_database.dart",
+      "sha256": "a3f3d0464250626d638200b03598fdaddb22af21e903b9d5b12eff53513c091b"
+    },
+    {
+      "file": "lib/main.dart",
+      "sha256": "5a711d4eeee206bfbf8551f2863254a5a54cde2e3600e968f04f7f8aa1e14caf"
+    },
+    {
+      "file": "lib/models/decimal.dart",
+      "sha256": "411310b199ca6e6756dd75a690a78fa5f116921ebd68f97d2e9e4f86734ae4cf"
+    },
+    {
+      "file": "lib/models/finance_extras.dart",
+      "sha256": "7216a9bcaf8a7d00c3b500fd537f2685c417e15c9ab45459c884091f272abd81"
+    },
+    {
+      "file": "lib/models/interest.dart",
+      "sha256": "e0f83b44e4aaecfa524ec39cc0a168956e81e816fc5dbeca21dde4b8e3b09c8b"
+    },
+    {
+      "file": "lib/models/investment.dart",
+      "sha256": "367f4490db891e7028f46ea2766e9c3a52e813b293953ce4af89bb9e613bd353"
+    },
+    {
+      "file": "lib/models/ledger.dart",
+      "sha256": "507ed1118c606eecc34a52d21a481528a9962eeef46da04488e9e206ac300ebd"
+    },
+    {
+      "file": "lib/models/money.dart",
+      "sha256": "9cea1a5f5e77eb949a1ad334e102467afee3813d5c5fc1cc388de65f076b83b5"
+    },
+    {
+      "file": "lib/models/payment_card.dart",
+      "sha256": "21271766fb0ea8526e636509400ebe8556c992614037236874eb8c9d03026a7f"
+    },
+    {
+      "file": "lib/models/receipt_image.dart",
+      "sha256": "ee5bd47f9721813c3e61dc58d13844e3cc715d052af0dfab3b8c8de3b5a46d80"
+    },
+    {
+      "file": "lib/models/schedule.dart",
+      "sha256": "f74efbffc533ea740a0162063d134b4f7fee54dfa35b9b2e3607b8a8ecef70d6"
+    },
+    {
+      "file": "lib/models/staking.dart",
+      "sha256": "eaf87e59a315e758d3bd6761e34a5a904b5650ecd2a39ac5a38056a8bc984ee0"
+    },
+    {
+      "file": "lib/repositories/finance_repository.dart",
+      "sha256": "bc700e6d29e52be19198974bc668ee1c0c6b2f76b1074f04538fb9fafa9e6e28"
+    },
+    {
+      "file": "lib/routes/app_routes.dart",
+      "sha256": "37fe6250087a33e6889575a8b1aaa116e2e4f01fb0a270ff720597b631e1781d"
+    },
+    {
+      "file": "lib/screens/account_form.dart",
+      "sha256": "9a6445ee4832f51b7300e30658dbd6117e8bdd3b61a6a6b8b6da91267043c526"
+    },
+    {
+      "file": "lib/screens/analytics_screen.dart",
+      "sha256": "292da5940b7bf114ce63977eea10068c1f714775a6865b931451bf6e71f00478"
+    },
+    {
+      "file": "lib/screens/cards_screen.dart",
+      "sha256": "b7bca1876cc996c5627bc7d103060cb0593f1ab3550ca5735c79484773ee7dd8"
+    },
+    {
+      "file": "lib/screens/catalog_screen.dart",
+      "sha256": "d3826e60905ad47e6b578dc04cd7d68b40c4930020d219a3d0d4b19692bd7ecd"
+    },
+    {
+      "file": "lib/screens/debts_screen.dart",
+      "sha256": "f02fe988aa4859fdcfec27d389395b2006a86495ab6621b4e8661387453d8ac8"
+    },
+    {
+      "file": "lib/screens/home_screen.dart",
+      "sha256": "9711fd34d702c3e215db86435bfccdb0f7fc93fb854ee0346a0a4b9dbf76d60e"
+    },
+    {
+      "file": "lib/screens/interest_screen.dart",
+      "sha256": "c9a7ab4d56949205aba51d0e3b04260625ea5bef9dc140a6236b509d92889815"
+    },
+    {
+      "file": "lib/screens/investment_form.dart",
+      "sha256": "bddd8e99b53e858836efd3d29742351298eb1dc6c99ac6243d22dd2e1570c24b"
+    },
+    {
+      "file": "lib/screens/market_settings_screen.dart",
+      "sha256": "9efea4a4799056a31b76a87d908aec7541cf2437a58e2dec7c4ac46b239313ea"
+    },
+    {
+      "file": "lib/screens/occurrence_form.dart",
+      "sha256": "fe04c4e78699c32e778d0605beb5fe05c1afd9177814478db8fc9a07787ca4e8"
+    },
+    {
+      "file": "lib/screens/portfolio_screen.dart",
+      "sha256": "82727b1edf2f1fc7b8a2156d493176c0c76a6027bb459e3ab38a9c95e66a65b1"
+    },
+    {
+      "file": "lib/screens/schedules_screen.dart",
+      "sha256": "703cfb86a76542f692a6c2988fd75e4f6dee52b50c7e32a562da58cedad4f2fe"
+    },
+    {
+      "file": "lib/screens/security_screen.dart",
+      "sha256": "f5b82dbe57721cc6abdbd6b6fa73a69917cfa194979c8acefcd9fcb9f4f0e3d0"
+    },
+    {
+      "file": "lib/screens/staking_screen.dart",
+      "sha256": "77ba0dec64bd4bd03e01bd4f22fb3d3e47cf4b589ab87b364c5b668364c34820"
+    },
+    {
+      "file": "lib/screens/transaction_form.dart",
+      "sha256": "9faa2a5deec9150f89c72ab4f844e2ddfb509ccd2938128306f7f1f0557ae645"
+    },
+    {
+      "file": "lib/services/analytics_service.dart",
+      "sha256": "9350e31e9681e08c3bf40844709b4742938d4012db635ca5e813e6bdaf43c130"
+    },
+    {
+      "file": "lib/services/app_lock_service.dart",
+      "sha256": "d0437ea1a18dd3592eb895fd9eac27293ca121ff164c102ddccd9797ac1890e5"
+    },
+    {
+      "file": "lib/services/backup_files_service.dart",
+      "sha256": "48d29957c492a67e7192506b7c9653b8744cc2efaf572424f57405df0624813d"
+    },
+    {
+      "file": "lib/services/backup_service.dart",
+      "sha256": "c4510065d85fd5ce4e903cfe1aad04ed5296a0e52adcba0977839d0e7555e513"
+    },
+    {
+      "file": "lib/services/catalog_service.dart",
+      "sha256": "2a5683545f8d36e9782746a5538e50cf0b7db2244e77934c6b300dd42c9b5632"
+    },
+    {
+      "file": "lib/services/csv_service.dart",
+      "sha256": "df71479b1556ca379852961ac45d1410fcc3a928f5354b15de4138595c05b02d"
+    },
+    {
+      "file": "lib/services/data_files_service.dart",
+      "sha256": "e054c9e7b6101119dce061c86c83be6c213a42fbab3ba12e2addb343687671ba"
+    },
+    {
+      "file": "lib/services/interest_engine.dart",
+      "sha256": "48cf47d723572300d017856b11c8d22746e143dd4535a6a77e4890224ab4c13e"
+    },
+    {
+      "file": "lib/services/local_storage_service.dart",
+      "sha256": "c36207a9fe12bfb055806ad380009f07b78445ce7dc89f5e3f35ab36a4c5291c"
+    },
+    {
+      "file": "lib/services/market_service.dart",
+      "sha256": "3dba065f8dd57543d5144e8ead2a6ba25b7bfee5b90f0d953f922b06c0a239c8"
+    },
+    {
+      "file": "lib/services/photo_picker_service.dart",
+      "sha256": "dde9b969308532971edce287f0f140eb0fdab2d401a698a2779d608e2aa87697"
+    },
+    {
+      "file": "lib/services/reference_prices_service.dart",
+      "sha256": "92be91dbfe96e8b355378bd8268c8135755074eae4fedf599a26375a836407f0"
+    },
+    {
+      "file": "lib/services/schedule_engine.dart",
+      "sha256": "50ec6a3d13c0de0caa4e5937d72f769892717fe8f9f9d54af7c1ded0b52c8e0e"
+    },
+    {
+      "file": "lib/theme/app_theme.dart",
+      "sha256": "07e76f06addc14fd868321ac2c729e97d2cdc5dbf7493dbbc7ed037d53dc6958"
+    },
+    {
+      "file": "lib/widgets/app_lock_gate.dart",
+      "sha256": "4b8b41004e61cf6a27b114da5129e97e401dca448541dc69bf2274a78394d7e7"
+    },
+    {
+      "file": "lib/widgets/arta_logo.dart",
+      "sha256": "b046452be723277acee273ab0160f14fcc621154c5f9a08ee5996755563c3739"
+    },
+    {
+      "file": "lib/widgets/cat_empty_state.dart",
+      "sha256": "2a8f833d2c248099275e3e3b84ff933c6f492745e1d3f4f6a15ebd6e1582d998"
+    },
+    {
+      "file": "lib/widgets/finance_charts.dart",
+      "sha256": "349570b68bd90b29a6c0baf6fb4c2f4d9a0c877a2dfc120336bbb728d36b8475"
+    },
+    {
+      "file": "lib/widgets/finance_fields.dart",
+      "sha256": "938d33ec8c1fb61854fc9613c4c887af2bd3f10d39087a405b1ff23a6b94a12a"
+    },
+    {
+      "file": "lib/widgets/password_field.dart",
+      "sha256": "f4be02325858a7dd35452dbd602abe4c5a07ca1e5cdffc8e6e7230801ba38093"
+    },
+    {
+      "file": "lib/widgets/pin_keypad.dart",
+      "sha256": "7c2fed0f0942c6ac56187e7d798b71e300208323a8a24e692574ccff7a8cfcae"
+    },
+    {
+      "file": "lib/widgets/receipt_images_field.dart",
+      "sha256": "90c297644647b0ca7a9944a3dc253cc97e292124806e6db8c14092c458d6232a"
+    },
+    {
+      "file": "lib/widgets/transaction_time_field.dart",
+      "sha256": "eb222fba34907cfc59545a02962114e7ec067a553ad620a3bf7a7a69a3310281"
+    },
+    {
+      "file": "lib/widgets/transfer_fee_field.dart",
+      "sha256": "6f235793a2d659da5283911fbbfc0b283d8be21c8542a60377a244063cdef35c"
+    },
+    {
+      "file": "pubspec.lock",
+      "sha256": "9d96b11aaaa7ef9f34ce932a2d87733846c976bb9f57f8e6b45311101edfff55"
+    },
+    {
+      "file": "pubspec.yaml",
+      "sha256": "2356f373f204492d02b224f80fbed564f1e294fdc71173612d510f48290fa666"
+    },
+    {
+      "file": "scripts/build-design-review.ps1",
+      "sha256": "d6d3edfa6c27ae5f20bccbbb148f8426f67b621445a0bf21f21deac84423b755"
+    },
+    {
+      "file": "scripts/cache-flutter-engine.ps1",
+      "sha256": "667db2632f480177129daf43ed4808450ad05b7764bda5584b2bf1f0a2c88896"
+    },
+    {
+      "file": "scripts/cache_flutter_engine.py",
+      "sha256": "fbccae0c67eba7915dbbed1a8bc290e8c7f2f828e8abd39d9ec41120ec5e5044"
+    },
+    {
+      "file": "scripts/check-android-native.ps1",
+      "sha256": "1f62bef9d11fb4c122d33db969a8dd7a1750b3bfd2a0a4b56cfc11ac181ca38b"
+    },
+    {
+      "file": "scripts/flutter.ps1",
+      "sha256": "250c86e4ca02b535189ef8cc4229aec5bdd77c306b3aa87ee5a14b143ec6ae33"
+    },
+    {
+      "file": "scripts/inspect-reference-screenshots.ps1",
+      "sha256": "6e3662fa248e797ac84c5294bf6bfeb3f35519f31b6f1be1166833acfa3f09ff"
+    },
+    {
+      "file": "scripts/install-coding-skills.py",
+      "sha256": "bd547d0add31e47afc189bea7ff84e563e8421ab38dbdf959bc2f3a6fa6e06a8"
+    },
+    {
+      "file": "scripts/install-figcraft-design-skill.ps1",
+      "sha256": "065307048c479a6b2598af2ad22409714725333f8343e378a3705724b7ac1fed"
+    },
+    {
+      "file": "scripts/install-jdk.ps1",
+      "sha256": "072dc4e6228f3675982249e9fe156e2b74a70a2a4dbdd4a973b8bf80a13e9530"
+    },
+    {
+      "file": "scripts/measure-reference-screenshots.ps1",
+      "sha256": "f0a2f28f8369fe9310b6fc1ca81d338d602a0e28f1a8ed7c0658713ccdb9c400"
+    },
+    {
+      "file": "scripts/phone_backup_qa.py",
+      "sha256": "e68c84771c80860cec79582eca6ec1a6ccc523bd3ed24fc35abbba46c4b9b658"
+    },
+    {
+      "file": "scripts/phone_qa.py",
+      "sha256": "ffd2d72cce87d1065a4ad8d3f53e61f358cf61453870ad70103129ab417153c7"
+    },
+    {
+      "file": "scripts/prepare-design-v3-review.ps1",
+      "sha256": "c8ad658488290e43e21bb4e45d1039fef8d5f5c6cbf982bc6997be674db44331"
+    },
+    {
+      "file": "scripts/prepare-idx-catalog.py",
+      "sha256": "a98f0c49bbdd0edfdbdb6f4f1239f245efd1bf72a08dc848c5f75c4a0f2e7714"
+    },
+    {
+      "file": "scripts/relocate-gradle-cache.ps1",
+      "sha256": "a8bec690734794674658bd09607d4f0aae8082a70adbd50b430d83f2c8e66ff4"
+    },
+    {
+      "file": "test/controllers/app_lock_controller_test.dart",
+      "sha256": "388b2cabc42c5b78a63e4bb325beccfe3e5c58e001722080b09f6c0061abd20d"
+    },
+    {
+      "file": "test/fakes/fake_lock_service.dart",
+      "sha256": "f708ed5347d77d2d90831df7d1abeca85bee302dfd29a30484ca085f42ef6b0e"
+    },
+    {
+      "file": "test/fixtures.dart",
+      "sha256": "a2042448f7325135a33e381415bacf3c3496737ccc053e8e5f08c4e155caabc5"
+    },
+    {
+      "file": "test/models/ledger_test.dart",
+      "sha256": "ca2273c26cea8070c9b7576c7d5733439fc5b36a668f15ecd34719cfb045458e"
+    },
+    {
+      "file": "test/native/PinPolicyCheck.kt",
+      "sha256": "c0bf9cc0e2e5cb2bf4a65478f60d5455a819091725f3d97b04c0fb206677a347"
+    },
+    {
+      "file": "test/repositories/extended_ledger_test.dart",
+      "sha256": "32697862da758a5b3720765e568f92c942e243a4e60de87fec541d0a18a07fc3"
+    },
+    {
+      "file": "test/repositories/finance_repository_test.dart",
+      "sha256": "379646ab5f337dee6b0444008f18f301c573137d8446569b79dcd02517ff8cac"
+    },
+    {
+      "file": "test/repositories/portfolio_repository_test.dart",
+      "sha256": "b6e2228041b9bafcdc7af5cb1ef93e809ba39b236baf47973e6c9cf6804de21e"
+    },
+    {
+      "file": "test/repositories/schedule_repository_test.dart",
+      "sha256": "83374d700e39e410999c3ecd4e78c911d5aa250944a78744c2021ae654326291"
+    },
+    {
+      "file": "test/screens/analytics_staking_ui_test.dart",
+      "sha256": "02ee6de7705fe1e29de0617fa5f3d1638e195b832282f74f53fe0ed6fcfbd8a3"
+    },
+    {
+      "file": "test/screens/bootstrap_test.dart",
+      "sha256": "9881c836984ab0d5ceb0834f506028ef582718a2f40bf8b331fb0facc5b818f6"
+    },
+    {
+      "file": "test/screens/extended_ui_test.dart",
+      "sha256": "6acf93e783756c6608739d32871a67da03f736b7f6f844fd7a6a0cd9c7aed252"
+    },
+    {
+      "file": "test/screens/finance_flow_test.dart",
+      "sha256": "82cfe711f519832cb8d0c241c788c13af7981881ea466b54c457b275ecca22aa"
+    },
+    {
+      "file": "test/screens/investment_ui_test.dart",
+      "sha256": "493c63e0457c7d8caa30c40ba84b53039da694e81751f07f699e274737468588"
+    },
+    {
+      "file": "test/screens/privacy_and_fee_test.dart",
+      "sha256": "1d0d36c7a8fc01b1a43804c1d75808d38009c328b833af93c80cb5c0196c8a8f"
+    },
+    {
+      "file": "test/screens/schedule_flow_test.dart",
+      "sha256": "aed0f307fa886714c141bc8eb6fe0fc564e77af1457e97b5875e46bd6cccf8df"
+    },
+    {
+      "file": "test/services/analytics_staking_test.dart",
+      "sha256": "fc06a68854f868e51cff4a0c0d234518de54184c90afc02ee6f7349c555ac7ab"
+    },
+    {
+      "file": "test/services/backup_service_test.dart",
+      "sha256": "62a096002991915aecd5a40d07a95374c9cb12a3d6e99db2ec881e7e98431636"
+    },
+    {
+      "file": "test/services/interest_engine_test.dart",
+      "sha256": "6d5fc8e0bddac375a39dcaeb2671a7d2172526e632d0d4f7141e8024bdc02ee5"
+    },
+    {
+      "file": "test/services/investment_sources_test.dart",
+      "sha256": "c71d7274e9ed2245ffa2c96a6a469cd60fb606ce14acbcffcff997a33bcd8233"
+    },
+    {
+      "file": "test/services/local_storage_service_test.dart",
+      "sha256": "c4577cca04ceaa46343d9852fea0ac465ee31ad0e29f367123f28e03c631a375"
+    },
+    {
+      "file": "test/services/reference_prices_test.dart",
+      "sha256": "52f1f556d018230ef65b4b3a26d328f0be23a743f602bb1791d5c9fbf05681e5"
+    },
+    {
+      "file": "test/services/schedule_backup_test.dart",
+      "sha256": "122bf872bc081dee301699b6a0ea70fb3a1edd2eb2f1101f145c2dba6fb77e27"
+    },
+    {
+      "file": "test/services/schedule_engine_test.dart",
+      "sha256": "b54e4b1191f6ea2f99980b7da32b8729fc47d25de74bd33b86d4147307f009e7"
+    },
+    {
+      "file": "tools/live_daily_close_test.dart",
+      "sha256": "e80a4a9b5a76ee579b1c9ab19dd2eb53db1dbaf99e305bdf837560f06e72353b"
+    },
+    {
+      "file": "tools/live_market_test.dart",
+      "sha256": "b7e21ea41aaebf23563480012a4c76017ee06c3e08b5014d4ce76e415118a77e"
+    },
+    {
+      "file": "tools/prepare_reference_prices.py",
+      "sha256": "19e0b365fba1b6d92c3dda98e6a3f1c375c212a25531030e3f5be87b1837161c"
+    },
+    {
+      "file": "tools/verify_idx_import.dart",
+      "sha256": "8ad445abf9682b9359b151417c84697b3f8ef30da64d0a796247a1b24125b953"
+    }
+  ]
+}

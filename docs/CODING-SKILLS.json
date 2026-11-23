@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-18",
+  "purpose": "Persiapan coding Arta Flutter Android offline; belum instalasi SDK atau implementasi aplikasi.",
+  "installer": "C:/Users/User/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py",
+  "destination": "C:/Users/User/.codex/skills",
+  "available": "next turn",
+  "sources": [
+    {
+      "repository": "flutter/agent-plugins",
+      "commit": "17fe9182f4c462d69d6a7963aef01b44b1f7f189",
+      "count": 7
+    },
+    {
+      "repository": "dart-lang/skills",
+      "commit": "f84b16872b5d186f4e877511b49b93c204a1c4ef",
+      "count": 4
+    }
+  ],
+  "validation": [
+    {
+      "Skill": "flutter-apply-architecture-best-practices",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 1,
+      "SHA256": "00497869976A903C83F509A59D4B6A501D409FA711EB8E1F89945921E1983B65"
+    },
+    {
+      "Skill": "flutter-build-responsive-layout",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 1,
+      "SHA256": "C7A5D18071C625137CAD2DEF9B13F3579D9BDF0AAE29621A1825F12B560394C0"
+    },
+    {
+      "Skill": "flutter-fix-layout-issues",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 1,
+      "SHA256": "E82C82B4245EF502BD93BC543D4F5968F4EE8043FA7556FFEBCB34F30651FC9B"
+    },
+    {
+      "Skill": "flutter-add-widget-test",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 1,
+      "SHA256": "6C449EBD844E331E661B12630B6AD2A218E84D1BD8EA8377BA9DBD62FFE2798A"
+    },
+    {
+      "Skill": "flutter-implement-json-serialization",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 1,
+      "SHA256": "05A4478E0A3D119F26AE6E6983DA3D5C2EA134763AEFF59A06CEF346BEF391B1"
+    },
+    {
+      "Skill": "flutter-setup-localization",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 1,
+      "SHA256": "DDA4EF8B74976A3E51FAA43D7AD00F03EAB64D6D5ED0EF89CF4184A04196DA17"
+    },
+    {
+      "Skill": "flutter-use-http-package",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 1,
+      "SHA256": "439FEC047F07E9EC7CD387BF506801BB11B2B9037E5D2C5C03602360532980C4"
+    },
+    {
+      "Skill": "dart-add-unit-test",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 1,
+      "SHA256": "02428FA20C2CB90AFCAF17A52C559641B85EB04F2765A54DA2BC72CA858C1FCE"
+    },
+    {
+      "Skill": "dart-run-static-analysis",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 1,
+      "SHA256": "5E41A03011647BCAEE182DDC5D4471122F45F93FEC6570480C237077E7F9438C"
+    },
+    {
+      "Skill": "dart-resolve-package-conflicts",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 1,
+      "SHA256": "967093AE2BCA2784BA6A104DBA3821AD809B399CA22071E9AFC512915F60FA0A"
+    },
+    {
+      "Skill": "dart-use-path-package",
+      "Manifest": true,
+      "Metadata": true,
+      "Files": 3,
+      "SHA256": "E02DC506B53C3E816B37587B06B8ACE54B93F932997BE097D4044312E619CE4E"
+    }
+  ]
+}

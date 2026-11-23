@@ -1,0 +1,486 @@
+﻿{
+    "sha":  "f84b16872b5d186f4e877511b49b93c204a1c4ef",
+    "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/f84b16872b5d186f4e877511b49b93c204a1c4ef",
+    "tree":  [
+                 {
+                     "path":  ".github",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "20c0227babefb2f9ad456f35d95f9a2cbfa93bb0",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/20c0227babefb2f9ad456f35d95f9a2cbfa93bb0"
+                 },
+                 {
+                     "path":  ".github/workflows",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "5f11b4b425d2c0eb6dc31dcffb91472f03439d8d",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/5f11b4b425d2c0eb6dc31dcffb91472f03439d8d"
+                 },
+                 {
+                     "path":  ".github/workflows/code_scanning.yaml",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4e80a23e0850bc798b4fb0f7f275efebfc12cb22",
+                     "size":  2199,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/4e80a23e0850bc798b4fb0f7f275efebfc12cb22"
+                 },
+                 {
+                     "path":  ".github/workflows/dart_skills_validation.yaml",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1f92f9f3c92cb9a85a7318183473b885a8cc1dfa",
+                     "size":  1033,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/1f92f9f3c92cb9a85a7318183473b885a8cc1dfa"
+                 },
+                 {
+                     "path":  "CODE_OF_CONDUCT.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "5deeb616741cfa6676cf0262d591e29990e284ef",
+                     "size":  114,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/5deeb616741cfa6676cf0262d591e29990e284ef"
+                 },
+                 {
+                     "path":  "CONTRIBUTING.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "2594e50a146134769a7e90bbce0cc84d13dfd8dd",
+                     "size":  2118,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/2594e50a146134769a7e90bbce0cc84d13dfd8dd"
+                 },
+                 {
+                     "path":  "LICENSE",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "dd5b36bbf37f60f6b02f0342e31e076a81dd01b6",
+                     "size":  1485,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/dd5b36bbf37f60f6b02f0342e31e076a81dd01b6"
+                 },
+                 {
+                     "path":  "README.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e640854fe501045d33960ee133581124c337ebd3",
+                     "size":  5790,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/e640854fe501045d33960ee133581124c337ebd3"
+                 },
+                 {
+                     "path":  "repo_tool",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "b3198b0151094854ecc322af4e0b50f098cfaaae",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/b3198b0151094854ecc322af4e0b50f098cfaaae"
+                 },
+                 {
+                     "path":  "repo_tool/.gitignore",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "82cc80fbb3d1526f804ac21cee342000d583c9cf",
+                     "size":  99,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/82cc80fbb3d1526f804ac21cee342000d583c9cf"
+                 },
+                 {
+                     "path":  "repo_tool/CHANGELOG.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "7d974dc1dfa11c235b4502513d3e7c4da7aab621",
+                     "size":  59,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/7d974dc1dfa11c235b4502513d3e7c4da7aab621"
+                 },
+                 {
+                     "path":  "repo_tool/README.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "0beb84963dbf058d9242fc9170f5123cae65e57e",
+                     "size":  1412,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/0beb84963dbf058d9242fc9170f5123cae65e57e"
+                 },
+                 {
+                     "path":  "repo_tool/analysis_options.yaml",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "dee8927aafeb5d7cb0c31b6b36a6635c9c3439df",
+                     "size":  1038,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/dee8927aafeb5d7cb0c31b6b36a6635c9c3439df"
+                 },
+                 {
+                     "path":  "repo_tool/pubspec.yaml",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "27951ab1fc99889ae929b36defca3168075d3d66",
+                     "size":  464,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/27951ab1fc99889ae929b36defca3168075d3d66"
+                 },
+                 {
+                     "path":  "repo_tool/skills_lint.yaml",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "39d9aac97c39086508102ac69cdf212752f45dea",
+                     "size":  260,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/39d9aac97c39086508102ac69cdf212752f45dea"
+                 },
+                 {
+                     "path":  "repo_tool/test",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "53d637d6113b7bd0d6ab056f17dd23a547a10442",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/53d637d6113b7bd0d6ab056f17dd23a547a10442"
+                 },
+                 {
+                     "path":  "repo_tool/test/lint_skills_test.dart",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "29f1f0ac6b58a1ae40473b89da35a7849402efc5",
+                     "size":  4980,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/29f1f0ac6b58a1ae40473b89da35a7849402efc5"
+                 },
+                 {
+                     "path":  "resources",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "11b8bbdfc6cfaa16b8dd4ee5ed66f37792156929",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/11b8bbdfc6cfaa16b8dd4ee5ed66f37792156929"
+                 },
+                 {
+                     "path":  "resources/dart_skills.yaml",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "f8aff660ccf59018cbe037a15c6790c7b952b49e",
+                     "size":  36846,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/f8aff660ccf59018cbe037a15c6790c7b952b49e"
+                 },
+                 {
+                     "path":  "skills.sh.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "743d535941dcd1def605b282d6cf8175dff9e220",
+                     "size":  1351,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/743d535941dcd1def605b282d6cf8175dff9e220"
+                 },
+                 {
+                     "path":  "skills",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "74f41b80790a313f4ecd93154e5200b2795eae85",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/74f41b80790a313f4ecd93154e5200b2795eae85"
+                 },
+                 {
+                     "path":  "skills/dart-add-unit-test",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "61b99af5bdef24635fd6491204b553a5bf972061",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/61b99af5bdef24635fd6491204b553a5bf972061"
+                 },
+                 {
+                     "path":  "skills/dart-add-unit-test/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a4921a529000ddbfa6c98360dbc0b68f11fc4d4a",
+                     "size":  4709,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/a4921a529000ddbfa6c98360dbc0b68f11fc4d4a"
+                 },
+                 {
+                     "path":  "skills/dart-build-cli-app",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "94cecc88054d6668a907d8785cfafbef245d4c41",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/94cecc88054d6668a907d8785cfafbef245d4c41"
+                 },
+                 {
+                     "path":  "skills/dart-build-cli-app/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c888b42c94118e953a48f82bdf6a8a5eba025b52",
+                     "size":  13828,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/c888b42c94118e953a48f82bdf6a8a5eba025b52"
+                 },
+                 {
+                     "path":  "skills/dart-build-cli-app/examples",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "560eb4998d6d5435518277de2c4d00e766f9fd0e",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/560eb4998d6d5435518277de2c4d00e766f9fd0e"
+                 },
+                 {
+                     "path":  "skills/dart-build-cli-app/examples/multi_command_runner.dart",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "b62a077fcd4d0eba476f47542c2e807c65154edb",
+                     "size":  2508,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/b62a077fcd4d0eba476f47542c2e807c65154edb"
+                 },
+                 {
+                     "path":  "skills/dart-build-cli-app/examples/single_command_tool.dart",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "acad25545504e0e6305b9ee3cfdaa587048a48cb",
+                     "size":  2365,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/acad25545504e0e6305b9ee3cfdaa587048a48cb"
+                 },
+                 {
+                     "path":  "skills/dart-build-cli-app/references",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "45682a659422b4d137e8ae081e553cb405b26354",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/45682a659422b4d137e8ae081e553cb405b26354"
+                 },
+                 {
+                     "path":  "skills/dart-build-cli-app/references/aot_sdk_discovery.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "0b4b851ceb575dd175e608d5bcec3b0685744f0e",
+                     "size":  3981,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/0b4b851ceb575dd175e608d5bcec3b0685744f0e"
+                 },
+                 {
+                     "path":  "skills/dart-build-cli-app/references/signals_and_terminal.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a731482837e368be670f2817b553c916eb9e791c",
+                     "size":  4144,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/a731482837e368be670f2817b553c916eb9e791c"
+                 },
+                 {
+                     "path":  "skills/dart-collect-coverage",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "818903454e5ca282a4ac278fa7f6cbc5c98084ac",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/818903454e5ca282a4ac278fa7f6cbc5c98084ac"
+                 },
+                 {
+                     "path":  "skills/dart-collect-coverage/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "60dad77533dc0a98b7f4a8363ac1b56d589d353a",
+                     "size":  4893,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/60dad77533dc0a98b7f4a8363ac1b56d589d353a"
+                 },
+                 {
+                     "path":  "skills/dart-fix-runtime-errors",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "3b8107906efca3b7f61033a033046966030b4316",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/3b8107906efca3b7f61033a033046966030b4316"
+                 },
+                 {
+                     "path":  "skills/dart-fix-runtime-errors/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1a7db85158aaeced4d6f702d73acfd6f37d712a1",
+                     "size":  6257,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/1a7db85158aaeced4d6f702d73acfd6f37d712a1"
+                 },
+                 {
+                     "path":  "skills/dart-generate-test-mocks",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "36fbbd32e2517e37b7d071a429b8ffcd682c1088",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/36fbbd32e2517e37b7d071a429b8ffcd682c1088"
+                 },
+                 {
+                     "path":  "skills/dart-generate-test-mocks/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "fcd6d8b5e365f586155dd64e85e5044ac603a894",
+                     "size":  6339,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/fcd6d8b5e365f586155dd64e85e5044ac603a894"
+                 },
+                 {
+                     "path":  "skills/dart-migrate-to-checks-package",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "8392f1a69c45d436bd0365a53d44f2c1abea3da1",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/8392f1a69c45d436bd0365a53d44f2c1abea3da1"
+                 },
+                 {
+                     "path":  "skills/dart-migrate-to-checks-package/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "fb3925169c1cfd3a6b3bb376fdfd048b5ca774ad",
+                     "size":  19330,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/fb3925169c1cfd3a6b3bb376fdfd048b5ca774ad"
+                 },
+                 {
+                     "path":  "skills/dart-resolve-package-conflicts",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "aa232cc0ca7a097a2593672cc065f9d7b102c462",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/aa232cc0ca7a097a2593672cc065f9d7b102c462"
+                 },
+                 {
+                     "path":  "skills/dart-resolve-package-conflicts/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9a7ffdc5a79c14ad2e3d8dab6e257a28cfa40e3d",
+                     "size":  5267,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/9a7ffdc5a79c14ad2e3d8dab6e257a28cfa40e3d"
+                 },
+                 {
+                     "path":  "skills/dart-run-static-analysis",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "333a193146ab5f5876093beb7896ff792f9df467",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/333a193146ab5f5876093beb7896ff792f9df467"
+                 },
+                 {
+                     "path":  "skills/dart-run-static-analysis/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "27ca6546684accbc8f96091d0b992f6f43a16d15",
+                     "size":  5033,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/27ca6546684accbc8f96091d0b992f6f43a16d15"
+                 },
+                 {
+                     "path":  "skills/dart-setup-ffi-assets",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "c377241e015b6aeb235670bea6a86c7a3cac585b",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/c377241e015b6aeb235670bea6a86c7a3cac585b"
+                 },
+                 {
+                     "path":  "skills/dart-setup-ffi-assets/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9f92eab3a167340b8ff65bb776a597bf2c3ad185",
+                     "size":  18899,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/9f92eab3a167340b8ff65bb776a597bf2c3ad185"
+                 },
+                 {
+                     "path":  "skills/dart-use-doc-examples",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "1d5d6ab37dd124e834c2ca9c74f90bec351c195b",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/1d5d6ab37dd124e834c2ca9c74f90bec351c195b"
+                 },
+                 {
+                     "path":  "skills/dart-use-doc-examples/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "22ee47af5744349558eb42e26f16e346326969be",
+                     "size":  5432,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/22ee47af5744349558eb42e26f16e346326969be"
+                 },
+                 {
+                     "path":  "skills/dart-use-ffigen",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "e7fe916ee253fef8d29f75b864e9a624c6ae9639",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/e7fe916ee253fef8d29f75b864e9a624c6ae9639"
+                 },
+                 {
+                     "path":  "skills/dart-use-ffigen/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "d7b58629f1850f91791f7ac5db588386ffa13843",
+                     "size":  11636,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/d7b58629f1850f91791f7ac5db588386ffa13843"
+                 },
+                 {
+                     "path":  "skills/dart-use-path-package",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "9b5f95abaca329782bc7771fed1929264fd01d31",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/9b5f95abaca329782bc7771fed1929264fd01d31"
+                 },
+                 {
+                     "path":  "skills/dart-use-path-package/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "be21b8428cc06a55d8ce45ab32fc43b55d41df22",
+                     "size":  12143,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/be21b8428cc06a55d8ce45ab32fc43b55d41df22"
+                 },
+                 {
+                     "path":  "skills/dart-use-path-package/examples",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "484c4c295098f93dcd66a483f5873704804f0f8c",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/484c4c295098f93dcd66a483f5873704804f0f8c"
+                 },
+                 {
+                     "path":  "skills/dart-use-path-package/examples/cross_platform_paths.dart",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "41fa32fe2878b7deefd1aa9bee58a1d55f2d9d22",
+                     "size":  1859,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/41fa32fe2878b7deefd1aa9bee58a1d55f2d9d22"
+                 },
+                 {
+                     "path":  "skills/dart-use-path-package/examples/file_system_context.dart",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "983ea46a46f5154364279ae6525b195ea39e5c1d",
+                     "size":  1035,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/983ea46a46f5154364279ae6525b195ea39e5c1d"
+                 },
+                 {
+                     "path":  "skills/dart-use-pattern-matching",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "709297e226dda24996afb9bc615f9805d0f6e435",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/709297e226dda24996afb9bc615f9805d0f6e435"
+                 },
+                 {
+                     "path":  "skills/dart-use-pattern-matching/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "0eb8c8b3e17dd787b36d3d768ac25660d53d24d5",
+                     "size":  14708,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/0eb8c8b3e17dd787b36d3d768ac25660d53d24d5"
+                 },
+                 {
+                     "path":  "skills/dart-use-pattern-matching/examples",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "767e6bdda2812d78e01cd672ad859d16981e4ea5",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/767e6bdda2812d78e01cd672ad859d16981e4ea5"
+                 },
+                 {
+                     "path":  "skills/dart-use-pattern-matching/examples/filename_patterns.dart",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "5bea5cefbf8dbc2dae7fa533743fb6ebe8da1d37",
+                     "size":  1430,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/5bea5cefbf8dbc2dae7fa533743fb6ebe8da1d37"
+                 },
+                 {
+                     "path":  "skills/dart-use-pattern-matching/examples/json_patterns.dart",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "d47a04e91b8d89a7f9459073a06e90e7074c9a51",
+                     "size":  2642,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/d47a04e91b8d89a7f9459073a06e90e7074c9a51"
+                 },
+                 {
+                     "path":  "skills/dart-use-primary-constructors",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "b1e7da397d321ec3a8d23319f186a57d43b5b058",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/b1e7da397d321ec3a8d23319f186a57d43b5b058"
+                 },
+                 {
+                     "path":  "skills/dart-use-primary-constructors/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "13ba91c54f875aca5676729257a57d9c545a1cb3",
+                     "size":  11362,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/13ba91c54f875aca5676729257a57d9c545a1cb3"
+                 },
+                 {
+                     "path":  "skills/dart-write-documentation",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "a9d9e091b2d68d60926ef1aff4a27ccc75d427d5",
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/trees/a9d9e091b2d68d60926ef1aff4a27ccc75d427d5"
+                 },
+                 {
+                     "path":  "skills/dart-write-documentation/SKILL.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e5fc042aa237954f5291b86d455c8b675204664e",
+                     "size":  6727,
+                     "url":  "https://api.github.com/repos/dart-lang/skills/git/blobs/e5fc042aa237954f5291b86d455c8b675204664e"
+                 }
+             ],
+    "truncated":  false
+}

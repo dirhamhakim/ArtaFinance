@@ -1,0 +1,80 @@
+{
+  "verified_date": "2026-11-19T17:29:57.808289+07:00",
+  "app": "Arta",
+  "version": "0.2.1+3",
+  "package_id": "id.arta.arta",
+  "flutter": "3.50.0",
+  "dart": "3.14.0",
+  "database_schema_version": 2,
+  "backup_schema_version": 2,
+  "encrypted_envelope_version": 1,
+  "tests_passed": 48,
+  "test_command": "scripts/flutter.ps1 -Task Test",
+  "analysis": "No issues found",
+  "analysis_command": "scripts/flutter.ps1 -Task Check",
+  "build": "debug",
+  "build_command": "scripts/flutter.ps1 -Task Build",
+  "apk": "build/app/outputs/flutter-apk/arta-0.2.1-debug.apk",
+  "bytes": 175202046,
+  "sha256": "3da4268961a18eee07cda9d8d89f94dcca580dcac5415d25486996e73a2f4a1e",
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64"
+  ],
+  "signature_verified": true,
+  "signing_certificate_sha256": "dc78d38e5fda668f75bb53f3b7296dfd49c80f8700e79b237d032fab8e2f1269",
+  "physical_device_tested": true,
+  "physical_device": {
+    "model": "Samsung A05s SM-A057F",
+    "android": "15",
+    "connection": "USB"
+  },
+  "physical_test_scope": [
+    "Update from 0.2.0+2 without uninstall or clearing data",
+    "Main screen loads",
+    "Force-stop and reopen reaches main screen",
+    "Native SQLite financial and scheduling assertions",
+    "UI account/transaction/schedule forms and themes",
+    "Landscape form with simulated text scale 2",
+    "Native Android JSON/encrypted backup and restore, cancellation, rejection, legacy v1",
+    "APK update preserves 5 accounts and 1 transaction"
+  ],
+  "phone_bug_status": "BUG-001 not reproduced on 0.2.1 on Samsung A05s; original root cause unconfirmed",
+  "physical_evidence": [
+    "build/physical-device/arta-startup-021.xml",
+    "build/physical-device/arta-reopen-021.xml",
+    "build/physical-device/arta-reopen-021.png",
+    "build/physical-device/native-all-pass.log",
+    "build/physical-device/device-qa/1795082036559/results.json",
+    "build/physical-device/native-file-tests.json",
+    "build/physical-device/cleanup-result.json",
+    "build/physical-device/final-cold-reopen.png"
+  ],
+  "remaining_physical_tests": [
+    "Exact full 26-case manual sequence",
+    "Physical phone reboot",
+    "Real day rollover",
+    "Other Android devices"
+  ],
+  "background_schedule_worker": false,
+  "android_notifications": false,
+  "device_integration_tests_passed": 8,
+  "native_file_ui_groups_passed": 8,
+  "physical_test_report": "docs/TESTING-HP-2026-11-19.md",
+  "cleanup": {
+    "network_restored": {
+      "airplane_mode_on": "0",
+      "wifi_on": "1"
+    },
+    "qa_apk_removed": true,
+    "normal_apk_opened": true,
+    "main_flutter_error_lines": 0,
+    "final_accounts": 0,
+    "final_transactions": 0,
+    "final_schedules": 0,
+    "backup_files_archived": 13
+  }
+}

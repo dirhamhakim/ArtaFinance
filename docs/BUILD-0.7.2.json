@@ -1,0 +1,56 @@
+﻿{
+    "verified_date":  "2026-11-21T17:29:11.5945343+07:00",
+    "app":  "Arta",
+    "version":  "0.7.2+11",
+    "package_id":  "id.arta.arta",
+    "build":  "debug",
+    "database_schema_version":  5,
+    "backup_schema_version":  6,
+    "accepted_backup_versions":  [
+                                     1,
+                                     2,
+                                     3,
+                                     4,
+                                     5,
+                                     6
+                                 ],
+    "apk":  "build/app/outputs/flutter-apk/arta-0.7.2-debug.apk",
+    "apk_bytes":  188993609,
+    "apk_mib":  180.24,
+    "apk_sha256":  "3ef2a86e8c9763dbcc3174a4b0c36df860f3c2b3bdfbe2b70d267c1c93aaae49",
+    "signature_valid":  true,
+    "signer_certificate_sha256":  "dc78d38e5fda668f75bb53f3b7296dfd49c80f8700e79b237d032fab8e2f1269",
+    "same_signer_as_0_7_1":  true,
+    "unit_widget_tests_passed":  201,
+    "full_suite_log":  "build/category-0.7.2/tests-final.log",
+    "category_tests_repeated_final":  13,
+    "category_final_log":  "build/category-0.7.2/categories-final.log",
+    "analyzer":  "No issues found",
+    "analysis_log":  "build/category-0.7.2/analyze-final.log",
+    "build_log":  "build/category-0.7.2/build.log",
+    "apk_installed_on_phone":  false,
+    "physical_device_tested":  false,
+    "physical_device_accessed_this_task":  false,
+    "emulator_used":  false,
+    "google_login_tested":  false,
+    "pin_biometric":  "No physical retest; unchanged. Existing unit regressions included in full suite.",
+    "status":  "BUILD_VERIFIED_PHONE_TEST_DEFERRED",
+    "guide":  "docs/PATCH-0.7.2.md",
+    "manual_checklist":  "docs/TESTING-APK-0.2.0.md#pengelolaan-kategori-072",
+    "previews":  [
+                     "build/ui-review/categories-dark-0.7.2.png",
+                     "build/ui-review/categories-light-0.7.2.png"
+                 ],
+    "changes":  [
+                    "Settings category management: income/expense, add unused, rename, search, archive/reactivate.",
+                    "Case-insensitive duplicate validation within each transaction kind, including archived entries.",
+                    "Atomic rename updates matching ledger and schedules without financial-field changes.",
+                    "Archived category hidden for new input; historical edits and existing schedules remain usable.",
+                    "Local persistence, encrypted/plain v6 backup, old v1-v5 compatibility, custom category survives transaction deletion."
+                ],
+    "limitations":  [
+                        "Phone access and APK installation deferred at user request while phone is in use.",
+                        "Physical Android results from 0.7.1 are historical and are not counted as tests of 0.7.2.",
+                        "Permanent category deletion and subcategories are not part of this patch; use archive."
+                    ]
+}

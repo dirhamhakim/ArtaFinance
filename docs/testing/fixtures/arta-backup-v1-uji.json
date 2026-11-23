@@ -1,0 +1,32 @@
+{
+  "format": "arta-backup",
+  "schema_version": 1,
+  "created_at": "2024-01-01T00:00:00.000Z",
+  "accounts": [
+    {
+      "id": "qa-legacy-bank",
+      "name": "QA Legacy",
+      "kind": "bank",
+      "currency": "IDR",
+      "opening_minor": "-100000",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "qa-legacy-expense",
+      "kind": "expense",
+      "account_id": "qa-legacy-bank",
+      "destination_id": null,
+      "amount_minor": "10000",
+      "fee_minor": "0",
+      "date": "2024-01-01",
+      "category": "QA Legacy",
+      "note": "Data palsu untuk uji kompatibilitas backup v1.",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "preferences": {
+    "theme": "light"
+  }
+}
