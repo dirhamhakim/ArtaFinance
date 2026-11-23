@@ -1,0 +1,14 @@
+{
+  "symbol": "^JKSE",
+  "name": "IHSG / IDX Composite",
+  "source": "Yahoo Finance daily close",
+  "retrieved_at": "2026-11-19T18:11:41.565104+00:00",
+  "rows": 8915,
+  "first": "1990-04-06",
+  "last": "2026-11-18",
+  "bytes": 71721,
+  "sha256": "1032dc4e818e440801116ae41a7fd7d08b1e9b7c0ff85f4aa81c1d798f079c2b",
+  "currency": "IDR",
+  "unit": "index points",
+  "interval": "1d"
+}
