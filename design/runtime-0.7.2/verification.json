@@ -1,0 +1,19 @@
+{
+  "version": "0.7.2+11",
+  "date": "2026-11-22",
+  "native_path": "D:\\Aplikasi Keuangan\\design\\Arta-0.7.2-Seluruh-Tampilan.figcraft",
+  "bytes": 4269530,
+  "sha256": "a0bb42a0689f87ee6fdf6b57e0ec0bec822714bb2cc5ed5e3d00e694ff68d1d2",
+  "app_states": 286,
+  "app_artboards": 572,
+  "app_pages": 13,
+  "library_pages": 9,
+  "guide_pages": 1,
+  "flow_starts": 30,
+  "app_interactions": 3939,
+  "geometry_findings": 0,
+  "invalid_prototype_destinations": [],
+  "font_embedded": false,
+  "source_files_fingerprinted": 77,
+  "apk_or_production_code_changed": false
+}

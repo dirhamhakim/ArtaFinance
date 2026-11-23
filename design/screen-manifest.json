@@ -1,0 +1,1598 @@
+{
+  "project": "Arta — Keuangan Pribadi",
+  "revision": 3,
+  "date": "2026-11-18",
+  "referenceCount": 59,
+  "nativeFile": "Arta-Keuangan-Pribadi.figcraft",
+  "documentId": 2,
+  "primaryTheme": "Dark",
+  "canvas": {
+    "width": 412,
+    "height": 915
+  },
+  "narrowPreview": {
+    "width": 360,
+    "height": 800
+  },
+  "stats": {
+    "nodes": 7436,
+    "text": 3175,
+    "components": 32,
+    "instances": 397,
+    "screens": 174,
+    "overlays": 17,
+    "interactions": 960,
+    "flows": [
+      {
+        "description": "",
+        "name": "01 · Mulai dari Beranda",
+        "start": 202
+      },
+      {
+        "description": "",
+        "name": "02 · Catat transaksi",
+        "start": 498
+      },
+      {
+        "description": "",
+        "name": "03 · Kelola investasi",
+        "start": 656
+      },
+      {
+        "description": "",
+        "name": "04 · Berulang & akhir bulan",
+        "start": 1801
+      },
+      {
+        "description": "",
+        "name": "05 · Bunga buatan pengguna",
+        "start": 2262
+      },
+      {
+        "description": "",
+        "name": "06 · Backup & pemulihan",
+        "start": 3042
+      },
+      {
+        "description": "",
+        "name": "07 · Logo & pembukaan Arta",
+        "start": 4911
+      },
+      {
+        "description": "",
+        "name": "08 · Pembukaan gagal & coba lagi",
+        "start": 4976
+      },
+      {
+        "description": "",
+        "name": "09 · Impor katalog IDX",
+        "start": 5026
+      },
+      {
+        "description": "",
+        "name": "10 · File katalog bermasalah",
+        "start": 5107
+      },
+      {
+        "description": "",
+        "name": "11 · Pembaruan gagal & pemulihan",
+        "start": 5188
+      },
+      {
+        "description": "",
+        "name": "12 · Saldo noninvestasi boleh minus",
+        "start": 5709
+      },
+      {
+        "description": "",
+        "name": "13 · Logo Arta · terang",
+        "start": 6836
+      },
+      {
+        "description": "",
+        "name": "14 · Impor katalog · terang",
+        "start": 5979
+      },
+      {
+        "description": "",
+        "name": "15 · Saldo minus · terang",
+        "start": 6949
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": 1,
+      "name": "00 · Foundations & Components"
+    },
+    {
+      "id": 2,
+      "name": "01 · Beranda & Transaksi"
+    },
+    {
+      "id": 3,
+      "name": "02 · Investasi"
+    },
+    {
+      "id": 4,
+      "name": "03 · Akun, Jadwal & Bunga"
+    },
+    {
+      "id": 5,
+      "name": "04 · Laporan & Pengaturan"
+    },
+    {
+      "id": 6,
+      "name": "05 · States & Flows"
+    },
+    {
+      "id": 4691,
+      "name": "06 · Referensi & Spesifikasi v2"
+    },
+    {
+      "id": 4816,
+      "name": "07 · Identitas & Loading"
+    },
+    {
+      "id": 4817,
+      "name": "08 · Katalog Saham IDX"
+    }
+  ],
+  "screens": [
+    {
+      "route": "home",
+      "id": 202,
+      "page": 2,
+      "title": "Ringkasan",
+      "prefix": "home"
+    },
+    {
+      "route": "transactions",
+      "id": 278,
+      "page": 2,
+      "title": "Transaksi",
+      "prefix": "transactions"
+    },
+    {
+      "route": "calendar",
+      "id": 367,
+      "page": 2,
+      "title": "Kalender",
+      "prefix": "calendar"
+    },
+    {
+      "route": "expense",
+      "id": 498,
+      "page": 2,
+      "title": "Catat transaksi",
+      "prefix": "expense"
+    },
+    {
+      "route": "income",
+      "id": 539,
+      "page": 2,
+      "title": "Catat transaksi",
+      "prefix": "income"
+    },
+    {
+      "route": "transfer",
+      "id": 580,
+      "page": 2,
+      "title": "Transfer antar akun",
+      "prefix": "transfer"
+    },
+    {
+      "route": "transactionDetail",
+      "id": 621,
+      "page": 2,
+      "title": "Detail transaksi",
+      "prefix": "transactionDetail"
+    },
+    {
+      "route": "investments",
+      "id": 656,
+      "page": 3,
+      "title": "Investasi",
+      "prefix": "investments"
+    },
+    {
+      "route": "stocks",
+      "id": 741,
+      "page": 3,
+      "title": "Saham",
+      "prefix": "stocks"
+    },
+    {
+      "route": "crypto",
+      "id": 818,
+      "page": 3,
+      "title": "Crypto",
+      "prefix": "crypto"
+    },
+    {
+      "route": "funds",
+      "id": 895,
+      "page": 3,
+      "title": "Reksa dana",
+      "prefix": "funds"
+    },
+    {
+      "route": "assetStock",
+      "id": 964,
+      "page": 3,
+      "title": "BBCA",
+      "prefix": "assetStock"
+    },
+    {
+      "route": "assetCrypto",
+      "id": 1015,
+      "page": 3,
+      "title": "Bitcoin",
+      "prefix": "assetCrypto"
+    },
+    {
+      "route": "fundDetail",
+      "id": 1066,
+      "page": 3,
+      "title": "Reksa dana pasar uang",
+      "prefix": "fundDetail"
+    },
+    {
+      "route": "buyAsset",
+      "id": 1113,
+      "page": 3,
+      "title": "Catat transaksi aset",
+      "prefix": "buyAsset"
+    },
+    {
+      "route": "sellAsset",
+      "id": 1158,
+      "page": 3,
+      "title": "Catat transaksi aset",
+      "prefix": "sellAsset"
+    },
+    {
+      "route": "transferAsset",
+      "id": 1203,
+      "page": 3,
+      "title": "Transfer aset",
+      "prefix": "transferAsset"
+    },
+    {
+      "route": "manualNAV",
+      "id": 1248,
+      "page": 3,
+      "title": "Perbarui NAB/unit",
+      "prefix": "manualNAV"
+    },
+    {
+      "route": "fundPurchase",
+      "id": 1282,
+      "page": 3,
+      "title": "Transaksi reksa dana",
+      "prefix": "fundPurchase"
+    },
+    {
+      "route": "fundPending",
+      "id": 1321,
+      "page": 3,
+      "title": "Pembelian diproses",
+      "prefix": "fundPending"
+    },
+    {
+      "route": "fundConfirm",
+      "id": 1347,
+      "page": 3,
+      "title": "Konfirmasi unit",
+      "prefix": "fundConfirm"
+    },
+    {
+      "route": "fundSell",
+      "id": 1379,
+      "page": 3,
+      "title": "Penjualan reksa dana",
+      "prefix": "fundSell"
+    },
+    {
+      "route": "fundRedemption",
+      "id": 1413,
+      "page": 3,
+      "title": "Pencairan reksa dana",
+      "prefix": "fundRedemption"
+    },
+    {
+      "route": "assetHistory",
+      "id": 1437,
+      "page": 3,
+      "title": "Riwayat aset",
+      "prefix": "assetHistory"
+    },
+    {
+      "route": "accounts",
+      "id": 1494,
+      "page": 4,
+      "title": "Akun",
+      "prefix": "accounts"
+    },
+    {
+      "route": "allAccounts",
+      "id": 1569,
+      "page": 4,
+      "title": "Exchange & wallet",
+      "prefix": "allAccounts"
+    },
+    {
+      "route": "accountDetail",
+      "id": 1654,
+      "page": 4,
+      "title": "Mandiri",
+      "prefix": "accountDetail"
+    },
+    {
+      "route": "accountNew",
+      "id": 1732,
+      "page": 4,
+      "title": "Atur akun",
+      "prefix": "accountNew"
+    },
+    {
+      "route": "reconcile",
+      "id": 1771,
+      "page": 4,
+      "title": "Cocokkan saldo",
+      "prefix": "reconcile"
+    },
+    {
+      "route": "schedules",
+      "id": 1801,
+      "page": 4,
+      "title": "Transaksi berulang",
+      "prefix": "schedules"
+    },
+    {
+      "route": "repeatCreate",
+      "id": 1867,
+      "page": 4,
+      "title": "Atur pengulangan",
+      "prefix": "repeatCreate"
+    },
+    {
+      "route": "monthDayPicker",
+      "id": 1914,
+      "page": 4,
+      "title": "Tanggal pengulangan",
+      "prefix": "monthDayPicker"
+    },
+    {
+      "route": "monthEndPicker",
+      "id": 1963,
+      "page": 4,
+      "title": "Tanggal pengulangan",
+      "prefix": "monthEndPicker"
+    },
+    {
+      "route": "scheduleDetail",
+      "id": 2014,
+      "page": 4,
+      "title": "Detail pengulangan",
+      "prefix": "scheduleDetail"
+    },
+    {
+      "route": "repeatEdit",
+      "id": 2055,
+      "page": 4,
+      "title": "Edit pengulangan",
+      "prefix": "repeatEdit"
+    },
+    {
+      "route": "installments",
+      "id": 2090,
+      "page": 4,
+      "title": "Cicilan",
+      "prefix": "installments"
+    },
+    {
+      "route": "installmentCreate",
+      "id": 2138,
+      "page": 4,
+      "title": "Rencana cicilan",
+      "prefix": "installmentCreate"
+    },
+    {
+      "route": "installmentDetail",
+      "id": 2181,
+      "page": 4,
+      "title": "Rincian cicilan",
+      "prefix": "installmentDetail"
+    },
+    {
+      "route": "installmentPayment",
+      "id": 2228,
+      "page": 4,
+      "title": "Pembayaran cicilan",
+      "prefix": "installmentPayment"
+    },
+    {
+      "route": "interestList",
+      "id": 2262,
+      "page": 4,
+      "title": "Bunga akun",
+      "prefix": "interestList"
+    },
+    {
+      "route": "interestConfig",
+      "id": 2309,
+      "page": 4,
+      "title": "Atur bunga akun",
+      "prefix": "interestConfig"
+    },
+    {
+      "route": "interestAdvanced",
+      "id": 2351,
+      "page": 4,
+      "title": "Aturan perhitungan",
+      "prefix": "interestAdvanced"
+    },
+    {
+      "route": "interestTiers",
+      "id": 2386,
+      "page": 4,
+      "title": "Tingkatan saldo",
+      "prefix": "interestTiers"
+    },
+    {
+      "route": "interestPreview",
+      "id": 2427,
+      "page": 4,
+      "title": "Pratinjau bunga",
+      "prefix": "interestPreview"
+    },
+    {
+      "route": "interestActual",
+      "id": 2461,
+      "page": 4,
+      "title": "Catat bunga aktual",
+      "prefix": "interestActual"
+    },
+    {
+      "route": "loanPayment",
+      "id": 2497,
+      "page": 4,
+      "title": "Pelunasan utang",
+      "prefix": "loanPayment"
+    },
+    {
+      "route": "more",
+      "id": 2533,
+      "page": 5,
+      "title": "Lainnya",
+      "prefix": "more"
+    },
+    {
+      "route": "reports",
+      "id": 2609,
+      "page": 5,
+      "title": "Laporan",
+      "prefix": "reports"
+    },
+    {
+      "route": "categoryReport",
+      "id": 2678,
+      "page": 5,
+      "title": "Pengeluaran kategori",
+      "prefix": "categoryReport"
+    },
+    {
+      "route": "netWorthReport",
+      "id": 2749,
+      "page": 5,
+      "title": "Kekayaan bersih",
+      "prefix": "netWorthReport"
+    },
+    {
+      "route": "budgets",
+      "id": 2820,
+      "page": 5,
+      "title": "Anggaran",
+      "prefix": "budgets"
+    },
+    {
+      "route": "budgetEdit",
+      "id": 2887,
+      "page": 5,
+      "title": "Atur anggaran",
+      "prefix": "budgetEdit"
+    },
+    {
+      "route": "settings",
+      "id": 2922,
+      "page": 5,
+      "title": "Pengaturan",
+      "prefix": "settings"
+    },
+    {
+      "route": "theme",
+      "id": 2998,
+      "page": 5,
+      "title": "Tampilan",
+      "prefix": "theme"
+    },
+    {
+      "route": "backup",
+      "id": 3042,
+      "page": 5,
+      "title": "Backup & ekspor",
+      "prefix": "backup"
+    },
+    {
+      "route": "backupCreate",
+      "id": 3109,
+      "page": 5,
+      "title": "Buat backup lengkap",
+      "prefix": "backupCreate"
+    },
+    {
+      "route": "exportCSV",
+      "id": 3148,
+      "page": 5,
+      "title": "Ekspor data CSV",
+      "prefix": "exportCSV"
+    },
+    {
+      "route": "restorePreview",
+      "id": 3182,
+      "page": 5,
+      "title": "Pratinjau pemulihan",
+      "prefix": "restorePreview"
+    },
+    {
+      "route": "priceSettings",
+      "id": 3216,
+      "page": 5,
+      "title": "Harga & sumber data",
+      "prefix": "priceSettings"
+    },
+    {
+      "route": "fx",
+      "id": 3254,
+      "page": 5,
+      "title": "Mata uang & kurs",
+      "prefix": "fx"
+    },
+    {
+      "route": "accountPicker",
+      "id": 3288,
+      "page": 6,
+      "title": "Pilih akun",
+      "prefix": "accountPicker",
+      "overlay": true,
+      "height": 760
+    },
+    {
+      "route": "categoryPicker",
+      "id": 3318,
+      "page": 6,
+      "title": "Pilih kategori",
+      "prefix": "categoryPicker",
+      "overlay": true,
+      "height": 700
+    },
+    {
+      "route": "assetPicker",
+      "id": 3345,
+      "page": 6,
+      "title": "Pilih aset",
+      "prefix": "assetPicker",
+      "overlay": true,
+      "height": 700
+    },
+    {
+      "route": "frequencyPicker",
+      "id": 3369,
+      "page": 6,
+      "title": "Frekuensi pengulangan",
+      "prefix": "frequencyPicker",
+      "overlay": true,
+      "height": 640
+    },
+    {
+      "route": "accountGroup",
+      "id": 3390,
+      "page": 6,
+      "title": "Kelompok akun",
+      "prefix": "accountGroup",
+      "overlay": true,
+      "height": 700
+    },
+    {
+      "route": "currencyPicker",
+      "id": 3417,
+      "page": 6,
+      "title": "Mata uang",
+      "prefix": "currencyPicker",
+      "overlay": true,
+      "height": 640
+    },
+    {
+      "route": "refreshOptions",
+      "id": 3438,
+      "page": 6,
+      "title": "Interval harga crypto",
+      "prefix": "refreshOptions",
+      "overlay": true,
+      "height": 640
+    },
+    {
+      "route": "exportOptions",
+      "id": 3459,
+      "page": 6,
+      "title": "Data untuk ekspor CSV",
+      "prefix": "exportOptions",
+      "overlay": true,
+      "height": 640
+    },
+    {
+      "route": "datePicker",
+      "id": 3480,
+      "page": 6,
+      "title": "Pilih tanggal",
+      "prefix": "datePicker",
+      "overlay": true,
+      "height": 664
+    },
+    {
+      "route": "filters",
+      "id": 3555,
+      "page": 6,
+      "title": "Filter transaksi",
+      "prefix": "filters",
+      "overlay": true,
+      "height": 760
+    },
+    {
+      "route": "repeatConfirmMode",
+      "id": 3592,
+      "page": 6,
+      "title": "Mode pencatatan",
+      "prefix": "repeatConfirmMode",
+      "overlay": true,
+      "height": 464
+    },
+    {
+      "route": "scheduleActions",
+      "id": 3608,
+      "page": 6,
+      "title": "Kelola pengulangan",
+      "prefix": "scheduleActions",
+      "overlay": true,
+      "height": 560
+    },
+    {
+      "route": "deleteConfirm",
+      "id": 3629,
+      "page": 6,
+      "title": "Hentikan / hapus catatan?",
+      "prefix": "deleteConfirm",
+      "overlay": true,
+      "height": 424
+    },
+    {
+      "route": "restoreConfirm",
+      "id": 3640,
+      "page": 6,
+      "title": "Ganti data perangkat?",
+      "prefix": "restoreConfirm",
+      "overlay": true,
+      "height": 472
+    },
+    {
+      "route": "categories",
+      "id": 3651,
+      "page": 5,
+      "title": "Kategori",
+      "prefix": "categories",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "categoryEdit",
+      "id": 3728,
+      "page": 5,
+      "title": "Atur kategori",
+      "prefix": "categoryEdit",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "notifications",
+      "id": 3762,
+      "page": 5,
+      "title": "Pengingat",
+      "prefix": "notifications",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "security",
+      "id": 3799,
+      "page": 5,
+      "title": "Kunci aplikasi",
+      "prefix": "security",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "guide",
+      "id": 3832,
+      "page": 5,
+      "title": "Panduan penggunaan",
+      "prefix": "guide",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "manualPrice",
+      "id": 3903,
+      "page": 5,
+      "title": "Input harga manual",
+      "prefix": "manualPrice",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "search",
+      "id": 3937,
+      "page": 2,
+      "title": "Cari transaksi",
+      "prefix": "search",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "attachment",
+      "id": 4004,
+      "page": 2,
+      "title": "Lampiran transaksi",
+      "prefix": "attachment",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "saved",
+      "id": 4025,
+      "page": 6,
+      "title": "Transaksi tersimpan",
+      "prefix": "saved",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "backupSuccess",
+      "id": 4042,
+      "page": 6,
+      "title": "File berhasil dibuat",
+      "prefix": "backupSuccess",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "empty",
+      "id": 4057,
+      "page": 6,
+      "title": "Mulai mencatat",
+      "prefix": "empty",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "restoreError",
+      "id": 4072,
+      "page": 6,
+      "title": "File belum bisa dipulihkan",
+      "prefix": "restoreError",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "emptyChart",
+      "id": 4087,
+      "page": 6,
+      "title": "Belum cukup riwayat",
+      "prefix": "emptyChart",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "priceStatus",
+      "id": 4102,
+      "page": 6,
+      "title": "Status harga",
+      "prefix": "priceStatus",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "invalidForm",
+      "id": 4139,
+      "page": 6,
+      "title": "Periksa transaksi",
+      "prefix": "invalidForm",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "keypad",
+      "id": 4165,
+      "page": 6,
+      "title": "Nominal transaksi",
+      "prefix": "keypad",
+      "overlay": true,
+      "height": 556
+    },
+    {
+      "route": "pinSetup",
+      "id": 4198,
+      "page": 6,
+      "title": "Atur PIN aplikasi",
+      "prefix": "pinSetup",
+      "overlay": true,
+      "height": 460
+    },
+    {
+      "route": "hiddenBalances",
+      "id": 4215,
+      "page": 6,
+      "title": "Ringkasan · nominal tersembunyi",
+      "prefix": "hiddenBalances",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "lightPreview",
+      "id": 4291,
+      "page": 6,
+      "title": "Ringkasan · preview terang",
+      "prefix": "lightPreview",
+      "overlay": false,
+      "height": 915
+    },
+    {
+      "route": "chartTooltip",
+      "id": 4367,
+      "page": 6,
+      "title": "Nilai pada tanggal",
+      "prefix": "chartTooltip",
+      "overlay": true,
+      "height": 420
+    },
+    {
+      "route": "narrowHome",
+      "id": 4415,
+      "page": 6,
+      "title": "Ringkasan / 360",
+      "prefix": "narrowHome",
+      "overlay": false,
+      "height": 800
+    },
+    {
+      "route": "light-Akun",
+      "id": 7190,
+      "page": 4,
+      "title": "Akun",
+      "prefix": "light-Akun",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "negativeExpense",
+      "id": 5709,
+      "page": 4,
+      "title": "Catat pengeluaran",
+      "prefix": "negativeExpense",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-Saldo-minus-pengeluaran",
+      "id": 6949,
+      "page": 4,
+      "title": "Catat pengeluaran",
+      "prefix": "light-Saldo-minus-pengeluaran",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "negativeAccount",
+      "id": 5718,
+      "page": 4,
+      "title": "Mandiri",
+      "prefix": "negativeAccount",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-Saldo-minus-akun",
+      "id": 6982,
+      "page": 4,
+      "title": "Mandiri",
+      "prefix": "light-Saldo-minus-akun",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "light-Lainnya",
+      "id": 7006,
+      "page": 5,
+      "title": "Lainnya",
+      "prefix": "light-Lainnya",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "light-Pengaturan",
+      "id": 7095,
+      "page": 5,
+      "title": "Pengaturan",
+      "prefix": "light-Pengaturan",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "brandSplash",
+      "id": 4911,
+      "page": 4816,
+      "title": "Arta · brandSplash",
+      "prefix": "brandSplash",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-splash",
+      "id": 6836,
+      "page": 4816,
+      "title": "Arta · splash",
+      "prefix": "light-splash",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "brandLoading1",
+      "id": 4924,
+      "page": 4816,
+      "title": "Arta · brandLoading1",
+      "prefix": "brandLoading1",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-loading1",
+      "id": 6849,
+      "page": 4816,
+      "title": "Arta · loading1",
+      "prefix": "light-loading1",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "brandLoading2",
+      "id": 4937,
+      "page": 4816,
+      "title": "Arta · brandLoading2",
+      "prefix": "brandLoading2",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-loading2",
+      "id": 6862,
+      "page": 4816,
+      "title": "Arta · loading2",
+      "prefix": "light-loading2",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "brandLoading3",
+      "id": 4950,
+      "page": 4816,
+      "title": "Arta · brandLoading3",
+      "prefix": "brandLoading3",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-loading3",
+      "id": 6875,
+      "page": 4816,
+      "title": "Arta · loading3",
+      "prefix": "light-loading3",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "brandReducedMotion",
+      "id": 4963,
+      "page": 4816,
+      "title": "Arta · brandReducedMotion",
+      "prefix": "brandReducedMotion",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-reduced",
+      "id": 6888,
+      "page": 4816,
+      "title": "Arta · reduced",
+      "prefix": "light-reduced",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "brandLoadError",
+      "id": 4976,
+      "page": 4816,
+      "title": "Catatan belum terbuka",
+      "prefix": "brandLoadError",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-loadError",
+      "id": 6901,
+      "page": 4816,
+      "title": "Catatan belum terbuka",
+      "prefix": "light-loadError",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "brandAbout",
+      "id": 4991,
+      "page": 4816,
+      "title": "Tentang Arta",
+      "prefix": "brandAbout",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-about",
+      "id": 6916,
+      "page": 4816,
+      "title": "Tentang Arta",
+      "prefix": "light-about",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "catalog",
+      "id": 5026,
+      "page": 4817,
+      "title": "Katalog saham Indonesia",
+      "prefix": "catalog",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-catalog",
+      "id": 5979,
+      "page": 4817,
+      "title": "Katalog saham Indonesia",
+      "prefix": "light-catalog",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "importFile",
+      "id": 5035,
+      "page": 4817,
+      "title": "Impor daftar saham",
+      "prefix": "importFile",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-importFile",
+      "id": 6035,
+      "page": 4817,
+      "title": "Impor daftar saham",
+      "prefix": "light-importFile",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "filePicker",
+      "id": 5044,
+      "page": 4817,
+      "title": "Pilih file",
+      "prefix": "filePicker",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-filePicker",
+      "id": 6065,
+      "page": 4817,
+      "title": "Pilih file",
+      "prefix": "light-filePicker",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "fileReview",
+      "id": 5053,
+      "page": 4817,
+      "title": "Periksa file",
+      "prefix": "fileReview",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-fileReview",
+      "id": 6101,
+      "page": 4817,
+      "title": "Periksa file",
+      "prefix": "light-fileReview",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "validate",
+      "id": 5062,
+      "page": 4817,
+      "title": "Memeriksa daftar saham",
+      "prefix": "validate",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-validate",
+      "id": 6139,
+      "page": 4817,
+      "title": "Memeriksa daftar saham",
+      "prefix": "light-validate",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "review",
+      "id": 5071,
+      "page": 4817,
+      "title": "Pratinjau pembaruan",
+      "prefix": "review",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-review",
+      "id": 6155,
+      "page": 4817,
+      "title": "Pratinjau pembaruan",
+      "prefix": "light-review",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "changes",
+      "id": 5080,
+      "page": 4817,
+      "title": "Perubahan metadata",
+      "prefix": "changes",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-changes",
+      "id": 6201,
+      "page": 4817,
+      "title": "Perubahan metadata",
+      "prefix": "light-changes",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "changeDetail",
+      "id": 5089,
+      "page": 4817,
+      "title": "Rincian perubahan",
+      "prefix": "changeDetail",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-changeDetail",
+      "id": 6239,
+      "page": 4817,
+      "title": "Rincian perubahan",
+      "prefix": "light-changeDetail",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "missing",
+      "id": 5098,
+      "page": 4817,
+      "title": "Tidak ada di file ini",
+      "prefix": "missing",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-missing",
+      "id": 6267,
+      "page": 4817,
+      "title": "Tidak ada di file ini",
+      "prefix": "light-missing",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "invalid",
+      "id": 5107,
+      "page": 4817,
+      "title": "Periksa isi file",
+      "prefix": "invalid",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-invalid",
+      "id": 6289,
+      "page": 4817,
+      "title": "Periksa isi file",
+      "prefix": "light-invalid",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "applying",
+      "id": 5116,
+      "page": 4817,
+      "title": "Memperbarui katalog",
+      "prefix": "applying",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-applying",
+      "id": 6315,
+      "page": 4817,
+      "title": "Memperbarui katalog",
+      "prefix": "light-applying",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "success",
+      "id": 5125,
+      "page": 4817,
+      "title": "Katalog diperbarui",
+      "prefix": "success",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-success",
+      "id": 6331,
+      "page": 4817,
+      "title": "Katalog diperbarui",
+      "prefix": "light-success",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "catalogAfter",
+      "id": 5134,
+      "page": 4817,
+      "title": "Katalog saham Indonesia",
+      "prefix": "catalogAfter",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-catalogAfter",
+      "id": 6359,
+      "page": 4817,
+      "title": "Katalog saham Indonesia",
+      "prefix": "light-catalogAfter",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "noChanges",
+      "id": 5143,
+      "page": 4817,
+      "title": "Katalog sudah sesuai",
+      "prefix": "noChanges",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-noChanges",
+      "id": 6415,
+      "page": 4817,
+      "title": "Katalog sudah sesuai",
+      "prefix": "light-noChanges",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "stock",
+      "id": 5152,
+      "page": 4817,
+      "title": "Detail saham",
+      "prefix": "stock",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-stock",
+      "id": 6438,
+      "page": 4817,
+      "title": "Detail saham",
+      "prefix": "light-stock",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "stockARTO",
+      "id": 5908,
+      "page": 4817,
+      "title": "Detail saham",
+      "prefix": "stockARTO",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-stockARTO",
+      "id": 6471,
+      "page": 4817,
+      "title": "Detail saham",
+      "prefix": "light-stockARTO",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "stockBBRI",
+      "id": 5837,
+      "page": 4817,
+      "title": "Detail saham",
+      "prefix": "stockBBRI",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-stockBBRI",
+      "id": 6504,
+      "page": 4817,
+      "title": "Detail saham",
+      "prefix": "light-stockBBRI",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "stockBMRI",
+      "id": 5766,
+      "page": 4817,
+      "title": "Detail saham",
+      "prefix": "stockBMRI",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-stockBMRI",
+      "id": 6537,
+      "page": 4817,
+      "title": "Detail saham",
+      "prefix": "light-stockBMRI",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "stockEdit",
+      "id": 5161,
+      "page": 4817,
+      "title": "Edit metadata saham",
+      "prefix": "stockEdit",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-stockEdit",
+      "id": 6570,
+      "page": 4817,
+      "title": "Edit metadata saham",
+      "prefix": "light-stockEdit",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "stockEditARTO",
+      "id": 5941,
+      "page": 4817,
+      "title": "Edit metadata saham",
+      "prefix": "stockEditARTO",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-stockEditARTO",
+      "id": 6608,
+      "page": 4817,
+      "title": "Edit metadata saham",
+      "prefix": "light-stockEditARTO",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "stockEditBBRI",
+      "id": 5870,
+      "page": 4817,
+      "title": "Edit metadata saham",
+      "prefix": "stockEditBBRI",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-stockEditBBRI",
+      "id": 6646,
+      "page": 4817,
+      "title": "Edit metadata saham",
+      "prefix": "light-stockEditBBRI",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "stockEditBMRI",
+      "id": 5799,
+      "page": 4817,
+      "title": "Edit metadata saham",
+      "prefix": "stockEditBMRI",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-stockEditBMRI",
+      "id": 6684,
+      "page": 4817,
+      "title": "Edit metadata saham",
+      "prefix": "light-stockEditBMRI",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "export",
+      "id": 5170,
+      "page": 4817,
+      "title": "Ekspor katalog",
+      "prefix": "export",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-export",
+      "id": 6722,
+      "page": 4817,
+      "title": "Ekspor katalog",
+      "prefix": "light-export",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "exportSuccess",
+      "id": 5179,
+      "page": 4817,
+      "title": "Katalog berhasil diekspor",
+      "prefix": "exportSuccess",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-exportSuccess",
+      "id": 6748,
+      "page": 4817,
+      "title": "Katalog berhasil diekspor",
+      "prefix": "light-exportSuccess",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "importError",
+      "id": 5188,
+      "page": 4817,
+      "title": "Pembaruan belum tersimpan",
+      "prefix": "importError",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-importError",
+      "id": 6763,
+      "page": 4817,
+      "title": "Pembaruan belum tersimpan",
+      "prefix": "light-importError",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "fileJSON",
+      "id": 5197,
+      "page": 4817,
+      "title": "Periksa file JSON",
+      "prefix": "fileJSON",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-fileJSON",
+      "id": 6779,
+      "page": 4817,
+      "title": "Periksa file JSON",
+      "prefix": "light-fileJSON",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "newStocks",
+      "id": 5646,
+      "page": 4817,
+      "title": "Saham baru di katalog",
+      "prefix": "newStocks",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-newStocks",
+      "id": 6817,
+      "page": 4817,
+      "title": "Saham baru di katalog",
+      "prefix": "light-newStocks",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "catalogSearch",
+      "id": 7270,
+      "page": 4817,
+      "title": "Cari saham",
+      "prefix": "catalogSearch",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-search",
+      "id": 7335,
+      "page": 4817,
+      "title": "Cari saham",
+      "prefix": "light-search",
+      "theme": "Light",
+      "revision": 3
+    },
+    {
+      "route": "catalogFormatError",
+      "id": 7310,
+      "page": 4817,
+      "title": "File belum sesuai",
+      "prefix": "catalogFormatError",
+      "theme": "Dark",
+      "revision": 3
+    },
+    {
+      "route": "light-formatError",
+      "id": 7375,
+      "page": 4817,
+      "title": "File belum sesuai",
+      "prefix": "light-formatError",
+      "theme": "Light",
+      "revision": 3
+    }
+  ],
+  "notes": [
+    "UI revised against all 59 user-supplied screenshots.",
+    "Lato is a visual substitute; original font identity is unproven.",
+    "Data and actions are static prototype examples.",
+    "Light has semantic tokens and one dashboard preview.",
+    "Revision 3 adds 79 screens/states: 38 Dark and 41 Light; 29 catalog states per theme, seven branding states per theme, two negative-balance states per theme and three Light navigation context screens.",
+    "Catalog import, file picking, metadata editing and export are design simulations. Import comparison data is illustrative; it is not computed from the user workbook.",
+    "Logo motion is demonstrated through timed prototype frames. Flutter animation and database import are not implemented."
+  ]
+}
